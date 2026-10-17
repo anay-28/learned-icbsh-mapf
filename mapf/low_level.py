@@ -4,7 +4,7 @@ Low-level space-time A* pathfinding for individual agents with dynamic constrain
 import heapq
 from typing import List, Tuple, Set, Dict, Optional
 from mapf.grid import Grid
-
+from collections import deque
 
 def manhattan_distance(p1: Tuple[int, int], p2: Tuple[int, int]) -> int:
     return abs(p1[0] - p2[0]) + abs(p1[1] - p2[1])
@@ -28,6 +28,20 @@ def compute_heuristic_map(grid: Grid, goal: Tuple[int, int]) -> Dict[Tuple[int, 
     return dist
 
 
+
+def compute_bfs_h_table(grid, goal: Tuple[int, int]) -> dict:
+    """Exact obstacle-aware shortest path distance from every passable cell to goal."""
+    h_table = {goal: 0}
+    queue = deque([goal])
+    while queue:
+        r, c = queue.popleft()
+        d = h_table[(r, c)]
+        for nr, nc in grid.get_neighbors(r, c):
+            if (nr, nc) not in h_table:
+                h_table[(nr, nc)] = d + 1
+                queue.append((nr, nc))
+    return h_table
+    
 class SpaceTimeAStar:
     def __init__(self, grid: Grid):
         self.grid = grid
