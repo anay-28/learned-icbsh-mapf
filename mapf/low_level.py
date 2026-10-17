@@ -1,104 +1,186 @@
 """
-Low-level space-time A* pathfinding for individual agents with dynamic constraints.
+Low-level Space-Time A* planner for single-agent pathfinding under constraints.
+Includes exact Reverse-BFS 2D heuristic precomputation to eliminate local minima
+on complex maps (e.g., Paris_1_256, room-32-32-4).
 """
+
 import heapq
-from typing import List, Tuple, Set, Dict, Optional
-from mapf.grid import Grid
+from collections import deque
+from typing import List, Tuple, Set, Optional, Dict
+from mapf.grid import GridMap
+
+# Constraint types:
+# Vertex constraint: (agent_id, r, c, t)
+# Edge constraint: (agent_id, r1, c1, r2, c2, t) -> cannot move from (r1,c1) to (r2,c2) arriving at t
 
 
-def manhattan_distance(p1: Tuple[int, int], p2: Tuple[int, int]) -> int:
-    return abs(p1[0] - p2[0]) + abs(p1[1] - p2[1])
-
-
-def compute_heuristic_map(grid: Grid, goal: Tuple[int, int]) -> Dict[Tuple[int, int], int]:
-    """
-    Reverse BFS from goal to compute exact shortest distance to goal ignoring dynamic obstacles.
-    """
-    dist: Dict[Tuple[int, int], int] = {goal: 0}
-    queue = [goal]
-    head = 0
-    while head < len(queue):
-        curr = queue[head]
-        head += 1
-        d = dist[curr]
-        for nxt in grid.get_neighbors(curr[0], curr[1]):
-            if nxt not in dist:
-                dist[nxt] = d + 1
-                queue.append(nxt)
-    return dist
-
-
-class SpaceTimeAStar:
-    def __init__(self, grid: Grid):
-        self.grid = grid
-        self._h_cache: Dict[Tuple[int, int], Dict[Tuple[int, int], int]] = {}
-
-    def get_h(self, loc: Tuple[int, int], goal: Tuple[int, int]) -> int:
-        if goal not in self._h_cache:
-            self._h_cache[goal] = compute_heuristic_map(self.grid, goal)
-        return self._h_cache[goal].get(loc, manhattan_distance(loc, goal))
-
-    def find_path(
+class ConstraintSet:
+    def __init__(
         self,
-        start: Tuple[int, int],
-        goal: Tuple[int, int],
-        vertex_constraints: Set[Tuple[int, int, int]],  # (x, y, timestep)
-        edge_constraints: Set[Tuple[int, int, int, int, int]],  # (from_x, from_y, to_x, to_y, timestep)
-        max_timestep: int = 1024
-    ) -> Optional[List[Tuple[int, int]]]:
-        """
-        Space-time A* search for a single agent.
-        Path is a list of positions: [pos_at_t0, pos_at_t1, ...].
-        Cost of path is its length - 1 (number of actions).
-        """
-        if (start[0], start[1], 0) in vertex_constraints:
+        vertex_constraints: Optional[Set[Tuple[int, int, int]]] = None,
+        edge_constraints: Optional[Set[Tuple[int, int, int, int, int]]] = None,
+    ):
+        # Stored per agent: (r, c, t)
+        self.vertex_constraints: Set[Tuple[int, int, int]] = (
+            set(vertex_constraints) if vertex_constraints else set()
+        )
+        # Stored per agent: (r1, c1, r2, c2, t)
+        self.edge_constraints: Set[Tuple[int, int, int, int, int]] = (
+            set(edge_constraints) if edge_constraints else set()
+        )
+
+    def add_vertex_constraint(self, r: int, c: int, t: int):
+        self.vertex_constraints.add((r, c, t))
+
+    def add_edge_constraint(self, r1: int, c1: int, r2: int, c2: int, t: int):
+        self.edge_constraints.add((r1, c1, r2, c2, t))
+
+    def copy(self) -> "ConstraintSet":
+        return ConstraintSet(self.vertex_constraints, self.edge_constraints)
+
+    def freeze_key(self) -> Tuple[frozenset, frozenset]:
+        """Hashable key for memoizing low-level A* queries."""
+        return (frozenset(self.vertex_constraints), frozenset(self.edge_constraints))
+
+
+def compute_bfs_h_table(grid: GridMap, goal: Tuple[int, int]) -> Dict[Tuple[int, int], int]:
+    """
+    Computes exact 2D shortest-path distances from every reachable passable cell
+    to `goal` via Reverse BFS. Completely eliminates Manhattan local minima in
+    rooms and around large obstacles.
+    """
+    if not grid.is_passable(goal[0], goal[1]):
+        return {}
+    h_table: Dict[Tuple[int, int], int] = {goal: 0}
+    queue = deque([goal])
+    while queue:
+        r, c = queue.popleft()
+        next_d = h_table[(r, c)] + 1
+        for nr, nc in grid.get_neighbors(r, c):
+            if (nr, nc) not in h_table:
+                h_table[(nr, nc)] = next_d
+                queue.append((nr, nc))
+    return h_table
+
+
+def get_location(path: List[Tuple[int, int]], t: int) -> Tuple[int, int]:
+    """Returns agent's position at timestep t (persisting at goal after path ends)."""
+    if t < len(path):
+        return path[t]
+    return path[-1]
+
+
+def get_path_cost(path: List[Tuple[int, int]]) -> int:
+    """Standard MAPF sum-of-costs metric: number of timesteps until goal is reached and held."""
+    if not path:
+        return 0
+    return len(path) - 1
+
+
+def space_time_astar(
+    grid: GridMap,
+    start: Tuple[int, int],
+    goal: Tuple[int, int],
+    constraints: ConstraintSet,
+    max_timesteps: Optional[int] = None,
+    h_table: Optional[Dict[Tuple[int, int], int]] = None,
+    conflict_avoidance_table: Optional[Dict[Tuple[int, int, int], int]] = None,
+) -> Optional[List[Tuple[int, int]]]:
+    """
+    Finds optimal single-agent path from start to goal respecting vertex and edge constraints.
+    Goal persistence: once agent reaches goal at t_g, it stays there for all t >= t_g,
+    so no vertex constraint at (goal_r, goal_c, t) for t >= t_g can be violated.
+    If `conflict_avoidance_table` is provided, breaks f-ties toward paths with fewer
+    collisions with other agents' current trajectories.
+    """
+    if not grid.is_passable(start[0], start[1]) or not grid.is_passable(goal[0], goal[1]):
+        return None
+
+    # Auto-compute exact 2D BFS heuristic if not supplied for large/complex grids
+    if h_table is None:
+        h_table = compute_bfs_h_table(grid, goal)
+
+    if start not in h_table:
+        return None
+
+    v_constraints = constraints.vertex_constraints
+    e_constraints = constraints.edge_constraints
+
+    if (start[0], start[1], 0) in v_constraints:
+        return None
+
+    # Determine the latest timestep a constraint affects the goal cell
+    gr, gc = goal
+    max_goal_constraint_t = -1
+    max_any_constraint_t = 0
+    for r, c, t in v_constraints:
+        if t > max_any_constraint_t:
+            max_any_constraint_t = t
+        if r == gr and c == gc and t > max_goal_constraint_t:
+            max_goal_constraint_t = t
+
+    if max_timesteps is None:
+        base_h = h_table[start]
+        max_timesteps = max(base_h + max_any_constraint_t + 60, grid.width + grid.height + 40)
+
+    start_h = h_table[start]
+    # Priority queue entries: (f, cat_hits, h, g, r, c, counter)
+    counter = 0
+    open_list = [(start_h, 0, start_h, 0, start[0], start[1], counter)]
+    best_g: Dict[Tuple[int, int, int], int] = {(start[0], start[1], 0): 0}
+    came_from: Dict[Tuple[int, int, int], Tuple[int, int, int]] = {}
+
+    max_expansions = 150000
+    expansions = 0
+
+    while open_list:
+        f, cat_hits, h, t, r, c, _ = heapq.heappop(open_list)
+        if best_g.get((r, c, t), float("inf")) < t:
+            continue
+
+        expansions += 1
+        if expansions > max_expansions:
             return None
 
-        # Find maximum constraint time to ensure agent stays at goal if constraints exist later
-        max_c_time = 0
-        for (_, _, t) in vertex_constraints:
-            if t > max_c_time:
-                max_c_time = t
-        for (_, _, _, _, t) in edge_constraints:
-            if t > max_c_time:
-                max_c_time = t
+        # Goal condition: at goal and past all goal vertex constraints
+        if r == gr and c == gc and t > max_goal_constraint_t:
+            path = []
+            curr = (r, c, t)
+            while curr in came_from:
+                path.append((curr[0], curr[1]))
+                curr = came_from[curr]
+            path.append((curr[0], curr[1]))
+            path.reverse()
+            return path
 
-        # open_set item: (f_score, g_score, (x, y, timestep), path)
-        h0 = self.get_h(start, goal)
-        open_set = [(h0, 0, (start[0], start[1], 0), [start])]
-        closed_set: Set[Tuple[int, int, int]] = set()
+        if t + 1 > max_timesteps:
+            continue
 
-        while open_set:
-            f, g, (x, y, t), path = heapq.heappop(open_set)
+        nt = t + 1
+        # Wait in place + 4 cardinal moves
+        neighbors = grid.get_neighbors(r, c)
+        neighbors.append((r, c))
 
-            if (x, y) == goal and t >= max_c_time:
-                return path
-
-            if (x, y, t) in closed_set:
+        for nr, nc in neighbors:
+            nh = h_table.get((nr, nc))
+            if nh is None:
                 continue
-            closed_set.add((x, y, t))
-
-            if t >= max_timestep:
+            if (nr, nc, nt) in v_constraints:
+                continue
+            if (r, c, nr, nc, nt) in e_constraints:
                 continue
 
-            # Possible moves: 4 neighbors + wait in place
-            possible_moves = self.grid.get_neighbors(x, y) + [(x, y)]
-            next_t = t + 1
+            next_state = (nr, nc, nt)
+            if best_g.get(next_state, 999999999) <= nt:
+                continue
 
-            for nx, ny in possible_moves:
-                # Check vertex constraint at next_t
-                if (nx, ny, next_t) in vertex_constraints:
-                    continue
-                # Check edge constraint (traverse (x,y) -> (nx,ny) at next_t)
-                if (x, y, nx, ny, next_t) in edge_constraints:
-                    continue
+            best_g[next_state] = nt
+            came_from[next_state] = (r, c, t)
+            nf = nt + nh
+            ncat = cat_hits
+            if conflict_avoidance_table is not None:
+                ncat += conflict_avoidance_table.get(next_state, 0)
+            counter += 1
+            heapq.heappush(open_list, (nf, ncat, nh, nt, nr, nc, counter))
 
-                if (nx, ny, next_t) in closed_set:
-                    continue
-
-                next_g = g + 1
-                next_h = self.get_h((nx, ny), goal)
-                next_f = next_g + next_h
-                heapq.heappush(open_set, (next_f, next_g, (nx, ny, next_t), path + [(nx, ny)]))
-
-        return None
+    return None
