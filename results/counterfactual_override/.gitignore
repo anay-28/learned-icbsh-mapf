@@ -1,0 +1,5 @@
+# Retain frozen source archives despite the legacy repository-wide *.zip rule.
+!source.zip
+!smoke/source.zip
+.campaign.lock
+smoke/.campaign.lock

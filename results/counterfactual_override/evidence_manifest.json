@@ -1,0 +1,23 @@
+{
+  "schema_version": "bdro-v1",
+  "protocol_sha256": "90439f304e5ce024b57b2ae54878aae7a28b40f4ed45d33ec42f83a1ca35226f",
+  "source_sha256": "7da727c21bc88c71ff728672a9ad563f8d96ce32e71d42005148e676422c0654",
+  "input_sha256": "a7f9992a837fdc5ccb25b4c602bf21d3a6c5e3bb08a0f4773910bfb375d59d32",
+  "files": {
+    "evidence/baseline-tests.txt": "77e5cc39926eab423ee13639d61092674942f29683a838951f2df1ba60ef8d91",
+    "evidence/new-tests.txt": "3c214d1067e7626f5c284739b4eb43e4042651b5ffdcf716612f2111c8d8c281",
+    "evidence/q32-collection.txt": "c9e2802e08fd60a7fc57b9d823d9c5e27936987390e685e4df8430966262d61a",
+    "evidence/q128-collection.txt": "1b0578158d603d841702d727052388b776b7132476d2e46994703329c2e70b50",
+    "evidence/q512-collection.txt": "042e4505f218b068b0e1cb58a84b15aca3a042f08aa845b045663b472d07debe",
+    "evidence/q32-verification.txt": "ac7ac578e98dcde63d154302b2a413905467688ced16cb029a033fbc453d0abe",
+    "evidence/q128-verification.txt": "ee635af9e5fc12a765d9286dc6ee22668b2fc818783c7f555cfd98d634be8875",
+    "evidence/q512-verification.txt": "d18a09276f17b0f376c572e15073574ee3b2756ff9efc7f05bb53e93acd4480e",
+    "evidence/final-verification.txt": "d18a09276f17b0f376c572e15073574ee3b2756ff9efc7f05bb53e93acd4480e",
+    "evidence/q128-headroom.txt": "103ca0155ac0a692137dc3a05418d0bfd583919ab456a5fbc842e5e743de879d",
+    "evidence/q512-headroom.txt": "c283b96b84cbf7a320d361f02dc9d521b9e2abe82f3ae05dcc56b76a31a8baf2",
+    "evidence/training-stop.txt": "d3d8a427b0e060ec364c84639b15095c9aab525de058219e94ed34f0b6b69fa9",
+    "evidence/figures.txt": "074021db8d593800c2a0440edf242b79bb899281fca1c17b0d0dffd0d09b5c1d"
+  },
+  "baseline_scope": "36 tests on original base before BDRO additions; repeated unchanged historical tree under legacy_regressions.txt",
+  "new_test_scope": "32 unit/integration tests; synthetic model fixtures are not study models or validation results"
+}

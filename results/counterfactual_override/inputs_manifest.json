@@ -1,0 +1,1666 @@
+{
+  "input_sha256": "a7f9992a837fdc5ccb25b4c602bf21d3a6c5e3bb08a0f4773910bfb375d59d32",
+  "records": [
+    {
+      "query_id": "random-32-32-20/family-08/k16/pool-q0",
+      "state_sha256": "bec0d9cb5eb371e2c28ea59beb82c2e246aa0898aba91a3c26260ea441d8d672",
+      "record_sha256": "4ffbfc22c0dbbddde54522c01c7d82a7c359dd8671eb91f8ec24e931e6b2d0e3",
+      "split": "train",
+      "family_id": "random-32-32-20/family-08"
+    },
+    {
+      "query_id": "random-32-32-20/family-08/k16/pool-q1",
+      "state_sha256": "6aa3c0d1567057716806bb696907e30005efd509fb3af0a125ba9014389e8791",
+      "record_sha256": "0af84a03c28206d8b6521260f8241435a7bf28052d2f52a22c8564f5c7c5656f",
+      "split": "train",
+      "family_id": "random-32-32-20/family-08"
+    },
+    {
+      "query_id": "room-32-32-4/family-08/k24/pool-q0",
+      "state_sha256": "b9a2cd380e151739bcecdf8e32fbd8b1acc6f970932187b8249b134256e0c20c",
+      "record_sha256": "4b6eb3856c34cda3980f9ed34247db72638eef6d8de7a68e0c74e66577a60f65",
+      "split": "train",
+      "family_id": "room-32-32-4/family-08"
+    },
+    {
+      "query_id": "room-32-32-4/family-08/k24/pool-q1",
+      "state_sha256": "860f236927bb204d1ff0827b5577b6c2b81440f75f4b8932aa8c13b4894c9805",
+      "record_sha256": "e705bc9e0a55c38148931f3df5c7ac96e3a53c74a3b40b37252dd57123ae4a64",
+      "split": "train",
+      "family_id": "room-32-32-4/family-08"
+    },
+    {
+      "query_id": "warehouse-32-32-aisles/family-08/k32/pool-q0",
+      "state_sha256": "eafc9aac67bed2b0a4effc0aa9e7dfc52c9e9f9f79c79fd9c97e8989b8292dfc",
+      "record_sha256": "4ebbf7b486559a268f76738d9cc5be2a9cd188821b794adc8c796389f826b712",
+      "split": "train",
+      "family_id": "warehouse-32-32-aisles/family-08"
+    },
+    {
+      "query_id": "warehouse-32-32-aisles/family-08/k32/pool-q1",
+      "state_sha256": "fe7b04c850eb974e60bcb5365f257bd436f3c44889d5f96adbacc27dae243401",
+      "record_sha256": "d6defe786e32c3107189851051a691388f5a4d92e3c38fc6c73e3476ccffb4b1",
+      "split": "train",
+      "family_id": "warehouse-32-32-aisles/family-08"
+    },
+    {
+      "query_id": "random-32-32-20/family-09/k24/pool-q0",
+      "state_sha256": "32ab146f2d6649e3971d78a954eadd277034f2f25aefac4e584d11d8bc5ebfac",
+      "record_sha256": "62d35d3d66aff64dcea9759e7feb5f188cff1bf5dc5c1ab645cc491745a678f2",
+      "split": "train",
+      "family_id": "random-32-32-20/family-09"
+    },
+    {
+      "query_id": "random-32-32-20/family-09/k24/pool-q1",
+      "state_sha256": "ace337a33831306d3bd87a932638845930b526c5d11545e75dcc8f1a1758a399",
+      "record_sha256": "708cbe30056f0e8b910d8d50fb48fa7a69f625811845d3c54724ea6a1419087c",
+      "split": "train",
+      "family_id": "random-32-32-20/family-09"
+    },
+    {
+      "query_id": "room-32-32-4/family-09/k32/pool-q0",
+      "state_sha256": "ac340e8204ed79cf41dd8c8733086218bf98cb2dd706580feda04cf221346f61",
+      "record_sha256": "b9f3c7d1ea4aa786d59127c9ebb97c2c88e621bb35b3006f34b391733761bfa6",
+      "split": "train",
+      "family_id": "room-32-32-4/family-09"
+    },
+    {
+      "query_id": "room-32-32-4/family-09/k32/pool-q1",
+      "state_sha256": "3b2d9673ed29438d352566397cab11fbe13e33021bd9eedd5381f72982839a8a",
+      "record_sha256": "4d5786f0232813ee85e5643c4a095da179086b796f471adc929342b32f0caab0",
+      "split": "train",
+      "family_id": "room-32-32-4/family-09"
+    },
+    {
+      "query_id": "random-32-32-20/family-10/k32/pool-q0",
+      "state_sha256": "392ff4e2dc1351b01c2c8ef025c3e7f72434fbf9f8fb67ca658aa333f062736d",
+      "record_sha256": "8b679ad5c06ac571e608c8ed68cd7cf801dda9157c3a2d669ab9f7eb27549ab5",
+      "split": "train",
+      "family_id": "random-32-32-20/family-10"
+    },
+    {
+      "query_id": "random-32-32-20/family-10/k32/pool-q1",
+      "state_sha256": "afc2dff28e4f94a42cf76405a1f349c0f10297114af875447c403a9f50372c44",
+      "record_sha256": "c74a1b8d66749a6604f7fce0904836758d3d2dac9427bbfb622ac0bec7acb7fe",
+      "split": "train",
+      "family_id": "random-32-32-20/family-10"
+    },
+    {
+      "query_id": "room-32-32-4/family-10/k16/pool-q0",
+      "state_sha256": "38fd023421fae83eeeb6570fb4047bcc36c4cbc48919fddbf6a04746f0e9e24c",
+      "record_sha256": "9f7f6feac50e2699912b19a54e774d0d8596ad10207c64aeaa2fff7b205bab21",
+      "split": "train",
+      "family_id": "room-32-32-4/family-10"
+    },
+    {
+      "query_id": "room-32-32-4/family-10/k16/pool-q1",
+      "state_sha256": "11755ca132718ed4f70c04718bdbe0b0ca047c8455482c3c2ecd03de9a2023ef",
+      "record_sha256": "e63fc2d94a802ae99b61442cacc79a2dc23e943a1ca97262396c79bd6d6b3b40",
+      "split": "train",
+      "family_id": "room-32-32-4/family-10"
+    },
+    {
+      "query_id": "random-32-32-20/family-11/k16/pool-q0",
+      "state_sha256": "6d961b0ef963e0d4dbf6389b99ec63231f6f5f92263142d020604d8eadce4e55",
+      "record_sha256": "9cc22fc45a91ab43edf4a80b6ef2524bbbfef8521a9f52182273fb987d414c81",
+      "split": "train",
+      "family_id": "random-32-32-20/family-11"
+    },
+    {
+      "query_id": "random-32-32-20/family-11/k16/pool-q1",
+      "state_sha256": "478ac646ed370395878124c91a88de5ed960925465fac22dc1c542437670eb5e",
+      "record_sha256": "abc9771c269f6977011be0d30edae0815c653d52be75aa0358de0ba6183a887d",
+      "split": "train",
+      "family_id": "random-32-32-20/family-11"
+    },
+    {
+      "query_id": "room-32-32-4/family-11/k24/pool-q0",
+      "state_sha256": "ca35964f3473ca469805cde236affd27896aec568aa80b164d68fd90d8887ebc",
+      "record_sha256": "4839d0dc30b74f78bc186aad68907eff6fd00554189d75daf5136b8e8642ad0a",
+      "split": "train",
+      "family_id": "room-32-32-4/family-11"
+    },
+    {
+      "query_id": "room-32-32-4/family-11/k24/pool-q1",
+      "state_sha256": "4d6eb269f6fff95fba0cb0e0ac1cf01f291ab1e4c2503389f8ee6f1d1448984f",
+      "record_sha256": "2ca250437088ebb76c38139ec919bad66cbae9a5aa85dc500825ea40ac65fc69",
+      "split": "train",
+      "family_id": "room-32-32-4/family-11"
+    },
+    {
+      "query_id": "warehouse-32-32-aisles/family-11/k32/pool-q0",
+      "state_sha256": "eaacfa45605497df65570bcb9e77692ceddd422ff2562ecaf663c545e9fc5410",
+      "record_sha256": "8f9ec6231e4cd8e6f587e35e059d055566664621d066fbd06a06729bd5bf82a7",
+      "split": "train",
+      "family_id": "warehouse-32-32-aisles/family-11"
+    },
+    {
+      "query_id": "warehouse-32-32-aisles/family-11/k32/pool-q1",
+      "state_sha256": "acb0ab53d82457df716ac6f43b7f4cd69b1ebde0769a0a1df1f3f320f487bb22",
+      "record_sha256": "f4d79d905d92a5ab70763cc7a56e4bcbb7f9c7823dbb2fa1defae55ea9e918c2",
+      "split": "train",
+      "family_id": "warehouse-32-32-aisles/family-11"
+    },
+    {
+      "query_id": "random-32-32-20/family-12/k24/pool-q0",
+      "state_sha256": "c80e3e46b86a0e98ea357eaea90493be947f0342f3f62744685b60a8640341cc",
+      "record_sha256": "ededf64b2893ba4a543031fca669d76d6d7c50d867d505f7a117e3298a1a5ef0",
+      "split": "train",
+      "family_id": "random-32-32-20/family-12"
+    },
+    {
+      "query_id": "random-32-32-20/family-12/k24/pool-q1",
+      "state_sha256": "7b4d42b4ff67b8adb3964194bebe5a5d14ef984bb9fac9eed718294c4ecd2d78",
+      "record_sha256": "a185ad3be501f4be18bca4c7470846e618ddffa90d85d97b5023e983f81757d5",
+      "split": "train",
+      "family_id": "random-32-32-20/family-12"
+    },
+    {
+      "query_id": "room-32-32-4/family-12/k32/pool-q0",
+      "state_sha256": "c9e0d1f05b1d5c70cf4c9dbd8c7f4767bef658269fede50b03c275ceadb264c0",
+      "record_sha256": "25e08e66511fcbb992238be6eca99f8066c7e99eea2b3541f2f9320c60d5fbbb",
+      "split": "train",
+      "family_id": "room-32-32-4/family-12"
+    },
+    {
+      "query_id": "room-32-32-4/family-12/k32/pool-q1",
+      "state_sha256": "97a402f5c8dc29aeb06fadb6b317f1b8da0b7333457e87a035b9c93fae56b784",
+      "record_sha256": "eae00d1e4221b10cae14726db515a7047d1a9b9e6896ca280d6024c0457e56f0",
+      "split": "train",
+      "family_id": "room-32-32-4/family-12"
+    },
+    {
+      "query_id": "random-32-32-20/family-13/k32/pool-q0",
+      "state_sha256": "c4c441da1da77969c4e82f20782c0e9234a05c8a75920aa398045fe1344b40c6",
+      "record_sha256": "8467ee96914e88cc50ccacd9a52e450212ef33c7825df15cd13c292416644073",
+      "split": "train",
+      "family_id": "random-32-32-20/family-13"
+    },
+    {
+      "query_id": "random-32-32-20/family-13/k32/pool-q1",
+      "state_sha256": "3f641d8226ac364a3cab630cf6ed96aad54ffee2caa7db44840a40904ecb032e",
+      "record_sha256": "168807e4479416eb525bc7eddf7343a0e724e2e4a8e1ec65c954cdfc05e6c72e",
+      "split": "train",
+      "family_id": "random-32-32-20/family-13"
+    },
+    {
+      "query_id": "room-32-32-4/family-13/k16/pool-q0",
+      "state_sha256": "2b85859d7b13e602ea36c3ba4a47c962522f4091865fded6c32c54fb69085194",
+      "record_sha256": "98ca72059db82051942eb31f0e0c90abb5d4a462a7af7c2bca12af3100a39fc2",
+      "split": "train",
+      "family_id": "room-32-32-4/family-13"
+    },
+    {
+      "query_id": "room-32-32-4/family-13/k16/pool-q1",
+      "state_sha256": "9fe845a7a166c9fa48661e008b467935ae565e9b7791b39872f7fd6840670ae2",
+      "record_sha256": "9e19de53415c63f494ef702502c7c2f198983874abe9caff1d58f3be111a34f0",
+      "split": "train",
+      "family_id": "room-32-32-4/family-13"
+    },
+    {
+      "query_id": "warehouse-32-32-aisles/family-13/k24/pool-q0",
+      "state_sha256": "363ddc53786ade870003305ec43df424737f8cb1ebcb0e31f50587bcdaa3c7cc",
+      "record_sha256": "0f29e4d737b8f0c99c426b892a324b76d13e9351335acabf07dda1d6e83dc08f",
+      "split": "train",
+      "family_id": "warehouse-32-32-aisles/family-13"
+    },
+    {
+      "query_id": "warehouse-32-32-aisles/family-13/k24/pool-q1",
+      "state_sha256": "11f053f00156368fee9b2208721c0a43ddf990b1a798ec712ce8a2866deca7cb",
+      "record_sha256": "1502dd890ea0a463ceea3478594579f5966f7c1922c593a65bf043c68cdfe53c",
+      "split": "train",
+      "family_id": "warehouse-32-32-aisles/family-13"
+    },
+    {
+      "query_id": "room-32-32-4/family-08/k24/pool-q2",
+      "state_sha256": "2c57fccd711d4adf14922de4803d9e38e4ba35345957107f10ebca83ca6672f2",
+      "record_sha256": "711a492b17d41c30a27917deda25a5684cffc26c8fcdaa0eb425ad118dc13b10",
+      "split": "train",
+      "family_id": "room-32-32-4/family-08"
+    },
+    {
+      "query_id": "room-32-32-4/family-08/k24/pool-q3",
+      "state_sha256": "c5b3b1bbc33e78797981e3d3320e193fca01ce06c2a389afaa2a5a82c8185b0a",
+      "record_sha256": "e6e23dd1a020a966665637e1ab6c21fa60a31b994d33bd351681a56e5a2a319c",
+      "split": "train",
+      "family_id": "room-32-32-4/family-08"
+    },
+    {
+      "query_id": "room-32-32-4/family-08/k24/pool-q4",
+      "state_sha256": "5c5d2b14d5de7aef43270e538d2ea59a36f45f03b8d70fd56a4806ff8d3a24fb",
+      "record_sha256": "0a3053d380b388a722e1dc2a6e9d2aa7bbcbc9a6ed044bfca903e68ed34b2734",
+      "split": "train",
+      "family_id": "room-32-32-4/family-08"
+    },
+    {
+      "query_id": "room-32-32-4/family-08/k24/pool-q5",
+      "state_sha256": "356c0f317d2765518b4dce842d3e988e8db7379cb1969c1d5630da6fd880a673",
+      "record_sha256": "4bbbbf0a8a2a493c71a05c35f6bac5c9026efd8e3dd589103512ec29247366d7",
+      "split": "train",
+      "family_id": "room-32-32-4/family-08"
+    },
+    {
+      "query_id": "room-32-32-4/family-08/k24/pool-q6",
+      "state_sha256": "a0efae15a1cd7135925c59673a0e7138bd43b914eda05cb9857f76d1ee4de8c0",
+      "record_sha256": "feb440c6e8606cef4cf6c2e963700714e49bc1e437fe4bcd168b5cbc47cce686",
+      "split": "train",
+      "family_id": "room-32-32-4/family-08"
+    },
+    {
+      "query_id": "room-32-32-4/family-08/k24/pool-q7",
+      "state_sha256": "c0b055ab7042d969786834674c2897b5d78a810cc9ac3aa9fa6a81c5e373338d",
+      "record_sha256": "9da6582a1f33ea9ac2acc1359b1ab53f70a8dedbf462a21b66b26c2cf3435f72",
+      "split": "train",
+      "family_id": "room-32-32-4/family-08"
+    },
+    {
+      "query_id": "warehouse-32-32-aisles/family-08/k32/pool-q2",
+      "state_sha256": "4605a46ad0a73c2d6f9faad0a1ef3273f00a11aa07692bdab53f0b87e58f6835",
+      "record_sha256": "f75855ad061226147a63dcc7bf3ff92c51b412cd15c7dea6051d308b50bd745f",
+      "split": "train",
+      "family_id": "warehouse-32-32-aisles/family-08"
+    },
+    {
+      "query_id": "warehouse-32-32-aisles/family-08/k32/pool-q3",
+      "state_sha256": "a878b946ea0275935f2baed61fd6a496d7313f6cdd92e7143e13bcbeaeeec6f3",
+      "record_sha256": "d85daf29b49c550ecebf6d1f1b5618ec0024f95af238050fbb303860bd132d55",
+      "split": "train",
+      "family_id": "warehouse-32-32-aisles/family-08"
+    },
+    {
+      "query_id": "warehouse-32-32-aisles/family-08/k32/pool-q4",
+      "state_sha256": "ee9c16822ff7e1fc3b8b75acefc42234f1c70a265523df9f355396c34ca840c6",
+      "record_sha256": "c2ea7e0251b723bf2a51c13c4df4919fc1912da9660c1fcba50fb5c8b4fae8bb",
+      "split": "train",
+      "family_id": "warehouse-32-32-aisles/family-08"
+    },
+    {
+      "query_id": "warehouse-32-32-aisles/family-08/k32/pool-q5",
+      "state_sha256": "2d9bbec6c0b78ad30d2ec35dcdc61fd4c8712d486fe7deeb8aa1fdc18a285ccd",
+      "record_sha256": "1db1a3213c4cda490455f20c29bd64ceec6c60ee1eed92a0df2545890cdb1a5a",
+      "split": "train",
+      "family_id": "warehouse-32-32-aisles/family-08"
+    },
+    {
+      "query_id": "warehouse-32-32-aisles/family-08/k32/pool-q6",
+      "state_sha256": "67f98b6733e42e55395e9c3c34cef05816fe1a7defb51ca7d86b4a590a75e60a",
+      "record_sha256": "143bccbd91a75fb02ec2be5dd07152b3adfed4e2511de8eb6255e5c8151796de",
+      "split": "train",
+      "family_id": "warehouse-32-32-aisles/family-08"
+    },
+    {
+      "query_id": "warehouse-32-32-aisles/family-08/k32/pool-q7",
+      "state_sha256": "bba5d539cf0e7d9b7ad60f39e02d14025bc1824ec5d0ce4dfe72ee575c31143b",
+      "record_sha256": "7e85d25bd4a23e80fac94539688931e02564d95e4e5e555431c677aac946e81d",
+      "split": "train",
+      "family_id": "warehouse-32-32-aisles/family-08"
+    },
+    {
+      "query_id": "random-32-32-20/family-09/k24/pool-q2",
+      "state_sha256": "d4a8388275224e77cfa324384cf0ed6311e595600b4a72421f97886fde23abed",
+      "record_sha256": "eef254ff7afcde5696121bfbd86b1643e0dcc9ad9e36a35db314b58c96c61324",
+      "split": "train",
+      "family_id": "random-32-32-20/family-09"
+    },
+    {
+      "query_id": "random-32-32-20/family-09/k24/pool-q3",
+      "state_sha256": "d034d5f8e4945ff28817a2178da090018fee383f1788bccbbe116958d2969af8",
+      "record_sha256": "2069eb56f3193bfd35af762a21d17a4dca4808ff349a71c9e082e5f97c57f89a",
+      "split": "train",
+      "family_id": "random-32-32-20/family-09"
+    },
+    {
+      "query_id": "random-32-32-20/family-09/k24/pool-q4",
+      "state_sha256": "6fa2f38496ac38917bc5c144c31be2573f55a58cfad3ffa3300b4d94ccc41a5b",
+      "record_sha256": "b43ddf444e91970acfd38f8399be85d054f888e9e1feef78eb1f02b37c6f3db1",
+      "split": "train",
+      "family_id": "random-32-32-20/family-09"
+    },
+    {
+      "query_id": "random-32-32-20/family-09/k24/pool-q5",
+      "state_sha256": "ded7b215803d243d4f70911148f64552fa92d4b89a80878fbc68a8a60e905962",
+      "record_sha256": "3c575e753dd9830aa501b89e06be9ea7935befef81097c85e0844e9492f584dc",
+      "split": "train",
+      "family_id": "random-32-32-20/family-09"
+    },
+    {
+      "query_id": "random-32-32-20/family-09/k24/pool-q6",
+      "state_sha256": "aa9900ac2cade397c6ac0655279fdaf77800c43e3d1ccef2bae8819adacdf62b",
+      "record_sha256": "8a9f475d306d9cb5125954ac06b42afa783035ac8ab5252e38ea612cafb36c31",
+      "split": "train",
+      "family_id": "random-32-32-20/family-09"
+    },
+    {
+      "query_id": "random-32-32-20/family-09/k24/pool-q7",
+      "state_sha256": "3132feff72c20ec0e2ece70fe7b518af6b8a105f2f73fe9c48aa726fc2d62702",
+      "record_sha256": "184d81a77417e45fd889777f9c85ad83ba4f643ed6597d6bdf794d04d4f1d851",
+      "split": "train",
+      "family_id": "random-32-32-20/family-09"
+    },
+    {
+      "query_id": "room-32-32-4/family-09/k32/pool-q2",
+      "state_sha256": "d9b9aa959ab6eb24e703fa5fcc969f5e5cf7efef83fe955e20c72f677584a6b0",
+      "record_sha256": "e02c4d03eff565f2929d7a1f08603212067afacc981ab48ffb00ecc5f6edd748",
+      "split": "train",
+      "family_id": "room-32-32-4/family-09"
+    },
+    {
+      "query_id": "room-32-32-4/family-09/k32/pool-q3",
+      "state_sha256": "b50ef9641de2f733313e2b4a8ed5d390c711a050abad7455b55c0c1588828278",
+      "record_sha256": "5dee3c327c27d7852e26245534c4108d1de9b58deccda894a3df1d4268269173",
+      "split": "train",
+      "family_id": "room-32-32-4/family-09"
+    },
+    {
+      "query_id": "room-32-32-4/family-09/k32/pool-q4",
+      "state_sha256": "c246c52eb01a4249eb7f8395de8c9b777af44a7624b1ef1d0d204f3c8b22f4bf",
+      "record_sha256": "19061cf8a4ee28529d8fe849656e74105600d1761d639c528b7b427fd808e6dd",
+      "split": "train",
+      "family_id": "room-32-32-4/family-09"
+    },
+    {
+      "query_id": "room-32-32-4/family-09/k32/pool-q5",
+      "state_sha256": "3c82ce96ec9f22aa329309bc12bbcbcabcf8ec02ce973735e9cfc2d475c7d60a",
+      "record_sha256": "31d22901002a8e4099bd81424000712cd28d2cd549a2a3cf7833e239f11b1af1",
+      "split": "train",
+      "family_id": "room-32-32-4/family-09"
+    },
+    {
+      "query_id": "room-32-32-4/family-09/k32/pool-q6",
+      "state_sha256": "cd65861d9ce7c75171ec72ec8e63001e968ced9d3e231abdf4ec0777a66a535a",
+      "record_sha256": "4ac4ec5272590a9cc415da8777a7953c7c5ba4dec3cfd8f78c5593a9f67dfcbb",
+      "split": "train",
+      "family_id": "room-32-32-4/family-09"
+    },
+    {
+      "query_id": "room-32-32-4/family-09/k32/pool-q7",
+      "state_sha256": "5b15932b55e31bc7e14e2cb2914c01897555bac1ac52f58f34902c3f41a63ff3",
+      "record_sha256": "ba6b750f1233484a57fc1a61d28ffe509e74b84ed486570d00d4f96f1c4254af",
+      "split": "train",
+      "family_id": "room-32-32-4/family-09"
+    },
+    {
+      "query_id": "random-32-32-20/family-10/k32/pool-q2",
+      "state_sha256": "192c2e2d5439c688f085d376557c8893ac93970867a243d0058d8d5de16829c7",
+      "record_sha256": "baf64ebf115c8fc38f2ca9a84a52a0fc1d61e0ed07d030d475dc05e210c204bb",
+      "split": "train",
+      "family_id": "random-32-32-20/family-10"
+    },
+    {
+      "query_id": "random-32-32-20/family-10/k32/pool-q3",
+      "state_sha256": "db23d0756e303828e0434cfc5eaf26156530eecc9499337de2d2f2ccb4bc0a94",
+      "record_sha256": "ac4005f6307a237b51f05de84ad106fae2c9bf89de8f65979923d5e785c420f2",
+      "split": "train",
+      "family_id": "random-32-32-20/family-10"
+    },
+    {
+      "query_id": "random-32-32-20/family-10/k32/pool-q4",
+      "state_sha256": "d841fddaa62dcd7fee3ba61ae89e5c16c2dde462fe74d833be1d40367171da5c",
+      "record_sha256": "f3ea6a8fe714fe2ce6d2c31ad57ffe1f36135e4e14f7696faf904c07ab30511b",
+      "split": "train",
+      "family_id": "random-32-32-20/family-10"
+    },
+    {
+      "query_id": "random-32-32-20/family-10/k32/pool-q5",
+      "state_sha256": "313150c9098435c001de0a22de6c1a5f1a9748aa9e7786eb0ad26d5504e521ba",
+      "record_sha256": "cdd461c041022c521412ad459bf5e79f8de9f7efd5bf74666fcdec040985e610",
+      "split": "train",
+      "family_id": "random-32-32-20/family-10"
+    },
+    {
+      "query_id": "random-32-32-20/family-10/k32/pool-q6",
+      "state_sha256": "629fb688fe53b7902bad78066dcef06ab10af7b8dceacda49caa98dde4dc8983",
+      "record_sha256": "e61d235db67a01231792c6b4909ce93a54488a7b57db104fb1b13085cceee774",
+      "split": "train",
+      "family_id": "random-32-32-20/family-10"
+    },
+    {
+      "query_id": "random-32-32-20/family-10/k32/pool-q7",
+      "state_sha256": "7e6dc89cd8133bee4da631623244b5695913cb26b85e98a3c0785ffee6cd8cf4",
+      "record_sha256": "f0fcb1d4b57968361a0ec694659da2ff876c73e03dee337a146ef4e7aff21701",
+      "split": "train",
+      "family_id": "random-32-32-20/family-10"
+    },
+    {
+      "query_id": "room-32-32-4/family-10/k16/pool-q2",
+      "state_sha256": "394d546d06304f27203ccccd52d9195a17f6fd2b951bf43598ab9220e07f6548",
+      "record_sha256": "2951fab31417201f366965d7c237f0bd2273b50e896e9d167d5a06171bfbd4de",
+      "split": "train",
+      "family_id": "room-32-32-4/family-10"
+    },
+    {
+      "query_id": "room-32-32-4/family-10/k16/pool-q3",
+      "state_sha256": "5cd3cde7e2ca0d70b9818be0ba0eb8c83c4a5b6ca2cc93daff79150457ed6344",
+      "record_sha256": "57e9af66ff6853cf68ec7e1459a1666e364bf61bcd016844db60974229131bc7",
+      "split": "train",
+      "family_id": "room-32-32-4/family-10"
+    },
+    {
+      "query_id": "random-32-32-20/family-11/k16/pool-q2",
+      "state_sha256": "75a5a9dfa07ffb02e4e6aca07acaa70ed9a5ef2dada6b4281a23367be1ef419b",
+      "record_sha256": "d99502ea396957b4879cbe0ebd1dcbddbe25a0c0e621517939066d89218ff109",
+      "split": "train",
+      "family_id": "random-32-32-20/family-11"
+    },
+    {
+      "query_id": "random-32-32-20/family-11/k16/pool-q3",
+      "state_sha256": "50d79e60b82b112ea556eb4ca6d162c91a04858a61b26208ed340ea4c62cd66e",
+      "record_sha256": "d27cc6f6203dfd9acf59c591681b27ee61e38c767549f2dbb35c124fe677f8fa",
+      "split": "train",
+      "family_id": "random-32-32-20/family-11"
+    },
+    {
+      "query_id": "random-32-32-20/family-11/k16/pool-q4",
+      "state_sha256": "db627dec59da1677c550efadb49ca5541cc81d1f314b4434d82d77598da3c616",
+      "record_sha256": "98b10104797df4ffd407b30f861ac65d05214743dde6070793b07143fbf39f69",
+      "split": "train",
+      "family_id": "random-32-32-20/family-11"
+    },
+    {
+      "query_id": "random-32-32-20/family-11/k16/pool-q5",
+      "state_sha256": "ea245c25b0a5563ee9cb854e723519fb0317be05e8da0395ac86111f33140cc7",
+      "record_sha256": "e139d8f221b3ca0fd09949ac186102512a448f7351c16c08790ec7499e14d832",
+      "split": "train",
+      "family_id": "random-32-32-20/family-11"
+    },
+    {
+      "query_id": "random-32-32-20/family-11/k16/pool-q6",
+      "state_sha256": "78ec7088cfd9de7c1808f305879953f43a368fb74ebc565b10cf8ca08190a0af",
+      "record_sha256": "6c6109a37de3150be9e531c69693d7da6e29591b800e2f44fe495b41c742fb2c",
+      "split": "train",
+      "family_id": "random-32-32-20/family-11"
+    },
+    {
+      "query_id": "random-32-32-20/family-11/k16/pool-q7",
+      "state_sha256": "46dbc590283bb8d9f1ad16c6da24537cf925807e7ae44234e42034f6bec2b446",
+      "record_sha256": "0505d6339f7b447a6a7a51dcb32b8526a867d68b4b1a13ff3d38c40fd03c8b33",
+      "split": "train",
+      "family_id": "random-32-32-20/family-11"
+    },
+    {
+      "query_id": "room-32-32-4/family-11/k24/pool-q2",
+      "state_sha256": "28b1ecb389ddecf21b93549a06eee29f7854aa193c75cf779996da73d298c28d",
+      "record_sha256": "1594753b435999f6dab843d402453d397bda059ee6ad5ece20ee8f29dbc7b6e5",
+      "split": "train",
+      "family_id": "room-32-32-4/family-11"
+    },
+    {
+      "query_id": "room-32-32-4/family-11/k24/pool-q3",
+      "state_sha256": "b7371e151c11f1ed292819dba30791755fb2eadc0024ac334aaf60fe9f1c99ce",
+      "record_sha256": "15652f0522a92e786579f1122259ac282a4c09e25ba1d4d20497ec3ab55c5d5b",
+      "split": "train",
+      "family_id": "room-32-32-4/family-11"
+    },
+    {
+      "query_id": "room-32-32-4/family-11/k24/pool-q4",
+      "state_sha256": "6108b9698a9f53c586f06a459e80b9ec3cc3689ee0be68fa9eff5fb96a5041d4",
+      "record_sha256": "a87e7ab0bada7d71355c5f6788a08886636ffc6192ae53a900a23a66e4c42530",
+      "split": "train",
+      "family_id": "room-32-32-4/family-11"
+    },
+    {
+      "query_id": "room-32-32-4/family-11/k24/pool-q5",
+      "state_sha256": "36ab614b67aa439cc5b24c46ef691f7d235081908b65be58b6ba63ed5b816efb",
+      "record_sha256": "9ed8cdf20d659f1e0efa3e7ab81e5739577f0c191617944c992453e7f0867427",
+      "split": "train",
+      "family_id": "room-32-32-4/family-11"
+    },
+    {
+      "query_id": "room-32-32-4/family-11/k24/pool-q6",
+      "state_sha256": "801c38cdc72fe3b8cc8634eb82d1d9d39cd52dc86f4891c1de8385921aa7241e",
+      "record_sha256": "623b3aa4856825df184484f4f9c05b2f1de1c3fa9358f7c8011b2c9cc443d337",
+      "split": "train",
+      "family_id": "room-32-32-4/family-11"
+    },
+    {
+      "query_id": "room-32-32-4/family-11/k24/pool-q7",
+      "state_sha256": "318a2bf0f32c48d50656a579243b76cae8026e52a922f6b86d3f3735870c7c17",
+      "record_sha256": "7c272749fd741e7bc1bba5547562602b86f0bbb6b884ed861d93f42a6ee137be",
+      "split": "train",
+      "family_id": "room-32-32-4/family-11"
+    },
+    {
+      "query_id": "warehouse-32-32-aisles/family-11/k32/pool-q2",
+      "state_sha256": "df8798a1f3f5b05ac6e60c2e014106abbede3c6760a9c02dddf115ad31abdce9",
+      "record_sha256": "03eb5616ba48cd030a0b927b645dccd122518baeb32c46db7bf1a24406ec2a4c",
+      "split": "train",
+      "family_id": "warehouse-32-32-aisles/family-11"
+    },
+    {
+      "query_id": "warehouse-32-32-aisles/family-11/k32/pool-q3",
+      "state_sha256": "c246216a486017eedf7e30528f4ac562e1916c9febd6116e219665830df0f07d",
+      "record_sha256": "b549a0c0443c90447bd9afd68b66a9cc80f38b471860b30363fa7ffc2abe9341",
+      "split": "train",
+      "family_id": "warehouse-32-32-aisles/family-11"
+    },
+    {
+      "query_id": "warehouse-32-32-aisles/family-11/k32/pool-q4",
+      "state_sha256": "90e40b6243eb4224ce61413a050a86f62f8e0576b03ecc1cc2c1a5974a7e5504",
+      "record_sha256": "cd1a33bf35af736845fa296335496d281ae7a10c5865c1ba3d56979f4a4ea4df",
+      "split": "train",
+      "family_id": "warehouse-32-32-aisles/family-11"
+    },
+    {
+      "query_id": "warehouse-32-32-aisles/family-11/k32/pool-q5",
+      "state_sha256": "fd468804fc285a9a6968950d3fbe65530694f89813617692bb2bf298d8e94b6c",
+      "record_sha256": "fd0dcf97be930aa93dc174686b4d0126a6d3d61cf6ec76d88392bbffb5f20085",
+      "split": "train",
+      "family_id": "warehouse-32-32-aisles/family-11"
+    },
+    {
+      "query_id": "warehouse-32-32-aisles/family-11/k32/pool-q6",
+      "state_sha256": "c6108be5865215d5173b7ab3cc5cebf57e79dde8bffdeb4bbc1cd00a0cbea83e",
+      "record_sha256": "c05751254bf9b8af520919d786099fbee658a1446612d4f432d00f3b589676ab",
+      "split": "train",
+      "family_id": "warehouse-32-32-aisles/family-11"
+    },
+    {
+      "query_id": "warehouse-32-32-aisles/family-11/k32/pool-q7",
+      "state_sha256": "6a98669f1a7c10426f996f0915bb35d3a7b6fe88be3ab75ef43d95899aa724e8",
+      "record_sha256": "e92e02ae1e2787c3cd25e800a0059389720e47ab0c530cf914faf4a317014be7",
+      "split": "train",
+      "family_id": "warehouse-32-32-aisles/family-11"
+    },
+    {
+      "query_id": "random-32-32-20/family-12/k24/pool-q2",
+      "state_sha256": "7d968f11aba593d916777bbc996bedd2bdeb025056d2a78e09aa6439000c5ecc",
+      "record_sha256": "e1f747b6ac2607d34a8881f2e01389651ddf1b60bfd2d3153c23abf29396e506",
+      "split": "train",
+      "family_id": "random-32-32-20/family-12"
+    },
+    {
+      "query_id": "random-32-32-20/family-12/k24/pool-q3",
+      "state_sha256": "cde47e350d95c25cf03b7a399b5663481dc3c5ecc331a25a79596be02ed3494e",
+      "record_sha256": "5a2c27a893d70f9aca501cd36a349cf0da9674ac0087e41f1bcad188b312c849",
+      "split": "train",
+      "family_id": "random-32-32-20/family-12"
+    },
+    {
+      "query_id": "random-32-32-20/family-12/k24/pool-q4",
+      "state_sha256": "02668c0658ee99215b7e9eec2fd3096d166c2ac23a43afe9a400e49c84612c4d",
+      "record_sha256": "a51ffd0c9110d6e10ce8c69251a99143e5254e9f60c9fac2e71ff23fe554ddca",
+      "split": "train",
+      "family_id": "random-32-32-20/family-12"
+    },
+    {
+      "query_id": "random-32-32-20/family-12/k24/pool-q5",
+      "state_sha256": "6824ae606ee99ad3b25984b0c4ab92ed18b955a09ba47148f08cbee56345fad0",
+      "record_sha256": "e125c83627a6e5401658f5d074b1ed9671d06c126ef0438538bfaf820c509a84",
+      "split": "train",
+      "family_id": "random-32-32-20/family-12"
+    },
+    {
+      "query_id": "random-32-32-20/family-12/k24/pool-q6",
+      "state_sha256": "0436903f56275600501c5388f1b537d83d3d7e078915e37d3b91d4e8794e36a6",
+      "record_sha256": "efe3f71c0af8f0dc4aeaaf834987fcc656cdcc6e22b4d1a7492a0c18a91134a5",
+      "split": "train",
+      "family_id": "random-32-32-20/family-12"
+    },
+    {
+      "query_id": "random-32-32-20/family-12/k24/pool-q7",
+      "state_sha256": "26fbe8d2eb21c0d86a1a1b7ee07ec7ab7848a567c7d982d70791b6d856dcf079",
+      "record_sha256": "f75243988643a859ec2f21b5ce06e0b02b970b95d8c774b8677522586492072a",
+      "split": "train",
+      "family_id": "random-32-32-20/family-12"
+    },
+    {
+      "query_id": "room-32-32-4/family-12/k32/pool-q2",
+      "state_sha256": "381dd1a4ed11e53a85622a15a8d09c6fc0a24aecd506a639eb5b72114dd1e472",
+      "record_sha256": "5ac4f88164413c10fb13fd76125c3b18f08a5e8f8f64ed6f7a2b2b7ab11a08bd",
+      "split": "train",
+      "family_id": "room-32-32-4/family-12"
+    },
+    {
+      "query_id": "room-32-32-4/family-12/k32/pool-q3",
+      "state_sha256": "fb5c00b54925eac3b866ae22f13070f68ad444ea29ce96645b8cc7459b390b3e",
+      "record_sha256": "1057cbdf09ee6dd1f66de6ebed5b49dc132626ee1567623ea316d0ad151bf3fb",
+      "split": "train",
+      "family_id": "room-32-32-4/family-12"
+    },
+    {
+      "query_id": "room-32-32-4/family-12/k32/pool-q4",
+      "state_sha256": "5917aa2dcf4c9de41e36c53ee46bd11c9529748efcc2c4fdfcfba6a7e900b49f",
+      "record_sha256": "93471fbe8de6de5cd57acc64e59601307aaa081a4cb046d1d9d01899450cdf50",
+      "split": "train",
+      "family_id": "room-32-32-4/family-12"
+    },
+    {
+      "query_id": "room-32-32-4/family-12/k32/pool-q5",
+      "state_sha256": "dc6b9e9580af2e49f09d4c3bb918e73a554c09bd6bb44446e12807b1eee3f001",
+      "record_sha256": "e0203c81f50099a77b360fda0d07eb9d17650eb5d81ff085d49e039578d87387",
+      "split": "train",
+      "family_id": "room-32-32-4/family-12"
+    },
+    {
+      "query_id": "room-32-32-4/family-12/k32/pool-q6",
+      "state_sha256": "4884e009419150234480d7476ebc0a1a7d32f325b7a7c3113409909a119984fa",
+      "record_sha256": "4e1b4de0e8bbce0cc56b13f58d9f9eb56759b838721625b994e8a17d3883caa5",
+      "split": "train",
+      "family_id": "room-32-32-4/family-12"
+    },
+    {
+      "query_id": "room-32-32-4/family-12/k32/pool-q7",
+      "state_sha256": "b661b6cec432af6e3cc0fc39d204ba8ecbd9c16fb6deb3a05d62c893debdc956",
+      "record_sha256": "8dd55556b1b4ef6466e0fc8273a33822ff2f736f7e78ff3f677d5500c0d1368c",
+      "split": "train",
+      "family_id": "room-32-32-4/family-12"
+    },
+    {
+      "query_id": "random-32-32-20/family-13/k32/pool-q2",
+      "state_sha256": "be857dc8cedf2ff47420d96a4f8013960dd9f160f8e50656500a5f6ace80dd10",
+      "record_sha256": "501d45977d8dc98a5d1197c9758c1819d3c86e89e32b0453eea847574d9b80a0",
+      "split": "train",
+      "family_id": "random-32-32-20/family-13"
+    },
+    {
+      "query_id": "random-32-32-20/family-13/k32/pool-q3",
+      "state_sha256": "3d5a6ffce036e94c039d334377a190936444fe8e22b0ec3bca71dca8836d2953",
+      "record_sha256": "99e16827e88159546a743520b535b203c53b229cd5d790d044721cb13fb9e55b",
+      "split": "train",
+      "family_id": "random-32-32-20/family-13"
+    },
+    {
+      "query_id": "random-32-32-20/family-13/k32/pool-q4",
+      "state_sha256": "943824908e2d86915a737043303e5327bb05328691d01ff29e36c57bd78dc2bb",
+      "record_sha256": "92d5daa04238d4acbeee29332f0671cf13063e22620fc2aa0222c1ee5d19771c",
+      "split": "train",
+      "family_id": "random-32-32-20/family-13"
+    },
+    {
+      "query_id": "random-32-32-20/family-13/k32/pool-q5",
+      "state_sha256": "516ac52adbd011c25b4fc7775a9cd4bcaefa408e6a0ca95b996f8b5371ddca2a",
+      "record_sha256": "79b53be7b7d913e2f63128be7907340da55bc668e2dae09a4299e8cd7b182512",
+      "split": "train",
+      "family_id": "random-32-32-20/family-13"
+    },
+    {
+      "query_id": "random-32-32-20/family-13/k32/pool-q6",
+      "state_sha256": "a32899dace8d15f24544f2d2d3e600d8e81f67cfb0419a973092e2be9e80135f",
+      "record_sha256": "43e19d61d82e3b68c055bc0c7cc9a6f22b3e6e76f70bf4ae1fe2c5aa937ed044",
+      "split": "train",
+      "family_id": "random-32-32-20/family-13"
+    },
+    {
+      "query_id": "random-32-32-20/family-13/k32/pool-q7",
+      "state_sha256": "237028e074b83c0dbe7af16fa4708f2faaba44da3e7756ffc98c94dadf167fe4",
+      "record_sha256": "193af60e46ebd4b5944167daf7fb18bc0c45fc87691ced85f7f60fad92be4533",
+      "split": "train",
+      "family_id": "random-32-32-20/family-13"
+    },
+    {
+      "query_id": "room-32-32-4/family-13/k16/pool-q2",
+      "state_sha256": "30271b0a8c3d8f0723b47f06087ccef939a7abadf3633535c9226ffe512ede0a",
+      "record_sha256": "da0e61f7e20b1f257e3933ee01d106a368ca5c19010a3f150fb4982654e371f9",
+      "split": "train",
+      "family_id": "room-32-32-4/family-13"
+    },
+    {
+      "query_id": "room-32-32-4/family-13/k16/pool-q3",
+      "state_sha256": "e59b9db2bfad4035d5c94b913e6521710c8e25686d08ed586dd5edf529fc6c8a",
+      "record_sha256": "16530e422678f15c3d2555fb4d79932669a860b73bbf74d7dd63de412cb63f88",
+      "split": "train",
+      "family_id": "room-32-32-4/family-13"
+    },
+    {
+      "query_id": "room-32-32-4/family-13/k16/pool-q4",
+      "state_sha256": "8e375406cac65383cadd78181cb81071ff6662ecbc581d3e88677c1d69edb8c8",
+      "record_sha256": "fa47fe4c8e39dacbba99397b1c8211f911f01f284b17b8ad1d807f81ec5f8460",
+      "split": "train",
+      "family_id": "room-32-32-4/family-13"
+    },
+    {
+      "query_id": "room-32-32-4/family-13/k16/pool-q5",
+      "state_sha256": "b718ce8cdaefc4bef3cbe912f657a1b71ceee5f82577dfeaea531b9bd21a32d3",
+      "record_sha256": "e417f259344269e3d71478e2f5f47fa00da5a195b6d0f08a131585a2593ed274",
+      "split": "train",
+      "family_id": "room-32-32-4/family-13"
+    },
+    {
+      "query_id": "room-32-32-4/family-13/k16/pool-q6",
+      "state_sha256": "146852936c2dcb7dfbf0ecf3da9c9d8795da95191236276b53ec18476451196e",
+      "record_sha256": "e6da990063351c385da52986b5d58fc673f6a4ef92af1a6bb2e8ade3328b8545",
+      "split": "train",
+      "family_id": "room-32-32-4/family-13"
+    },
+    {
+      "query_id": "room-32-32-4/family-13/k16/pool-q7",
+      "state_sha256": "ef75c5d8f82dab02c37f091027852523430ea70f8be61cb24d84d0b38c341484",
+      "record_sha256": "788f6f106f49becbae6f3938e908c7c9662d6cf78bc99828753cf1bb867541bb",
+      "split": "train",
+      "family_id": "room-32-32-4/family-13"
+    },
+    {
+      "query_id": "warehouse-32-32-aisles/family-13/k24/pool-q2",
+      "state_sha256": "ec9a75e24295bb0bb32c0e1609f006a4e34d0dd8b36fcc171598497b97c49d24",
+      "record_sha256": "5dab8719f332c7d4a730de213a9581007dd2059e5b7c411019cd06c37d189cf7",
+      "split": "train",
+      "family_id": "warehouse-32-32-aisles/family-13"
+    },
+    {
+      "query_id": "warehouse-32-32-aisles/family-13/k24/pool-q3",
+      "state_sha256": "cbf66ed4f695ebdc972087487da3aa8d14400b20a5eb0fa8fa3b9d12eac4f5c5",
+      "record_sha256": "253be298b5c8017ac5a96851ad2b733dcdec1efd21100f3f7895160fb70e094f",
+      "split": "train",
+      "family_id": "warehouse-32-32-aisles/family-13"
+    },
+    {
+      "query_id": "warehouse-32-32-aisles/family-13/k24/pool-q4",
+      "state_sha256": "3ac04cc2e777ad15ee08d4e87364989061d91abd2fce5e33d490ac0f11af84ae",
+      "record_sha256": "0c1659bb6169f2aecc4d220402701cc2b68b3d86fa96e15782264ead2067886d",
+      "split": "train",
+      "family_id": "warehouse-32-32-aisles/family-13"
+    },
+    {
+      "query_id": "warehouse-32-32-aisles/family-13/k24/pool-q5",
+      "state_sha256": "8b3967d6fdca911e8e5753ce80b90af28de327f286074ff6311b21d2a46fc59f",
+      "record_sha256": "9afa1f3adefdeae9863fb75566806d20dea06dca0126f65a78b641feb4b3e591",
+      "split": "train",
+      "family_id": "warehouse-32-32-aisles/family-13"
+    },
+    {
+      "query_id": "warehouse-32-32-aisles/family-13/k24/pool-q6",
+      "state_sha256": "4ab8af78123f41b6df9a3520c90695c023a00c2f0a6102f3613861533833ea52",
+      "record_sha256": "cbdc70891d8e5239bc8d24fd37374f2d029994943b0a1dea6baa0cc070a5eaf7",
+      "split": "train",
+      "family_id": "warehouse-32-32-aisles/family-13"
+    },
+    {
+      "query_id": "warehouse-32-32-aisles/family-13/k24/pool-q7",
+      "state_sha256": "45fbc7331b2debc2a6afb5723a2aa351fdcc8a8e4e4d166cb08468e118272cf7",
+      "record_sha256": "cd7093041496799fbef677458c6c8eb057cbf132cdcd1915d8d46b4b6e63a3f7",
+      "split": "train",
+      "family_id": "warehouse-32-32-aisles/family-13"
+    },
+    {
+      "query_id": "room-32-32-4/family-14/k24/pool-q0",
+      "state_sha256": "952b4b8414892001c4c09be61cd1a64eff50980370c6bf5f9e47eb53afad4b53",
+      "record_sha256": "eb6f2c1c3eacef5c6df9a04e8503b966ce0e597f774317d0ee1b0d9aa81c085c",
+      "split": "train",
+      "family_id": "room-32-32-4/family-14"
+    },
+    {
+      "query_id": "room-32-32-4/family-14/k24/pool-q1",
+      "state_sha256": "69ba827acd7b3a5d51a016a3587d35b479e332822275cf83eade117e938306bc",
+      "record_sha256": "d077abcc7fa128b0a83485cc8da318f82ca7e5c4d77f305b075805427fe86bbf",
+      "split": "train",
+      "family_id": "room-32-32-4/family-14"
+    },
+    {
+      "query_id": "room-32-32-4/family-14/k24/pool-q2",
+      "state_sha256": "a7d167305cfc3e7b331d11f24c8781ddc66545f0b7c653d528a9c8ac9198942c",
+      "record_sha256": "bf7e44d0be6a0b4b260ec74049f620e7e407cf9a118c39607d584c09590d0cce",
+      "split": "train",
+      "family_id": "room-32-32-4/family-14"
+    },
+    {
+      "query_id": "room-32-32-4/family-14/k24/pool-q3",
+      "state_sha256": "214b19b55f6a90eee4cabf4155b531f9723eaeff97599f845a053a380a5d1be4",
+      "record_sha256": "29c49d26b0c78f556cf360ce8702e55e0b1fc7d1e728571da71cb294b7c6154b",
+      "split": "train",
+      "family_id": "room-32-32-4/family-14"
+    },
+    {
+      "query_id": "room-32-32-4/family-14/k24/pool-q4",
+      "state_sha256": "921ab199f8f2e458c3220d6168095c83b76fe8e17dfdb58ae73c46c829079435",
+      "record_sha256": "76b236fd60cfb34c24390288253603b4185b574c630dd9b289cbc2c83d664ae3",
+      "split": "train",
+      "family_id": "room-32-32-4/family-14"
+    },
+    {
+      "query_id": "room-32-32-4/family-14/k24/pool-q5",
+      "state_sha256": "a2f56dce2b0627954278e65c78613d9d6dbdafcc60bf8e372b02c0c514a68f92",
+      "record_sha256": "eca36d924a0f31e48ceffd6838e7cb24ee312e62085bf232f88515de0dc7fe95",
+      "split": "train",
+      "family_id": "room-32-32-4/family-14"
+    },
+    {
+      "query_id": "room-32-32-4/family-14/k24/pool-q6",
+      "state_sha256": "52f601fa7d1bbf4fc8bd4640e8a7ee12892530973e71b4a53211febf03b7026e",
+      "record_sha256": "19d70e4fbf70573c940b1ea5fbb25f28ce1f8ffb280fb5873c79fa377640d12f",
+      "split": "train",
+      "family_id": "room-32-32-4/family-14"
+    },
+    {
+      "query_id": "room-32-32-4/family-14/k24/pool-q7",
+      "state_sha256": "de2deec2a9c596dfccfec61b27c71eb886429cd9dec8de2f48145362de9a4969",
+      "record_sha256": "3eef38ad675c130ea2923d0226edcfd11271201dfe73809dbcedef7f5e8ae25d",
+      "split": "train",
+      "family_id": "room-32-32-4/family-14"
+    },
+    {
+      "query_id": "warehouse-32-32-aisles/family-14/k32/pool-q0",
+      "state_sha256": "e0f7207971fd6b2363ab4198626f31e0d1db0b5d4fd7f1785ff7c09b5f698111",
+      "record_sha256": "557ed226f52f66de38d189a2bade55581b0f5f4e7babc0b03745b5725f7aae43",
+      "split": "train",
+      "family_id": "warehouse-32-32-aisles/family-14"
+    },
+    {
+      "query_id": "warehouse-32-32-aisles/family-14/k32/pool-q1",
+      "state_sha256": "481474b185c8ac1a45e499144b6f5ff6264fdcf52ecad65cce7171b996ad775a",
+      "record_sha256": "9b52f8bd688f8619ee67eef8dd64de1a62b124babc661c3c484d6d5d4e2f68ff",
+      "split": "train",
+      "family_id": "warehouse-32-32-aisles/family-14"
+    },
+    {
+      "query_id": "warehouse-32-32-aisles/family-14/k32/pool-q2",
+      "state_sha256": "640e2eb610f5e42821ddc6ad2ef33eced54ecfd8a3a5d0f082f6db0aa280dfe5",
+      "record_sha256": "c83277b95af493c5e49ce43e5d6f27d4aed079b20062f6525c97677c75556f73",
+      "split": "train",
+      "family_id": "warehouse-32-32-aisles/family-14"
+    },
+    {
+      "query_id": "warehouse-32-32-aisles/family-14/k32/pool-q3",
+      "state_sha256": "59c1a9f07b363f3b78da607d4d15976813067608eb611f3a222ca714c91d7318",
+      "record_sha256": "4f5c6a98057a626be6685a488d1161900e7ec56c1f5fa15ecc9fdcbc323acf8c",
+      "split": "train",
+      "family_id": "warehouse-32-32-aisles/family-14"
+    },
+    {
+      "query_id": "warehouse-32-32-aisles/family-14/k32/pool-q4",
+      "state_sha256": "5fd626803d938f7aaa306595b5b62170ccbf4f05933de6c0b63c38f0bf45bc4c",
+      "record_sha256": "30d011162cbae1395e21d95e4e7e05b11d492ab64a8b07357b8573b495355c3a",
+      "split": "train",
+      "family_id": "warehouse-32-32-aisles/family-14"
+    },
+    {
+      "query_id": "warehouse-32-32-aisles/family-14/k32/pool-q5",
+      "state_sha256": "f0eff15e5a018d554c890985c677db113ac2f3eec52f0185943ee5975accceba",
+      "record_sha256": "47f53d450a0ea64de78cc0fc0d2207d60d595dcbd326a2dbf0ac2f4eaef2eca0",
+      "split": "train",
+      "family_id": "warehouse-32-32-aisles/family-14"
+    },
+    {
+      "query_id": "warehouse-32-32-aisles/family-14/k32/pool-q6",
+      "state_sha256": "ebd23a5b4eca88dcb31c1b5bd6bcec9e034be01160c9e4f7c4251088bdd9bfca",
+      "record_sha256": "9837bf9fe3e5a99aa1115541b9ad5227e69dd162a14c40cee4121ddd774a2755",
+      "split": "train",
+      "family_id": "warehouse-32-32-aisles/family-14"
+    },
+    {
+      "query_id": "warehouse-32-32-aisles/family-14/k32/pool-q7",
+      "state_sha256": "c8b15d929cf5ab84ae1475fb7501430eb2957f982aa23c9d2c5e0cc79e05f93e",
+      "record_sha256": "834bbb334d0df0856dc91733562b64c48515fd1b673d34df4cb91a78564a4d40",
+      "split": "train",
+      "family_id": "warehouse-32-32-aisles/family-14"
+    },
+    {
+      "query_id": "random-32-32-20/family-15/k24/pool-q0",
+      "state_sha256": "e59f8c3b4ae544822ce49fef47b7f3bdbad58cda6c5c5d6e0353a0b581eb46c7",
+      "record_sha256": "27f35b56e82545b2b6b0e5364edbeac3fe2ff5b46cbb24d726be277550f4dca8",
+      "split": "train",
+      "family_id": "random-32-32-20/family-15"
+    },
+    {
+      "query_id": "random-32-32-20/family-15/k24/pool-q1",
+      "state_sha256": "652373ac9e7ecdb233d6a341d19c0f178daabb5b6853693885bf7a354fbd3b45",
+      "record_sha256": "5b15060a8184af0e3174fb827da82fcd03d4d9987adcc5129eee2bb387fb4736",
+      "split": "train",
+      "family_id": "random-32-32-20/family-15"
+    },
+    {
+      "query_id": "random-32-32-20/family-15/k24/pool-q2",
+      "state_sha256": "b1167e4b82e2e493f0a8be3f7437238f7f3f3d83ec71b132a71d13c9e50d1abc",
+      "record_sha256": "e40fd486a60dcc37b596593e027a0a293610e093b0835841f78570c63c88f7d8",
+      "split": "train",
+      "family_id": "random-32-32-20/family-15"
+    },
+    {
+      "query_id": "random-32-32-20/family-15/k24/pool-q3",
+      "state_sha256": "5974cd65ea88bf4e0aea814bf30b2ba9d170a322042113b7f8dc467270924020",
+      "record_sha256": "9f65c0e9d3373f3f269b3a3d94712f89055393de6b4b8541c77c90b038f62d33",
+      "split": "train",
+      "family_id": "random-32-32-20/family-15"
+    },
+    {
+      "query_id": "random-32-32-20/family-15/k24/pool-q4",
+      "state_sha256": "7ebc7394973dcfee01b3d1a54e7ab38976d23b44327c61d62c37c77520a52c79",
+      "record_sha256": "5ba269a4834def707bf5c0eda3b52997f9a93368d0ece470f2bb8d39d8287f12",
+      "split": "train",
+      "family_id": "random-32-32-20/family-15"
+    },
+    {
+      "query_id": "random-32-32-20/family-15/k24/pool-q5",
+      "state_sha256": "dd2319e788bc696160069c947b238ca65c522a4f808aab21ba800dcfbac60ee8",
+      "record_sha256": "3f33b0f17594843786a333511502cc5db778a7ce97b9745350588ed6b747dfee",
+      "split": "train",
+      "family_id": "random-32-32-20/family-15"
+    },
+    {
+      "query_id": "random-32-32-20/family-15/k24/pool-q6",
+      "state_sha256": "eea13a19202a90c1f61f0ab1e7569105bee7e2fd01c4990bb1acab3a04371197",
+      "record_sha256": "37464bb030a4fd612394c4f695742683292de25a26f3a2016feaea5bca1ecc54",
+      "split": "train",
+      "family_id": "random-32-32-20/family-15"
+    },
+    {
+      "query_id": "random-32-32-20/family-15/k24/pool-q7",
+      "state_sha256": "364d263b8e8e5054295ea8cdc72e33ae668d937b95e531f7b9ce4dc045b00ffe",
+      "record_sha256": "361047f959e856e11846335ccead8932267d9e45b0ec16ee4b22bd47b4828b5d",
+      "split": "train",
+      "family_id": "random-32-32-20/family-15"
+    },
+    {
+      "query_id": "room-32-32-4/family-15/k32/pool-q0",
+      "state_sha256": "0e2d732c8e77456d77b2b1849b00f043fb41c1a75809a273a2e5227b0ed27942",
+      "record_sha256": "79ad1160d5c6f494bd6dc89aeeb05f0563c4c79982bbf1462f0348a9b813736c",
+      "split": "train",
+      "family_id": "room-32-32-4/family-15"
+    },
+    {
+      "query_id": "room-32-32-4/family-15/k32/pool-q1",
+      "state_sha256": "ec8605a7a68c2509ab90213b8c2c48baffd91a35b4d2db880520986b67c36074",
+      "record_sha256": "728e879a254c0ad65547999b9777da2e4b2c0c82f19e5595b97afd739ac168be",
+      "split": "train",
+      "family_id": "room-32-32-4/family-15"
+    },
+    {
+      "query_id": "room-32-32-4/family-15/k32/pool-q2",
+      "state_sha256": "5575214bf93ee0c4e7d1dbba971d5880d501eba37d222baab1ca07368bf99488",
+      "record_sha256": "67a91656c84f4e96c974e8bc7049882ddd580ca9789cf4db84cb2ecb261faf9e",
+      "split": "train",
+      "family_id": "room-32-32-4/family-15"
+    },
+    {
+      "query_id": "room-32-32-4/family-15/k32/pool-q3",
+      "state_sha256": "517b5c7f16cfc7c8485a2e85036e6e0cf36dae6e6889f1ad3739acd4ad5e6ea2",
+      "record_sha256": "660071ba0a53409e796440d2ac7070bdf57230025f2ab62d5d1bf4d9ab45a141",
+      "split": "train",
+      "family_id": "room-32-32-4/family-15"
+    },
+    {
+      "query_id": "room-32-32-4/family-15/k32/pool-q4",
+      "state_sha256": "12ff22de4e945e339168ba2ac60d97faea4fca8f7397569e030d00bf2ded8ee8",
+      "record_sha256": "91bb243f0d733a753e8cc1e0effb7b31f7512cdf12207c13936dafe184a4522c",
+      "split": "train",
+      "family_id": "room-32-32-4/family-15"
+    },
+    {
+      "query_id": "room-32-32-4/family-15/k32/pool-q5",
+      "state_sha256": "20dc72e8f32af0435c1a8809d04b87f68f02c2c9de0fcc083dda568ba5f7b465",
+      "record_sha256": "b76509a148463925cba039b3aa7c475da220b721d1433949c6edfaa95809a0c8",
+      "split": "train",
+      "family_id": "room-32-32-4/family-15"
+    },
+    {
+      "query_id": "room-32-32-4/family-15/k32/pool-q6",
+      "state_sha256": "41a5b3c121b5a86ef9c598ebc51ac168058b6e728c86295e4bce6c4d8af7fc61",
+      "record_sha256": "2d3c058153b1a2c351141d473e6d982e5d63beeb121bb068c78d7dab0d88a6fe",
+      "split": "train",
+      "family_id": "room-32-32-4/family-15"
+    },
+    {
+      "query_id": "room-32-32-4/family-15/k32/pool-q7",
+      "state_sha256": "9ba841e702622e83b446bbc10ad9c2b86f9a526a9843c0a6f7986a503aea86c7",
+      "record_sha256": "7c15932fe4c84c62812030cc6e0c4405bd2a0bcd2d08c530247eafaf0e37f1e7",
+      "split": "train",
+      "family_id": "room-32-32-4/family-15"
+    },
+    {
+      "query_id": "random-32-32-20/family-16/k32/pool-q0",
+      "state_sha256": "e296dd9da9293ea56c311104a1a0c4863fe2c9061449e355769d27d32231142b",
+      "record_sha256": "ec85e4295c6825a5810d9a3fe7af45698e44e3db7e46d2dcf1af095d6388b86d",
+      "split": "train",
+      "family_id": "random-32-32-20/family-16"
+    },
+    {
+      "query_id": "random-32-32-20/family-16/k32/pool-q1",
+      "state_sha256": "05fd373ddfd59afd31eb10f4322d27eab54997e0caa7ddc32a1bdd9606d2e308",
+      "record_sha256": "45320f534757f3d8e946a9ab653265b5bfad003991832b2d1568c03f388f8b1d",
+      "split": "train",
+      "family_id": "random-32-32-20/family-16"
+    },
+    {
+      "query_id": "random-32-32-20/family-16/k32/pool-q2",
+      "state_sha256": "f38666eff0c39abc058eafc1afffac511fd19dcad6a1391f42ba1d3ccf2a5407",
+      "record_sha256": "81569fd3e010b5631fb2340bcba6f31dcaeda05246665b1c9cf08514c55d03f2",
+      "split": "train",
+      "family_id": "random-32-32-20/family-16"
+    },
+    {
+      "query_id": "random-32-32-20/family-16/k32/pool-q3",
+      "state_sha256": "40f1ce85b489292ed187c143b14312ac39a03862730e3d7b477fe376a561e396",
+      "record_sha256": "54bf466683d9e0a6c3beb3bff408d2a4fc9f1b14df91368b164fa48947f9b6bf",
+      "split": "train",
+      "family_id": "random-32-32-20/family-16"
+    },
+    {
+      "query_id": "random-32-32-20/family-16/k32/pool-q4",
+      "state_sha256": "2bf7e78d038f5f372a5207ad808472c485ceaf7d708fc724a53c1bc2598d8eec",
+      "record_sha256": "9634318759700031e3fbffc27aef6fd03db24a032f2d411448ea6d596c7e2408",
+      "split": "train",
+      "family_id": "random-32-32-20/family-16"
+    },
+    {
+      "query_id": "random-32-32-20/family-16/k32/pool-q5",
+      "state_sha256": "d5833def881bea7580371db961fde787751f2face29eed59141c4befd9505aba",
+      "record_sha256": "77870752e0a3ce42a978403918fd94554c40bb455c7899c371a72454d438b66c",
+      "split": "train",
+      "family_id": "random-32-32-20/family-16"
+    },
+    {
+      "query_id": "random-32-32-20/family-16/k32/pool-q6",
+      "state_sha256": "df9dcd2843045fd09cee2519387b78117d6e47d862b335e9002bd9b99c68fb81",
+      "record_sha256": "6ead330d16befbea751bc1da2b1890868a939c201f0416d966987697233d3907",
+      "split": "train",
+      "family_id": "random-32-32-20/family-16"
+    },
+    {
+      "query_id": "random-32-32-20/family-16/k32/pool-q7",
+      "state_sha256": "dec0e188c0aee37a6905432b1bb95d7ea8a6ec258f90e13758b15857c2673a26",
+      "record_sha256": "4aa02037c809e6ba639446bce6b7f1b8b1e94faa26f132e9d155abdd7d81fd57",
+      "split": "train",
+      "family_id": "random-32-32-20/family-16"
+    },
+    {
+      "query_id": "room-32-32-4/family-16/k16/pool-q0",
+      "state_sha256": "c93a545f056aa6076d5b4b4906f6577928ccb2e485db91d9255652e0e5cbdf6b",
+      "record_sha256": "98e74265346e103034b48de0e2f41f1aa3da44e21f8bb0e5024056d20e6f6206",
+      "split": "train",
+      "family_id": "room-32-32-4/family-16"
+    },
+    {
+      "query_id": "room-32-32-4/family-16/k16/pool-q1",
+      "state_sha256": "5394e04b7e12b6df73ed1ea5150a0dc15e5ef6b16c53132ea2ec14dea089091a",
+      "record_sha256": "f640f646b74be07db276afede18cee518ff8fd6c064afe03ab0e4d4f634ee19b",
+      "split": "train",
+      "family_id": "room-32-32-4/family-16"
+    },
+    {
+      "query_id": "room-32-32-4/family-16/k16/pool-q2",
+      "state_sha256": "51f6a7b781525c1828f7d15fec02f3c6250b05d8e5850c7626c0f8ea15c15580",
+      "record_sha256": "4de1c3a62e0c0463116e4aa3704da1b9e0237d3ae9674bc21f607f92c7ce3578",
+      "split": "train",
+      "family_id": "room-32-32-4/family-16"
+    },
+    {
+      "query_id": "room-32-32-4/family-16/k16/pool-q3",
+      "state_sha256": "e86e9135388396d7d1a12849fd79f89a52ce84e66c9246bd5f2cc1986a3bd102",
+      "record_sha256": "54730871926acc30ec50ac9740b7eac9d44d53563a31d6decf7b289ce420f3d2",
+      "split": "train",
+      "family_id": "room-32-32-4/family-16"
+    },
+    {
+      "query_id": "room-32-32-4/family-16/k16/pool-q4",
+      "state_sha256": "7af6ba879f0c68b748c9907aba9699abf6cc59d515fdc30fe17d0909356a2f97",
+      "record_sha256": "5f72be8a2de249ddd8eb6f2a6a360bf9207b125c2754745c80427a448fcc9ca4",
+      "split": "train",
+      "family_id": "room-32-32-4/family-16"
+    },
+    {
+      "query_id": "warehouse-32-32-aisles/family-16/k24/pool-q0",
+      "state_sha256": "8a4ef9cedca2be1fa57fd7326bbb257889bded1e0f698010aacc544965856bea",
+      "record_sha256": "bbe2722ebae3bdb79c0045cf81c9d811c552928e91129fd08fb928b5ce0efaf0",
+      "split": "train",
+      "family_id": "warehouse-32-32-aisles/family-16"
+    },
+    {
+      "query_id": "warehouse-32-32-aisles/family-16/k24/pool-q1",
+      "state_sha256": "91d54adf7307bb18eb223f8440c43ef016c5d1cba38da08541c32c4c4b99a242",
+      "record_sha256": "d98787f5573fa7f19dc26e87813ee819e539d8c6c96f55d25bcdd03304d89abf",
+      "split": "train",
+      "family_id": "warehouse-32-32-aisles/family-16"
+    },
+    {
+      "query_id": "room-32-32-4/family-17/k24/pool-q0",
+      "state_sha256": "5f95662808538fca1a1d43f20a46676fb4c1c29368e33a094c37c3d11beaa9c9",
+      "record_sha256": "ed405a27ffe61327b2588b967cc6066e6d1ad879ad91fd018b42e9343ace9c56",
+      "split": "train",
+      "family_id": "room-32-32-4/family-17"
+    },
+    {
+      "query_id": "room-32-32-4/family-17/k24/pool-q1",
+      "state_sha256": "42e4752773ed475531d3e753b187f504329d97abf336aa754845b426eb0612ce",
+      "record_sha256": "e776be21d2bd086bc820a7517bfbfcdb0fb8c3000ed192ebd6cf3e9f637b0d80",
+      "split": "train",
+      "family_id": "room-32-32-4/family-17"
+    },
+    {
+      "query_id": "room-32-32-4/family-17/k24/pool-q2",
+      "state_sha256": "ac805b51710db713d75948578ec5de636f30975731c1be44725287b0af63711d",
+      "record_sha256": "5b46e279161648464e69a3e58880496d9dea51e9dfa01204c747c094ceb90d37",
+      "split": "train",
+      "family_id": "room-32-32-4/family-17"
+    },
+    {
+      "query_id": "room-32-32-4/family-17/k24/pool-q3",
+      "state_sha256": "47b57506803def449a8eddcac9bd461a43993a53252e19503711a38cfbb1e05c",
+      "record_sha256": "dbdee59d71a31845b3e773e0ab8c7bb06235d3e7b70b81b44f378e2a6b698893",
+      "split": "train",
+      "family_id": "room-32-32-4/family-17"
+    },
+    {
+      "query_id": "room-32-32-4/family-17/k24/pool-q4",
+      "state_sha256": "b0f8c8605d7a511415412efe18e02cfbabe068f5e7898efb101d86ecfc72de67",
+      "record_sha256": "999a03fec0cffdbc9980d0a36e46705ab8c4f8742d41c0ba81bcbf63b0b05132",
+      "split": "train",
+      "family_id": "room-32-32-4/family-17"
+    },
+    {
+      "query_id": "room-32-32-4/family-17/k24/pool-q5",
+      "state_sha256": "ac354f49c06a49bd220bdce70f6a5192e6fb3165e1cf05e07b4b4cf7a397303b",
+      "record_sha256": "6a456b2757482ea445b3dc8dbd5b49fdf36bed073b13f11d5ae2cb76337040e9",
+      "split": "train",
+      "family_id": "room-32-32-4/family-17"
+    },
+    {
+      "query_id": "room-32-32-4/family-17/k24/pool-q6",
+      "state_sha256": "f6b425c2d8ddd6204f7308958e84ead11021fb2277336c0a012d7c8c140d8d84",
+      "record_sha256": "3391a54c4f49213ac0800ff5ab765f6c47081b796b7f902953356f79dd423327",
+      "split": "train",
+      "family_id": "room-32-32-4/family-17"
+    },
+    {
+      "query_id": "room-32-32-4/family-17/k24/pool-q7",
+      "state_sha256": "4b0d46a116048d2d28a05b11d993245f748c3cd630c00d5044b7bd389937c9d9",
+      "record_sha256": "011c37d033912b922bbf01f0a8da0abcec222827eee07129661101f323e81595",
+      "split": "train",
+      "family_id": "room-32-32-4/family-17"
+    },
+    {
+      "query_id": "warehouse-32-32-aisles/family-17/k32/pool-q0",
+      "state_sha256": "cd7aece050aa257e4e7864b86b3275d6bd5dc97e7d3d145f4780e10b6bf7e38d",
+      "record_sha256": "39f276cec045eba42175795c4282e56437d157eab21d7cf3dc1e1c80f0a39ba5",
+      "split": "train",
+      "family_id": "warehouse-32-32-aisles/family-17"
+    },
+    {
+      "query_id": "warehouse-32-32-aisles/family-17/k32/pool-q1",
+      "state_sha256": "0c6e56c9764880e6fbad573418a002e512e6f58c825195c93f700640b8e57eac",
+      "record_sha256": "ea8a607e8cfa1a2df38ae13274b7ec1e4455f60ccebef406d63491b5d071bb39",
+      "split": "train",
+      "family_id": "warehouse-32-32-aisles/family-17"
+    },
+    {
+      "query_id": "warehouse-32-32-aisles/family-17/k32/pool-q2",
+      "state_sha256": "f19a52fc642f5578fa49350e614a95e61b7da26533161abc73f516a1f93cc2f9",
+      "record_sha256": "ca00dc676f52fa097eb2909002c1eb4f0cd35e433777a53458ebda96e113376a",
+      "split": "train",
+      "family_id": "warehouse-32-32-aisles/family-17"
+    },
+    {
+      "query_id": "warehouse-32-32-aisles/family-17/k32/pool-q3",
+      "state_sha256": "9d15acd9d123f74765c6d0bb6174ca88326eb2180eea7f92b805e5a7954df34a",
+      "record_sha256": "40b9e0972549024779595ded8f90f9b48a41753ea2b1352e70eb092adb3e418a",
+      "split": "train",
+      "family_id": "warehouse-32-32-aisles/family-17"
+    },
+    {
+      "query_id": "warehouse-32-32-aisles/family-17/k32/pool-q4",
+      "state_sha256": "8b034db0cc291e08fac759d2c2df0e49d977184d79d6ed2826c4ad93ac670ecc",
+      "record_sha256": "5069ba3a278726f12f7a82d5d2b5e80a6ce7dd9ad3337fe31cec4461c3988974",
+      "split": "train",
+      "family_id": "warehouse-32-32-aisles/family-17"
+    },
+    {
+      "query_id": "warehouse-32-32-aisles/family-17/k32/pool-q5",
+      "state_sha256": "88eb3231851c0130cf0a7cbcb1e994bba9f02dea0e36f50cc4e7ccb68ca64e9b",
+      "record_sha256": "40ce16107fef225a30563f8f77169f02bc1890a1cde763613bc9546478dd1f2f",
+      "split": "train",
+      "family_id": "warehouse-32-32-aisles/family-17"
+    },
+    {
+      "query_id": "warehouse-32-32-aisles/family-17/k32/pool-q6",
+      "state_sha256": "e91d34253b0716eb294c1fc87b6a5a3c53c63aebf8b0e9b2df96dbf540e39b89",
+      "record_sha256": "b5371ae591f22dd60b0de8c229ba6aefdaa8ed6f37f7b827bb8714ae4df2b0aa",
+      "split": "train",
+      "family_id": "warehouse-32-32-aisles/family-17"
+    },
+    {
+      "query_id": "warehouse-32-32-aisles/family-17/k32/pool-q7",
+      "state_sha256": "1bfaee9df5b9675496d985be0aa1938b0d2726710c8a79b99964ebc0c9eea897",
+      "record_sha256": "69f3407ca86f68dc92e4de24f9541ccee6b72bbfce5154836badddac6348b160",
+      "split": "train",
+      "family_id": "warehouse-32-32-aisles/family-17"
+    },
+    {
+      "query_id": "random-32-32-20/family-18/k24/pool-q0",
+      "state_sha256": "a41c995326e2a646258bfa05f2705ebfebf350520170d8482a0dace702652f8b",
+      "record_sha256": "0b5b44bc5348a32771a23118a972c761e5b463c0a8ce551dd5279aeeb9fdc6d7",
+      "split": "train",
+      "family_id": "random-32-32-20/family-18"
+    },
+    {
+      "query_id": "random-32-32-20/family-18/k24/pool-q1",
+      "state_sha256": "a5f413b792b49b4cf45baccde17202eb1f107753fe67db8ebe6ce03f54fd173b",
+      "record_sha256": "945162987d7d6d2d09e50079d085dacdd900f7aadac35609958dd3b8bbf771e2",
+      "split": "train",
+      "family_id": "random-32-32-20/family-18"
+    },
+    {
+      "query_id": "random-32-32-20/family-18/k24/pool-q2",
+      "state_sha256": "b0712a33177bad002c3b9113ded2cc44460f4716b77992d21d544afd36df2b73",
+      "record_sha256": "a1bc92ec045d867e924f965171c23a89a403de71b03e8991f9409d9c1880f70b",
+      "split": "train",
+      "family_id": "random-32-32-20/family-18"
+    },
+    {
+      "query_id": "room-32-32-4/family-18/k32/pool-q0",
+      "state_sha256": "28552e7847ecde9681ae46f8363fc9b7389f3c9546298979a6b37b4e2c2d28ea",
+      "record_sha256": "7ab645f639f6c07bfd000e42ec77e15020ffc227f5b72eda053dc3abb7c5f23b",
+      "split": "train",
+      "family_id": "room-32-32-4/family-18"
+    },
+    {
+      "query_id": "room-32-32-4/family-18/k32/pool-q1",
+      "state_sha256": "fb96e196dd8ab08d8c94d280888da866b215b4e85b8fce758f84eb19da3f1977",
+      "record_sha256": "7700e8d31f31d19fd982507928a870b1ff4f987435b79d9a32355fbfac9ad18f",
+      "split": "train",
+      "family_id": "room-32-32-4/family-18"
+    },
+    {
+      "query_id": "room-32-32-4/family-18/k32/pool-q2",
+      "state_sha256": "3d356eda38492690e3516e8bebdd057748fb4c6d06d564f7b5d272ef54fb512a",
+      "record_sha256": "bf38bb16e8827de72f4005deccbac27d7e8de502f04d229d1280d5b0ec1547cc",
+      "split": "train",
+      "family_id": "room-32-32-4/family-18"
+    },
+    {
+      "query_id": "room-32-32-4/family-18/k32/pool-q3",
+      "state_sha256": "78d50d0f2e401a34cc0d405d7d711673e02e2fc190f126121d1778f9ac8b6849",
+      "record_sha256": "b3ea2bab83bd79307f629a7094dbcd0eaa23ad191b0a8f7460146ffe36135103",
+      "split": "train",
+      "family_id": "room-32-32-4/family-18"
+    },
+    {
+      "query_id": "room-32-32-4/family-18/k32/pool-q4",
+      "state_sha256": "a604d9d649f3b10b6f5bfe2d3e8d27b2c03c74366dc4408791eaf65372c3dfa1",
+      "record_sha256": "dd9d7a11729b75c09010422ff619a547d686afec9cc33c67631b6a78df4a88f6",
+      "split": "train",
+      "family_id": "room-32-32-4/family-18"
+    },
+    {
+      "query_id": "room-32-32-4/family-18/k32/pool-q5",
+      "state_sha256": "1198d886755ee39bda7be875053440b67f6a83df48927bebc05a970147d361ee",
+      "record_sha256": "19a23bccd716be132e2f11a946e31c57b9984a64a698453470085226f5b6a011",
+      "split": "train",
+      "family_id": "room-32-32-4/family-18"
+    },
+    {
+      "query_id": "room-32-32-4/family-18/k32/pool-q6",
+      "state_sha256": "77fa9cd22a5bea31233cc7d17e906aa15aa829a05903f570ef6379a0e299130e",
+      "record_sha256": "634b4648ee5b57ba6bc0cce916467c8c9398b9976c1cac9afbda8e61096ef553",
+      "split": "train",
+      "family_id": "room-32-32-4/family-18"
+    },
+    {
+      "query_id": "room-32-32-4/family-18/k32/pool-q7",
+      "state_sha256": "005ee517ea74a106c8a6bd1350e7055735a80d7b6bbe513233d6f56636d8c914",
+      "record_sha256": "b26858ef2adb6dde9eaefb321a9ae03d15084f15a82b5e1cc4ef6b3f54dabb6d",
+      "split": "train",
+      "family_id": "room-32-32-4/family-18"
+    },
+    {
+      "query_id": "warehouse-32-32-aisles/family-18/k16/pool-q0",
+      "state_sha256": "4e1d90306bd90c54fa5d23a94093110ae09b8f0ac66573cd100e3490019d517c",
+      "record_sha256": "9d0b244133221754f289e6b2a72e249ad0bf2e2ede93d698478ca1c9fc0d6543",
+      "split": "train",
+      "family_id": "warehouse-32-32-aisles/family-18"
+    },
+    {
+      "query_id": "random-32-32-20/family-19/k32/pool-q0",
+      "state_sha256": "b295decdc83c4f1c919906372c4ce41fe5be58cd49b6da066aaf5a7dfb14d9d3",
+      "record_sha256": "9f0e3cc170da73252a1730bc1b3515671e00e711205a847d84975baa1c4dff45",
+      "split": "train",
+      "family_id": "random-32-32-20/family-19"
+    },
+    {
+      "query_id": "random-32-32-20/family-19/k32/pool-q1",
+      "state_sha256": "5b3cf9e5890b73d3cfecdf3af1e58988efda00bed73e9c85f87cdff5dfd4ffa4",
+      "record_sha256": "1e39489484bf36bb64c973ca0a0ab6ca3c33e73e3f780a67e677435d6eac3f9d",
+      "split": "train",
+      "family_id": "random-32-32-20/family-19"
+    },
+    {
+      "query_id": "random-32-32-20/family-19/k32/pool-q2",
+      "state_sha256": "eda44bd1fe57ffb7a883a5bf1cb36753d73291cdfb7d5f0c20f834098a470540",
+      "record_sha256": "8e8d67059842a6d673032b3b7d7d9e555c8839a636cba21bbd4c1a8e01ac320a",
+      "split": "train",
+      "family_id": "random-32-32-20/family-19"
+    },
+    {
+      "query_id": "random-32-32-20/family-19/k32/pool-q3",
+      "state_sha256": "90279cac40be9058f14a4d2e7e68444e8af65b585e2306de10de6ab0f9c75ef2",
+      "record_sha256": "2c233d6acad4ca09410fb21a8b7fa26d8019c2e3c553b0809609a8543adea86e",
+      "split": "train",
+      "family_id": "random-32-32-20/family-19"
+    },
+    {
+      "query_id": "random-32-32-20/family-19/k32/pool-q4",
+      "state_sha256": "0107767cbb55320826fa5ffd2bb891aa62e639bc7baea0693e38da20067612f5",
+      "record_sha256": "b68c4a062d3eccc4b6f74798deb45ccb60b2fd6b28442e4c6ac23f26bb713b93",
+      "split": "train",
+      "family_id": "random-32-32-20/family-19"
+    },
+    {
+      "query_id": "random-32-32-20/family-19/k32/pool-q5",
+      "state_sha256": "2bab501cc058da4744076f2298cc03202eef89c7316065ac6572a525bed163c8",
+      "record_sha256": "10b6bd7df17d2e788e07e78f6fea72b7060735f0522ec3714c51549309bab2d8",
+      "split": "train",
+      "family_id": "random-32-32-20/family-19"
+    },
+    {
+      "query_id": "random-32-32-20/family-19/k32/pool-q6",
+      "state_sha256": "f83e3748e4080d3b870120259c304bbff9d07d7449e6944846c28132ce91e95b",
+      "record_sha256": "ff0fcd008cd7ad28e1eb4151aefb7671b14c5567fb962bb45f7cf8da9cfdec31",
+      "split": "train",
+      "family_id": "random-32-32-20/family-19"
+    },
+    {
+      "query_id": "random-32-32-20/family-19/k32/pool-q7",
+      "state_sha256": "cd052695d7b3d9869b79fe4bad11ccf0e8e3562db05144df442f85d6d3ec3d0f",
+      "record_sha256": "690ab7a36edc260bbae8e4d16e79489c4c2b68e1efde0a9cca569240ef8d741f",
+      "split": "train",
+      "family_id": "random-32-32-20/family-19"
+    },
+    {
+      "query_id": "room-32-32-4/family-19/k16/pool-q0",
+      "state_sha256": "07cacab0317d0c0d7d6736452395a0ff69f544795624669e284ab66781ae8eb0",
+      "record_sha256": "40ac899e895ffcc167dc324d5ca1238959889b01082bd03071ccd38f94efbeb0",
+      "split": "train",
+      "family_id": "room-32-32-4/family-19"
+    },
+    {
+      "query_id": "room-32-32-4/family-19/k16/pool-q1",
+      "state_sha256": "5cb51a9efcf4d54fb6bfb79571482d91d12c480018fa84762867234808e3196a",
+      "record_sha256": "755016941848536d2df2f20a8a41472c046a3c4e465fa43b6387dc9ed7d8ce08",
+      "split": "train",
+      "family_id": "room-32-32-4/family-19"
+    },
+    {
+      "query_id": "warehouse-32-32-aisles/family-19/k24/pool-q0",
+      "state_sha256": "50f3706235bb379fa690e7f2f6b04bf07f9b1ea5af753f3b5cd384ae702a7efa",
+      "record_sha256": "f01ca73ce6f0237b376d6741b799807b5b67aa8e568c91982015afffdae1be95",
+      "split": "train",
+      "family_id": "warehouse-32-32-aisles/family-19"
+    },
+    {
+      "query_id": "warehouse-32-32-aisles/family-19/k24/pool-q1",
+      "state_sha256": "4b3e3979dc12a0ac246b920a281e2360e9598eaa145300853460b291e9664c17",
+      "record_sha256": "c818ab3efd8ce6a8254affe74b086c20306c95d1395de99144047b294c590444",
+      "split": "train",
+      "family_id": "warehouse-32-32-aisles/family-19"
+    },
+    {
+      "query_id": "warehouse-32-32-aisles/family-19/k24/pool-q2",
+      "state_sha256": "1d619985c5c7ac42e45f52664b42bc19a53c72b27773f429e0984e7cc6944094",
+      "record_sha256": "030612b590001c4fe98cd1cb3506fa0716fe032fbd1caa1236eb67661db92a03",
+      "split": "train",
+      "family_id": "warehouse-32-32-aisles/family-19"
+    },
+    {
+      "query_id": "warehouse-32-32-aisles/family-19/k24/pool-q3",
+      "state_sha256": "ce6c43fe103e161d5bc2382cc4a48e2b912b87f519e7b12544eb97f6dfa7b414",
+      "record_sha256": "295d1d68a00a5c1f2f7b14faa02a8f0b327067adf854f226240caf0c7e8e8470",
+      "split": "train",
+      "family_id": "warehouse-32-32-aisles/family-19"
+    },
+    {
+      "query_id": "random-32-32-20/family-20/k16/pool-q0",
+      "state_sha256": "31b004294afb1b0edb08b53f25da0b5485642d44eb1ea347b05c4128c5adc719",
+      "record_sha256": "7ac778b07a41e9d820105b253ea4d0f3357e90cff109c18ceef2297de1d7f58b",
+      "split": "validation",
+      "family_id": "random-32-32-20/family-20"
+    },
+    {
+      "query_id": "room-32-32-4/family-20/k24/pool-q0",
+      "state_sha256": "1522282b1fe84c6cda2a45422d9738d0092300e5721910dc6d8d8a8272730cee",
+      "record_sha256": "0142cdee197dde24f23e4102a70dad52ff804f74554f1e3931f240ebaae50a4c",
+      "split": "validation",
+      "family_id": "room-32-32-4/family-20"
+    },
+    {
+      "query_id": "room-32-32-4/family-20/k24/pool-q1",
+      "state_sha256": "115fc407f8ab83660f5af46b8769cf3a623a29d461101ea12873355fb0a8b272",
+      "record_sha256": "82ad7f29ab74c29152f5c07148d809a675035f2121d26249ed77a335d35cf2b1",
+      "split": "validation",
+      "family_id": "room-32-32-4/family-20"
+    },
+    {
+      "query_id": "room-32-32-4/family-20/k24/pool-q2",
+      "state_sha256": "bce6d0eff1dc02ce7c9ce4d3a085293a8951299fdfc7844376aa327b31b0613c",
+      "record_sha256": "1f053c32d65f728d5fdf821ee0112dff976e494e7b2d1eb675771e609122a478",
+      "split": "validation",
+      "family_id": "room-32-32-4/family-20"
+    },
+    {
+      "query_id": "room-32-32-4/family-20/k24/pool-q3",
+      "state_sha256": "f04e27d0cdeae2caf4003094ebf2c92dfb67f66c9c23c4fad470278d188341c8",
+      "record_sha256": "d343a7188fce7cc0577d2abb6d06f2b151d50466a00971a7911186b81a5683b8",
+      "split": "validation",
+      "family_id": "room-32-32-4/family-20"
+    },
+    {
+      "query_id": "warehouse-32-32-aisles/family-20/k32/pool-q0",
+      "state_sha256": "90b5bdeb0f4ca047f98459d7ff95b4b800ba2f32c9085cc4d886811b05054445",
+      "record_sha256": "ae23923b08ce85ef7a1d47e2c1c3cf98b603de205668dcd98da99233848c82dc",
+      "split": "validation",
+      "family_id": "warehouse-32-32-aisles/family-20"
+    },
+    {
+      "query_id": "warehouse-32-32-aisles/family-20/k32/pool-q1",
+      "state_sha256": "7d14ab904e262dcd5e9b4cdd4b5ef794ee9cf406a60fa79c95c3a6c175e7c24e",
+      "record_sha256": "3a808314ac2ab966c1f73c62aa19289d4ea8e1685a5783f08717543c880fb56d",
+      "split": "validation",
+      "family_id": "warehouse-32-32-aisles/family-20"
+    },
+    {
+      "query_id": "warehouse-32-32-aisles/family-20/k32/pool-q2",
+      "state_sha256": "fb02bc9b6fb8b71f048f0a51dba32bf25349336c4c0e07d569ff691e7a38d76a",
+      "record_sha256": "e637117f6dcd2059a88d9218efda56d48df74a7fe99ee4dbf530a2d3adcf3d25",
+      "split": "validation",
+      "family_id": "warehouse-32-32-aisles/family-20"
+    },
+    {
+      "query_id": "warehouse-32-32-aisles/family-20/k32/pool-q3",
+      "state_sha256": "e143368992552040acbd94caf074edcd6224025734a0a13d6cf5fbd2063fc589",
+      "record_sha256": "a83d251b3d5e9d32c6d3119ad559e465bc7331567f96666c7c00a1982050cc73",
+      "split": "validation",
+      "family_id": "warehouse-32-32-aisles/family-20"
+    },
+    {
+      "query_id": "random-32-32-20/family-21/k24/pool-q0",
+      "state_sha256": "9121bec3e7dda49f2e21aee593c722da01539ee118e4347ab156e75c341e473e",
+      "record_sha256": "a2bc88c03e0e11b16a550cec8578f4e5c54f155141bb11c10cee0cd69fcb6774",
+      "split": "validation",
+      "family_id": "random-32-32-20/family-21"
+    },
+    {
+      "query_id": "random-32-32-20/family-21/k24/pool-q1",
+      "state_sha256": "1f6135776e3df7c951f53e53d6ad851e36b09e2305259a4de77109fa3dfd336b",
+      "record_sha256": "d68c6b95fab3066b88adeec50e1f0463ee3ae3453f6e993619979b2a5bf7f81e",
+      "split": "validation",
+      "family_id": "random-32-32-20/family-21"
+    },
+    {
+      "query_id": "random-32-32-20/family-21/k24/pool-q2",
+      "state_sha256": "f20a0df4c9daf024c4a57ae329f5bb503e55c92ac3c1fb4d1ae7e69493eef1ed",
+      "record_sha256": "55f9ff44e60fcb92b815936df30fcdf7e72847528555c1ca4b48974a0273a371",
+      "split": "validation",
+      "family_id": "random-32-32-20/family-21"
+    },
+    {
+      "query_id": "random-32-32-20/family-21/k24/pool-q3",
+      "state_sha256": "34ca4fdc3f36466e411c7d0a0b1c5f8e308f18d52a7f79d40a9b5554770de281",
+      "record_sha256": "a6e790dbca173e27c3aa40d9c9c91d4f3847aba9b025eb025a768c1fbcfb8ea4",
+      "split": "validation",
+      "family_id": "random-32-32-20/family-21"
+    },
+    {
+      "query_id": "room-32-32-4/family-21/k32/pool-q0",
+      "state_sha256": "1d0ce1be31a5c5b221eb1a8a9e78a0c78944c8b27f89cb8191e24b6555397791",
+      "record_sha256": "a1e73c296b65c788e2d5b8ffb18ec95662911e21810af84d11dee535ea9e2e15",
+      "split": "validation",
+      "family_id": "room-32-32-4/family-21"
+    },
+    {
+      "query_id": "room-32-32-4/family-21/k32/pool-q1",
+      "state_sha256": "8f2b593c59e4056c9d67d82931ce0f095b80f17fb66576e333b183b604e285da",
+      "record_sha256": "27b1fbe731b8bc8269302ff85edf4db3a53d9843cfa76c860ad7b9dba6757c7d",
+      "split": "validation",
+      "family_id": "room-32-32-4/family-21"
+    },
+    {
+      "query_id": "room-32-32-4/family-21/k32/pool-q2",
+      "state_sha256": "9b95c15039090a474ffc0abbed819ba6fdf63d80be6a8c00f50997cb30a35836",
+      "record_sha256": "0f858f431b610f79d32b4c9c8bc4e1f70f1c3494936299262c3ba03ff96104ae",
+      "split": "validation",
+      "family_id": "room-32-32-4/family-21"
+    },
+    {
+      "query_id": "room-32-32-4/family-21/k32/pool-q3",
+      "state_sha256": "c0e2c41c50143a4b0c62c994bb1192cf5ceb2373b26ac48a7453de937e3db64d",
+      "record_sha256": "992cc83c1b01810e1fc52fe196a5cd8e17bcc14fdccfec19c6cef6a29e1eddd0",
+      "split": "validation",
+      "family_id": "room-32-32-4/family-21"
+    },
+    {
+      "query_id": "warehouse-32-32-aisles/family-21/k16/pool-q0",
+      "state_sha256": "6f6041047307d18ccadbedbd76ba17c2c313a19a632e2df595f6d5a4b8267072",
+      "record_sha256": "e400a9e77ebc38fc30ce8b5af942712fe78fa4df3e78bf6d29ba5192f70eef48",
+      "split": "validation",
+      "family_id": "warehouse-32-32-aisles/family-21"
+    },
+    {
+      "query_id": "random-32-32-20/family-22/k32/pool-q0",
+      "state_sha256": "a0218e33abe3b19b5247097e666a490740144e3d122609cf8b9068bf63201eee",
+      "record_sha256": "23fe359b3ca7b745a9ad71e4c67e771fd326759ffc0ae2cba07ab7099b95703d",
+      "split": "validation",
+      "family_id": "random-32-32-20/family-22"
+    },
+    {
+      "query_id": "random-32-32-20/family-22/k32/pool-q1",
+      "state_sha256": "68a4d103fa9c813c2be2fc5e38a9b5802ad2bd73e7a702bcea773d1f07795f85",
+      "record_sha256": "606dc0966fde605e97f029ac4e358e47da7f36f3ec75ba91ecf4f61da065eea7",
+      "split": "validation",
+      "family_id": "random-32-32-20/family-22"
+    },
+    {
+      "query_id": "random-32-32-20/family-22/k32/pool-q2",
+      "state_sha256": "883afeb532620a17f6c59db9e97779fb4ff93af13c0086ef86132e7b43f204c4",
+      "record_sha256": "4602c351adb19af59fff9bf7a25b0378dd4ed96850ffb0fc4fbdfac85a24c87e",
+      "split": "validation",
+      "family_id": "random-32-32-20/family-22"
+    },
+    {
+      "query_id": "random-32-32-20/family-22/k32/pool-q3",
+      "state_sha256": "a91a5ac956fdb2b9bd290396908cce3ff1dd8f78760c885b56d4f8f63548192a",
+      "record_sha256": "64c40037ad179807a8f3982915fcfb3c8a43fdf73bfb8e04581d70d45d77380d",
+      "split": "validation",
+      "family_id": "random-32-32-20/family-22"
+    },
+    {
+      "query_id": "room-32-32-4/family-22/k16/pool-q0",
+      "state_sha256": "daa8121361e96049bc42065c31fe38a23d182727d853d9b6074b237023b720e9",
+      "record_sha256": "419a8edaa0e9c4c0f4423aafebaa8d65baa9aa58d99c7d793a769555f6ec1080",
+      "split": "validation",
+      "family_id": "room-32-32-4/family-22"
+    },
+    {
+      "query_id": "room-32-32-4/family-22/k16/pool-q1",
+      "state_sha256": "0d6dfe8d85093995e86838769c839f2c5e119f82d30f98e00dcf953a41f89023",
+      "record_sha256": "bdfb9dab322006ebe7fa58c12dd509a48a831933a0621f5a95f125f11ac5be20",
+      "split": "validation",
+      "family_id": "room-32-32-4/family-22"
+    },
+    {
+      "query_id": "room-32-32-4/family-22/k16/pool-q2",
+      "state_sha256": "222360378bbccd8a82374ff4c91f2cee8bb5cfdc6fbc15411a4d648a8a0fa593",
+      "record_sha256": "ae3cfff565cb50bb7d10aac261c7ff6f88a4b7b1402f5757b2e0f6a0fe5c0240",
+      "split": "validation",
+      "family_id": "room-32-32-4/family-22"
+    },
+    {
+      "query_id": "room-32-32-4/family-22/k16/pool-q3",
+      "state_sha256": "007f2fb22df29789a77205620cc30fb2d81d9ac0d246e1baf3731fbca881cb5c",
+      "record_sha256": "5cb13448158c90a30b1845ab24b88495a411c7a49e30e83aca34012debd33002",
+      "split": "validation",
+      "family_id": "room-32-32-4/family-22"
+    },
+    {
+      "query_id": "warehouse-32-32-aisles/family-22/k24/pool-q0",
+      "state_sha256": "88b5af3a500d8746f0d93d419ea30e95e8d69ab748dc282fb9e80f3919db318d",
+      "record_sha256": "5b23164145c09fad5da32609ad1a7462a369ae4a575fa75acdd5298e82ac4e76",
+      "split": "validation",
+      "family_id": "warehouse-32-32-aisles/family-22"
+    },
+    {
+      "query_id": "warehouse-32-32-aisles/family-22/k24/pool-q1",
+      "state_sha256": "006cdc670a7146ce26fce1d898619b39555cc6bdcd312a16399ca3b9eac9f479",
+      "record_sha256": "07ad25de7f1e259983a2a5411e7c015e7ad2f720e3faeecadf9d452bdf6f3c9b",
+      "split": "validation",
+      "family_id": "warehouse-32-32-aisles/family-22"
+    },
+    {
+      "query_id": "warehouse-32-32-aisles/family-22/k24/pool-q2",
+      "state_sha256": "08eb495c32e2a3252a3da1dd5cf7060ee297e4832e804e4117f3454262c1fa51",
+      "record_sha256": "592d762fbf33b7e83c0dce879dd7e643d17a07457c42e2033bbfe3e841639457",
+      "split": "validation",
+      "family_id": "warehouse-32-32-aisles/family-22"
+    },
+    {
+      "query_id": "warehouse-32-32-aisles/family-22/k24/pool-q3",
+      "state_sha256": "c047789ec0f167560d3611c2f3241bb6032cad22d7e0dbba7fac8c819ef93225",
+      "record_sha256": "39a6687db6e5e7f6aa6ef1b633487d5d0b650daa06f17583b979d0a9e25409c6",
+      "split": "validation",
+      "family_id": "warehouse-32-32-aisles/family-22"
+    },
+    {
+      "query_id": "room-32-32-4/family-23/k24/pool-q0",
+      "state_sha256": "a559e2479570ce0969728a3e4d91714bdb88db44d0725aef96b59c1e0bdaccf6",
+      "record_sha256": "d7a07e5f9325026966a6dc5763df3a5823a6eea776110d0fa84192eb906ff279",
+      "split": "validation",
+      "family_id": "room-32-32-4/family-23"
+    },
+    {
+      "query_id": "room-32-32-4/family-23/k24/pool-q1",
+      "state_sha256": "9c88ededc845d5a0d848743094514a0d8b1228b4445c1a91d6c651fca4b91927",
+      "record_sha256": "e76ae7827aedd5389aaf604e8d6759f8a262180c1d008666706bc5c27c7be455",
+      "split": "validation",
+      "family_id": "room-32-32-4/family-23"
+    },
+    {
+      "query_id": "room-32-32-4/family-23/k24/pool-q2",
+      "state_sha256": "e1e471b76940cff5203a628507af88e9ac1926603af385e8e1613d86a0cceb6b",
+      "record_sha256": "051dde09b1cac827d03b65eee59adcc792644e0efd72ade21401584099ce0dc5",
+      "split": "validation",
+      "family_id": "room-32-32-4/family-23"
+    },
+    {
+      "query_id": "room-32-32-4/family-23/k24/pool-q3",
+      "state_sha256": "4de1b7f869833827ecbec42102dc25446580940d2e2bbd5ec7d8054568dc329b",
+      "record_sha256": "95e9126092e621b0ee17559d486dc4f9394e517f2fb094752661fc6478d91533",
+      "split": "validation",
+      "family_id": "room-32-32-4/family-23"
+    },
+    {
+      "query_id": "warehouse-32-32-aisles/family-23/k32/pool-q0",
+      "state_sha256": "cbdce8799cd5ea5052a2fc9377bf7190e38b90fb7a90b5c356abf995f94395fa",
+      "record_sha256": "01d7c5eb28df9d89bb588b1951cf635ea02ccc4c566154b0520c97e8f7fe8f60",
+      "split": "validation",
+      "family_id": "warehouse-32-32-aisles/family-23"
+    },
+    {
+      "query_id": "warehouse-32-32-aisles/family-23/k32/pool-q1",
+      "state_sha256": "a3599327dba992b20208681e89ec4be7c6c4e06ba34a1ff41ad7c01dcf19c6ec",
+      "record_sha256": "fc1e1ebeec28cfe423b02482a10d50b21749484d22c87b6998c7e6a0a0a82b59",
+      "split": "validation",
+      "family_id": "warehouse-32-32-aisles/family-23"
+    },
+    {
+      "query_id": "warehouse-32-32-aisles/family-23/k32/pool-q2",
+      "state_sha256": "5a5a37f752b108212b71e21dfadea16860e475ae35a6427bf4600b6f0dfa6992",
+      "record_sha256": "04db4c7cd5f15a68921c8f2b9137cc4b442a3b2bbb81f49afa1bf0023f0a2f0a",
+      "split": "validation",
+      "family_id": "warehouse-32-32-aisles/family-23"
+    },
+    {
+      "query_id": "warehouse-32-32-aisles/family-23/k32/pool-q3",
+      "state_sha256": "c48005ef3e0d3d704208d124512f41fe625b14eded1562b960726e2d9ac0a386",
+      "record_sha256": "e918d2d992d25fce67d0efe0d7a230257d7546de7d6d1d049ae81b0fee2b862f",
+      "split": "validation",
+      "family_id": "warehouse-32-32-aisles/family-23"
+    }
+  ],
+  "protocol_sha256": "90439f304e5ce024b57b2ae54878aae7a28b40f4ed45d33ec42f83a1ca35226f",
+  "source_sha256": "7da727c21bc88c71ff728672a9ad563f8d96ce32e71d42005148e676422c0654"
+}

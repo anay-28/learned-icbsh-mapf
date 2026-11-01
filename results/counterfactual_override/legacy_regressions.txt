@@ -1,0 +1,53 @@
+test_exhaustive_two_agent_optimality (mapf.test_recovery.RecoveryTests.test_exhaustive_two_agent_optimality) ... ok
+test_full_and_single_agent_detection (mapf.test_recovery.RecoveryTests.test_full_and_single_agent_detection) ... ok
+test_incremental_detector_matches_full (mapf.test_recovery.RecoveryTests.test_incremental_detector_matches_full) ... ok
+test_initial_collisions_and_invalid_instances (mapf.test_recovery.RecoveryTests.test_initial_collisions_and_invalid_instances) ... ok
+test_initial_constraints_not_truncated (mapf.test_recovery.RecoveryTests.test_initial_constraints_not_truncated) ... ok
+test_invalid_ranker_fails (mapf.test_recovery.RecoveryTests.test_invalid_ranker_fails) ... ok
+test_isolated_runner_and_hard_timeout (mapf.test_recovery.RecoveryTests.test_isolated_runner_and_hard_timeout) ... ok
+test_late_constraints_and_explicit_horizon (mapf.test_recovery.RecoveryTests.test_late_constraints_and_explicit_horizon) ... ok
+test_missing_model_is_explicit (mapf.test_recovery.RecoveryTests.test_missing_model_is_explicit) ... ok
+test_mvc_all_five_vertex_graphs (mapf.test_recovery.RecoveryTests.test_mvc_all_five_vertex_graphs) ... ok
+test_native_model_roundtrip (mapf.test_recovery.RecoveryTests.test_native_model_roundtrip) ... ok
+test_residual_is_lower_bound_on_child_progress (mapf.test_recovery.RecoveryTests.test_residual_is_lower_bound_on_child_progress) ... ok
+test_seeded_three_agent_and_guarded_selection (mapf.test_recovery.RecoveryTests.test_seeded_three_agent_and_guarded_selection) ... ok
+test_subset_and_child_context_counts (mapf.test_recovery.RecoveryTests.test_subset_and_child_context_counts) ... ok
+test_undefined_correlation_and_target_direction (mapf.test_recovery.RecoveryTests.test_undefined_correlation_and_target_direction) ... ok
+test_component_sampling_excludes_disconnected_cells (mapf.test_day3.Day3Tests.test_component_sampling_excludes_disconnected_cells) ... ok
+test_frozen_family_splits_and_integrity (mapf.test_day3.Day3Tests.test_frozen_family_splits_and_integrity) ... ok
+test_gate_boundaries_and_no_training_after_failure (mapf.test_day3.Day3Tests.test_gate_boundaries_and_no_training_after_failure) ... ok
+test_no_invented_censored_preferences (mapf.test_day3.Day3Tests.test_no_invented_censored_preferences) ... ok
+test_partial_order_sign_and_antisymmetry (mapf.test_day3.Day3Tests.test_partial_order_sign_and_antisymmetry) ... ok
+test_query_metrics_ignore_unobserved_and_half_credit_ties (mapf.test_day3.Day3Tests.test_query_metrics_ignore_unobserved_and_half_credit_ties) ... ok
+test_forced_action_and_cap_are_explicit (mapf.test_repair.RepairTests.test_forced_action_and_cap_are_explicit) ... ok
+test_forced_continuations_match_independent_optima (mapf.test_repair.RepairTests.test_forced_continuations_match_independent_optima) ... ok
+test_guard_order_unique_and_model_input (mapf.test_repair.RepairTests.test_guard_order_unique_and_model_input) ... ok
+test_invalid_saved_paths_and_goal_constraints_rejected (mapf.test_repair.RepairTests.test_invalid_saved_paths_and_goal_constraints_rejected) ... ok
+test_nonroot_continuation_matches_constrained_solve (mapf.test_repair.RepairTests.test_nonroot_continuation_matches_constrained_solve) ... ok
+test_model_inference_has_no_child_teacher (mapf.test_ml_revision.RevisionTests.test_model_inference_has_no_child_teacher) ... ok
+test_pool_always_contains_residual_winner_and_is_deterministic (mapf.test_ml_revision.RevisionTests.test_pool_always_contains_residual_winner_and_is_deterministic) ... ok
+test_revised_policies_preserve_tiny_independent_optima (mapf.test_ml_revision.RevisionTests.test_revised_policies_preserve_tiny_independent_optima) ... ok
+test_teacher_matches_actual_root_children (mapf.test_ml_revision.RevisionTests.test_teacher_matches_actual_root_children) ... ok
+test_three_agent_choices_match_independent_optima (mapf.test_ml_revision.RevisionTests.test_three_agent_choices_match_independent_optima) ... ok
+test_unknown_and_infeasibility_are_not_finite_penalties (mapf.test_ml_revision.RevisionTests.test_unknown_and_infeasibility_are_not_finite_penalties) ... ok
+test_approved_source_and_models_unchanged (test_final_study.FinalStudyTests.test_approved_source_and_models_unchanged) ... ok
+test_family_average_precedes_ratio_and_bootstrap (test_final_study.FinalStudyTests.test_family_average_precedes_ratio_and_bootstrap) ... ok
+test_monitor_six_policies_on_independent_tiny_problem (test_final_study.FinalStudyTests.test_monitor_six_policies_on_independent_tiny_problem) ... ok
+test_timeout_is_explicit (test_final_study.FinalStudyTests.test_timeout_is_explicit) ... ok
+
+----------------------------------------------------------------------
+Ran 36 tests in 2.876s
+
+OK
+
+Historical submission verification:
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/tmp/tmpe9re2drm/verify_submission.py", line 52, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/tmp/tmpe9re2drm/verify_submission.py", line 34, in main
+    assert recomputed==summary['policies'][policy], f'Analysis mismatch for {policy}'
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: Analysis mismatch for model_a

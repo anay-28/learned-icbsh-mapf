@@ -1,0 +1,21 @@
+{
+  "stage": "q512",
+  "statistics": {
+    "informative_train_queries": 80,
+    "positive_train_queries": 41,
+    "positive_train_families": 14,
+    "positive_train_maps": 3,
+    "headroom_rate": 0.5125,
+    "median_relative_saving": 0.08771929824561403
+  },
+  "checks": {
+    "informative_train_queries": true,
+    "positive_train_queries": true,
+    "positive_train_families": true,
+    "positive_train_maps": true,
+    "headroom_rate": true,
+    "median_relative_saving": false
+  },
+  "gate_passed": false,
+  "conclusion": "STOP: insufficient supported headroom/training support; distinguish censoring from residual saturation"
+}

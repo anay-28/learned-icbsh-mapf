@@ -1,0 +1,21 @@
+{
+  "stage": "q128",
+  "statistics": {
+    "informative_train_queries": 63,
+    "positive_train_queries": 29,
+    "positive_train_families": 12,
+    "positive_train_maps": 3,
+    "headroom_rate": 0.4603174603174603,
+    "median_relative_saving": 0.1
+  },
+  "checks": {
+    "informative_train_queries": true,
+    "positive_train_queries": true,
+    "positive_train_families": true,
+    "positive_train_maps": true,
+    "headroom_rate": true,
+    "median_relative_saving": true
+  },
+  "gate_passed": true,
+  "conclusion": "Sufficient bounded downstream headroom for frozen model fitting"
+}

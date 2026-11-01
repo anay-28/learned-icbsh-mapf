@@ -1,0 +1,39 @@
+{
+  "schema_version": "bdro-v1",
+  "protocol_sha256": "90439f304e5ce024b57b2ae54878aae7a28b40f4ed45d33ec42f83a1ca35226f",
+  "source_sha256": "7da727c21bc88c71ff728672a9ad563f8d96ce32e71d42005148e676422c0654",
+  "input_sha256": "a7f9992a837fdc5ccb25b4c602bf21d3a6c5e3bb08a0f4773910bfb375d59d32",
+  "report_sha256": "78111d64f39c3695a90c352fb101148606a75f74ac91406954b26561fd1a4b12",
+  "reproduction_sha256": "22de150eefcdf09818d825c131f46cf200111d27e6bf49670b2f3fc8953bef69",
+  "source_archive_sha256": "125f1eb8d118125df3aacd4a8b3963fed6c59e01286c0ae17193be5440a035fd",
+  "expected_gated_off_artifacts": [
+    "model_logistic.json",
+    "model_ridge.json",
+    "validation.json",
+    "movingai_holdout_manifest.json",
+    "evaluation_schedule.json",
+    "evaluation_runs.jsonl"
+  ],
+  "branch": "bdro-two-day-study",
+  "result": "STOP at practical headroom gate; no fitted study model or final benchmark",
+  "deliverable_files": {
+    "cro_protocol.py": "6dd0f0453ef5dbfce63940dd9ede7d7923b03dfdd50e04dd2feb1064400710a4",
+    "collect_downstream.py": "811b378921cd8a5ad49db1fd7b5be9621c7af1d9aa1fb49cbfe134da4b38e3cc",
+    "verify_downstream.py": "d7c36e6827bcecffe78d16d1e1b27e09f8b2fdca2fc7cd635e945aae809fbca8",
+    "analyze_downstream.py": "f1bbf880b58c9701a6a740ac01ac22116c7719a760038f4a70a921049869da72",
+    "train_override.py": "12fe5085e88054ca05e74e1da2dedbf8df6e031ec821695890e6c1327d5f8bfb",
+    "prepare_movingai_holdout.py": "3b6da46745a7104e3f5f660c2e40c3c7e09f84b90fff7ec7ff84f490dbeee613",
+    "override_study.py": "d04eee7a2a577ba2ae6b5f3822aabbba30c4246c64972afb58ea66665914e78f",
+    "override_figures.py": "9a44ba3d1da2b9859b7488057a3e4012b94ad1a408758823f0b675afb4812fa1",
+    "test_counterfactual_override.py": "57eddb20012ab958791ba0283e134ae747f9da6ef8be0aa4d0b18c8210ac68d2",
+    "mapf/downstream_teacher.py": "e2749d788667a23fdddd10e314fcf206531ab3e9e6b69cdca39f7743df92a808",
+    "mapf/override_features.py": "a5eb4eefdd2bd025a3b7f3f27c38592a982192bcc961e9efc797c39f25e21d77",
+    "mapf/override_policy.py": "eaa53637e0ea4241c714a41db8c5f253afab4ede2832f9f65b346f43569f8b21",
+    "mapf/movingai.py": "16b5d1fc5f20ec8d210b01cf662b711f400a7a731bf90cefb943ff7f59b662ea",
+    "mapf/override_benchmark_worker.py": "89661ea38046de06588a80202ad083ad25dda6531bde61310965457e19506e2e",
+    "COUNTERFACTUAL_OVERRIDE_REPORT.md": "78111d64f39c3695a90c352fb101148606a75f74ac91406954b26561fd1a4b12"
+  },
+  "new_test_count": 32,
+  "legacy_test_count": 36,
+  "legacy_exact_artifact_verifier_passed": false
+}

@@ -1,0 +1,8 @@
+{
+  "schema_version": "bdro-v1",
+  "protocol_sha256": "90439f304e5ce024b57b2ae54878aae7a28b40f4ed45d33ec42f83a1ca35226f",
+  "source_sha256": "7da727c21bc88c71ff728672a9ad563f8d96ce32e71d42005148e676422c0654",
+  "input_sha256": "a7f9992a837fdc5ccb25b4c602bf21d3a6c5e3bb08a0f4773910bfb375d59d32",
+  "trained": false,
+  "reason": "Frozen integrity/headroom gate did not pass; no forced fitting"
+}

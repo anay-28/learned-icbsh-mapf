@@ -1,0 +1,62 @@
+test_candidate_and_content_hashes_deterministic (test_counterfactual_override.ArtifactAndHoldoutTests.test_candidate_and_content_hashes_deterministic) ... ok
+test_deterministic_full_holdout_and_no_overwrite (test_counterfactual_override.ArtifactAndHoldoutTests.test_deterministic_full_holdout_and_no_overwrite) ... ok
+test_exclusive_create_and_idempotent_identical_artifact (test_counterfactual_override.ArtifactAndHoldoutTests.test_exclusive_create_and_idempotent_identical_artifact) ... ok
+test_family_average_precedes_ratio_and_stratified_bootstrap (test_counterfactual_override.ArtifactAndHoldoutTests.test_family_average_precedes_ratio_and_stratified_bootstrap) ... ok
+test_scenario_coordinates_and_first_k (test_counterfactual_override.ArtifactAndHoldoutTests.test_scenario_coordinates_and_first_k) ... ok
+test_best_bound_not_largest_nominal_budget (test_counterfactual_override.EvidenceTests.test_best_bound_not_largest_nominal_budget) ... ok
+test_complete_cost_and_solvability_disagreement_fails (test_counterfactual_override.EvidenceTests.test_complete_cost_and_solvability_disagreement_fails) ... ok
+test_completed_candidates_are_never_escalated (test_counterfactual_override.EvidenceTests.test_completed_candidates_are_never_escalated) ... ok
+test_exact_comparison_both_directions (test_counterfactual_override.EvidenceTests.test_exact_comparison_both_directions) ... ok
+test_exact_frozen_budgets (test_counterfactual_override.EvidenceTests.test_exact_frozen_budgets) ... ok
+test_exact_tie_excluded (test_counterfactual_override.EvidenceTests.test_exact_tie_excluded) ... ok
+test_independent_comparator_agrees_for_all_status_cases (test_counterfactual_override.EvidenceTests.test_independent_comparator_agrees_for_all_status_cases) ... ok
+test_invalid_status_and_negative_work_rejected (test_counterfactual_override.EvidenceTests.test_invalid_status_and_negative_work_rejected) ... ok
+test_missing_prior_stage_rejected (test_counterfactual_override.EvidenceTests.test_missing_prior_stage_rejected) ... ok
+test_observed_lower_bound_only (test_counterfactual_override.EvidenceTests.test_observed_lower_bound_only) ... ok
+test_only_unknown_pairs_escalate (test_counterfactual_override.EvidenceTests.test_only_unknown_pairs_escalate) ... ok
+test_two_censored_are_unknown_even_at_different_caps (test_counterfactual_override.EvidenceTests.test_two_censored_are_unknown_even_at_different_caps) ... ok
+test_cold_worker_override_with_transparent_model (test_counterfactual_override.IntegrationTests.test_cold_worker_override_with_transparent_model) ... ok
+test_cold_worker_plain_residual_and_model_b_solve (test_counterfactual_override.IntegrationTests.test_cold_worker_plain_residual_and_model_b_solve) ... ok
+test_end_to_end_hard_cap_is_enforced (test_counterfactual_override.IntegrationTests.test_end_to_end_hard_cap_is_enforced) ... ok
+test_frozen_legacy_files_remain_byte_identical (test_counterfactual_override.IntegrationTests.test_frozen_legacy_files_remain_byte_identical) ... ok
+test_invalid_feature_schema_and_values_fail (test_counterfactual_override.IntegrationTests.test_invalid_feature_schema_and_values_fail) ... ok
+test_pool_replay_stable_and_residual_first (test_counterfactual_override.IntegrationTests.test_pool_replay_stable_and_residual_first) ... ok
+test_real_forced_split_solutions_and_constraints (test_counterfactual_override.IntegrationTests.test_real_forced_split_solutions_and_constraints) ... ok
+test_swapping_all_ordered_features_is_invariant (test_counterfactual_override.IntegrationTests.test_swapping_all_ordered_features_is_invariant) ... ok
+test_unapplied_split_is_integrity_failure (test_counterfactual_override.IntegrationTests.test_unapplied_split_is_integrity_failure) ... ok
+test_actual_logistic_ridge_fit_and_independent_reload (test_counterfactual_override.ModelTests.test_actual_logistic_ridge_fit_and_independent_reload) ... /workspace/learned-icbsh-mapf-final-study/.venv/lib/python3.12/site-packages/sklearn/linear_model/_logistic.py:1381: FutureWarning: 'penalty' was deprecated in version 1.8 and will be removed in 1.10. To avoid this warning, leave 'penalty' set to its default value and use 'l1_ratio' or 'C' instead. Use l1_ratio=0 instead of penalty='l2', l1_ratio=1 instead of penalty='l1', l1_ratio set to a float between 0 and 1 instead of penalty='elasticnet', and C=np.inf instead of penalty=None.
+  warnings.warn(
+ok
+test_family_leakage_and_unknown_training_fail (test_counterfactual_override.ModelTests.test_family_leakage_and_unknown_training_fail) ... ok
+test_model_json_roundtrip_and_tampering (test_counterfactual_override.ModelTests.test_model_json_roundtrip_and_tampering) ... ok
+test_probability_gate_at_below_and_above_tau (test_counterfactual_override.ModelTests.test_probability_gate_at_below_and_above_tau) ... ok
+test_single_candidate_skips_features_and_model (test_counterfactual_override.ModelTests.test_single_candidate_skips_features_and_model) ... ok
+test_training_only_and_query_weights (test_counterfactual_override.ModelTests.test_training_only_and_query_weights) ... ok
+
+----------------------------------------------------------------------
+Ran 32 tests in 1.348s
+
+OK
+{
+  "schema_version": "bdro-v1",
+  "protocol_sha256": "p",
+  "source_sha256": "s",
+  "input_sha256": "i",
+  "model_sha256": "d7da88855707d12272c7fa03af1bb89197c227bea92f1baf41688a49e4c4d36f",
+  "roc_auc": 1.0,
+  "precision_at_tau": 1.0,
+  "tau": 0.75,
+  "accepted_overrides": 2,
+  "accepted_families": 1,
+  "accepted_unknown": 0,
+  "precision_rule": "Query-level highest-probability action; ties/unknown accepted actions count as unproven (not wins)",
+  "checks": {
+    "roc_auc": true,
+    "precision": true,
+    "accepted_overrides": false,
+    "accepted_families": false
+  },
+  "gate_passed": false,
+  "test_used": false,
+  "validation_used_for_fit": false
+}

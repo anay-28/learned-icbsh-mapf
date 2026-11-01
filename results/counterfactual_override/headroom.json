@@ -1,0 +1,775 @@
+{
+  "schema_version": "bdro-v1",
+  "protocol_sha256": "90439f304e5ce024b57b2ae54878aae7a28b40f4ed45d33ec42f83a1ca35226f",
+  "source_sha256": "7da727c21bc88c71ff728672a9ad563f8d96ce32e71d42005148e676422c0654",
+  "input_sha256": "a7f9992a837fdc5ccb25b4c602bf21d3a6c5e3bb08a0f4773910bfb375d59d32",
+  "stage": "q512",
+  "statistics": {
+    "informative_train_queries": 80,
+    "positive_train_queries": 41,
+    "positive_train_families": 14,
+    "positive_train_maps": 3,
+    "headroom_rate": 0.5125,
+    "median_relative_saving": 0.08771929824561403
+  },
+  "checks": {
+    "informative_train_queries": true,
+    "positive_train_queries": true,
+    "positive_train_families": true,
+    "positive_train_maps": true,
+    "headroom_rate": true,
+    "median_relative_saving": false
+  },
+  "gate_passed": false,
+  "saving_rule": "Use conservative observed relative-saving lower bound when residual is censored; no fabricated completion count",
+  "family_bootstrap_95": [
+    0.35526315789473684,
+    0.676056338028169
+  ],
+  "by_map": {
+    "random-32-32-20": {
+      "informative": 38,
+      "positives": 16,
+      "rate": 0.42105263157894735
+    },
+    "room-32-32-4": {
+      "informative": 18,
+      "positives": 6,
+      "rate": 0.3333333333333333
+    },
+    "warehouse-32-32-aisles": {
+      "informative": 24,
+      "positives": 19,
+      "rate": 0.7916666666666666
+    }
+  },
+  "informative_queries": [
+    {
+      "query_id": "random-32-32-20/family-09/k24/pool-q2",
+      "family_id": "random-32-32-20/family-09",
+      "map_name": "random-32-32-20",
+      "positive": false,
+      "saving_lower_bound": null,
+      "saving_exact": null,
+      "absolute_saving_lower_bound": 0
+    },
+    {
+      "query_id": "random-32-32-20/family-09/k24/pool-q3",
+      "family_id": "random-32-32-20/family-09",
+      "map_name": "random-32-32-20",
+      "positive": false,
+      "saving_lower_bound": null,
+      "saving_exact": null,
+      "absolute_saving_lower_bound": 0
+    },
+    {
+      "query_id": "random-32-32-20/family-09/k24/pool-q4",
+      "family_id": "random-32-32-20/family-09",
+      "map_name": "random-32-32-20",
+      "positive": true,
+      "saving_lower_bound": 0.07017543859649122,
+      "saving_exact": 0.07017543859649122,
+      "absolute_saving_lower_bound": 4
+    },
+    {
+      "query_id": "random-32-32-20/family-09/k24/pool-q5",
+      "family_id": "random-32-32-20/family-09",
+      "map_name": "random-32-32-20",
+      "positive": true,
+      "saving_lower_bound": 0.18181818181818182,
+      "saving_exact": 0.18181818181818182,
+      "absolute_saving_lower_bound": 10
+    },
+    {
+      "query_id": "random-32-32-20/family-09/k24/pool-q6",
+      "family_id": "random-32-32-20/family-09",
+      "map_name": "random-32-32-20",
+      "positive": false,
+      "saving_lower_bound": null,
+      "saving_exact": null,
+      "absolute_saving_lower_bound": 0
+    },
+    {
+      "query_id": "random-32-32-20/family-09/k24/pool-q7",
+      "family_id": "random-32-32-20/family-09",
+      "map_name": "random-32-32-20",
+      "positive": false,
+      "saving_lower_bound": null,
+      "saving_exact": null,
+      "absolute_saving_lower_bound": 0
+    },
+    {
+      "query_id": "random-32-32-20/family-10/k32/pool-q0",
+      "family_id": "random-32-32-20/family-10",
+      "map_name": "random-32-32-20",
+      "positive": false,
+      "saving_lower_bound": null,
+      "saving_exact": null,
+      "absolute_saving_lower_bound": 0
+    },
+    {
+      "query_id": "random-32-32-20/family-10/k32/pool-q2",
+      "family_id": "random-32-32-20/family-10",
+      "map_name": "random-32-32-20",
+      "positive": true,
+      "saving_lower_bound": 0.09090909090909091,
+      "saving_exact": 0.09090909090909091,
+      "absolute_saving_lower_bound": 3
+    },
+    {
+      "query_id": "random-32-32-20/family-10/k32/pool-q3",
+      "family_id": "random-32-32-20/family-10",
+      "map_name": "random-32-32-20",
+      "positive": true,
+      "saving_lower_bound": 0.1,
+      "saving_exact": 0.1,
+      "absolute_saving_lower_bound": 3
+    },
+    {
+      "query_id": "random-32-32-20/family-10/k32/pool-q4",
+      "family_id": "random-32-32-20/family-10",
+      "map_name": "random-32-32-20",
+      "positive": true,
+      "saving_lower_bound": 0.07142857142857142,
+      "saving_exact": 0.07142857142857142,
+      "absolute_saving_lower_bound": 2
+    },
+    {
+      "query_id": "random-32-32-20/family-11/k16/pool-q0",
+      "family_id": "random-32-32-20/family-11",
+      "map_name": "random-32-32-20",
+      "positive": false,
+      "saving_lower_bound": null,
+      "saving_exact": null,
+      "absolute_saving_lower_bound": 0
+    },
+    {
+      "query_id": "random-32-32-20/family-11/k16/pool-q1",
+      "family_id": "random-32-32-20/family-11",
+      "map_name": "random-32-32-20",
+      "positive": false,
+      "saving_lower_bound": null,
+      "saving_exact": null,
+      "absolute_saving_lower_bound": 0
+    },
+    {
+      "query_id": "random-32-32-20/family-11/k16/pool-q2",
+      "family_id": "random-32-32-20/family-11",
+      "map_name": "random-32-32-20",
+      "positive": false,
+      "saving_lower_bound": null,
+      "saving_exact": null,
+      "absolute_saving_lower_bound": 0
+    },
+    {
+      "query_id": "random-32-32-20/family-11/k16/pool-q3",
+      "family_id": "random-32-32-20/family-11",
+      "map_name": "random-32-32-20",
+      "positive": false,
+      "saving_lower_bound": null,
+      "saving_exact": null,
+      "absolute_saving_lower_bound": 0
+    },
+    {
+      "query_id": "random-32-32-20/family-11/k16/pool-q4",
+      "family_id": "random-32-32-20/family-11",
+      "map_name": "random-32-32-20",
+      "positive": false,
+      "saving_lower_bound": null,
+      "saving_exact": null,
+      "absolute_saving_lower_bound": 0
+    },
+    {
+      "query_id": "random-32-32-20/family-11/k16/pool-q5",
+      "family_id": "random-32-32-20/family-11",
+      "map_name": "random-32-32-20",
+      "positive": false,
+      "saving_lower_bound": null,
+      "saving_exact": null,
+      "absolute_saving_lower_bound": 0
+    },
+    {
+      "query_id": "random-32-32-20/family-11/k16/pool-q6",
+      "family_id": "random-32-32-20/family-11",
+      "map_name": "random-32-32-20",
+      "positive": false,
+      "saving_lower_bound": null,
+      "saving_exact": null,
+      "absolute_saving_lower_bound": 0
+    },
+    {
+      "query_id": "random-32-32-20/family-11/k16/pool-q7",
+      "family_id": "random-32-32-20/family-11",
+      "map_name": "random-32-32-20",
+      "positive": false,
+      "saving_lower_bound": null,
+      "saving_exact": null,
+      "absolute_saving_lower_bound": 0
+    },
+    {
+      "query_id": "random-32-32-20/family-12/k24/pool-q0",
+      "family_id": "random-32-32-20/family-12",
+      "map_name": "random-32-32-20",
+      "positive": false,
+      "saving_lower_bound": null,
+      "saving_exact": null,
+      "absolute_saving_lower_bound": 0
+    },
+    {
+      "query_id": "random-32-32-20/family-12/k24/pool-q1",
+      "family_id": "random-32-32-20/family-12",
+      "map_name": "random-32-32-20",
+      "positive": false,
+      "saving_lower_bound": null,
+      "saving_exact": null,
+      "absolute_saving_lower_bound": 0
+    },
+    {
+      "query_id": "random-32-32-20/family-12/k24/pool-q2",
+      "family_id": "random-32-32-20/family-12",
+      "map_name": "random-32-32-20",
+      "positive": false,
+      "saving_lower_bound": null,
+      "saving_exact": null,
+      "absolute_saving_lower_bound": 0
+    },
+    {
+      "query_id": "random-32-32-20/family-12/k24/pool-q3",
+      "family_id": "random-32-32-20/family-12",
+      "map_name": "random-32-32-20",
+      "positive": false,
+      "saving_lower_bound": null,
+      "saving_exact": null,
+      "absolute_saving_lower_bound": 0
+    },
+    {
+      "query_id": "random-32-32-20/family-12/k24/pool-q4",
+      "family_id": "random-32-32-20/family-12",
+      "map_name": "random-32-32-20",
+      "positive": true,
+      "saving_lower_bound": 0.047619047619047616,
+      "saving_exact": 0.047619047619047616,
+      "absolute_saving_lower_bound": 1
+    },
+    {
+      "query_id": "random-32-32-20/family-12/k24/pool-q5",
+      "family_id": "random-32-32-20/family-12",
+      "map_name": "random-32-32-20",
+      "positive": false,
+      "saving_lower_bound": null,
+      "saving_exact": null,
+      "absolute_saving_lower_bound": 0
+    },
+    {
+      "query_id": "random-32-32-20/family-12/k24/pool-q6",
+      "family_id": "random-32-32-20/family-12",
+      "map_name": "random-32-32-20",
+      "positive": false,
+      "saving_lower_bound": null,
+      "saving_exact": null,
+      "absolute_saving_lower_bound": 0
+    },
+    {
+      "query_id": "random-32-32-20/family-12/k24/pool-q7",
+      "family_id": "random-32-32-20/family-12",
+      "map_name": "random-32-32-20",
+      "positive": false,
+      "saving_lower_bound": null,
+      "saving_exact": null,
+      "absolute_saving_lower_bound": 0
+    },
+    {
+      "query_id": "random-32-32-20/family-15/k24/pool-q0",
+      "family_id": "random-32-32-20/family-15",
+      "map_name": "random-32-32-20",
+      "positive": true,
+      "saving_lower_bound": 0.08045977011494253,
+      "saving_exact": 0.08045977011494253,
+      "absolute_saving_lower_bound": 7
+    },
+    {
+      "query_id": "random-32-32-20/family-15/k24/pool-q1",
+      "family_id": "random-32-32-20/family-15",
+      "map_name": "random-32-32-20",
+      "positive": true,
+      "saving_lower_bound": 0.03488372093023256,
+      "saving_exact": 0.03488372093023256,
+      "absolute_saving_lower_bound": 3
+    },
+    {
+      "query_id": "random-32-32-20/family-15/k24/pool-q2",
+      "family_id": "random-32-32-20/family-15",
+      "map_name": "random-32-32-20",
+      "positive": true,
+      "saving_lower_bound": 0.05952380952380952,
+      "saving_exact": 0.05952380952380952,
+      "absolute_saving_lower_bound": 5
+    },
+    {
+      "query_id": "random-32-32-20/family-15/k24/pool-q3",
+      "family_id": "random-32-32-20/family-15",
+      "map_name": "random-32-32-20",
+      "positive": false,
+      "saving_lower_bound": null,
+      "saving_exact": null,
+      "absolute_saving_lower_bound": 0
+    },
+    {
+      "query_id": "random-32-32-20/family-15/k24/pool-q4",
+      "family_id": "random-32-32-20/family-15",
+      "map_name": "random-32-32-20",
+      "positive": false,
+      "saving_lower_bound": null,
+      "saving_exact": null,
+      "absolute_saving_lower_bound": 0
+    },
+    {
+      "query_id": "random-32-32-20/family-15/k24/pool-q5",
+      "family_id": "random-32-32-20/family-15",
+      "map_name": "random-32-32-20",
+      "positive": true,
+      "saving_lower_bound": 0.1,
+      "saving_exact": 0.1,
+      "absolute_saving_lower_bound": 3
+    },
+    {
+      "query_id": "random-32-32-20/family-15/k24/pool-q6",
+      "family_id": "random-32-32-20/family-15",
+      "map_name": "random-32-32-20",
+      "positive": true,
+      "saving_lower_bound": 0.29411764705882354,
+      "saving_exact": 0.29411764705882354,
+      "absolute_saving_lower_bound": 5
+    },
+    {
+      "query_id": "random-32-32-20/family-15/k24/pool-q7",
+      "family_id": "random-32-32-20/family-15",
+      "map_name": "random-32-32-20",
+      "positive": true,
+      "saving_lower_bound": 0.3333333333333333,
+      "saving_exact": 0.3333333333333333,
+      "absolute_saving_lower_bound": 5
+    },
+    {
+      "query_id": "random-32-32-20/family-16/k32/pool-q4",
+      "family_id": "random-32-32-20/family-16",
+      "map_name": "random-32-32-20",
+      "positive": true,
+      "saving_lower_bound": 0.5137614678899083,
+      "saving_exact": 0.5137614678899083,
+      "absolute_saving_lower_bound": 56
+    },
+    {
+      "query_id": "random-32-32-20/family-16/k32/pool-q5",
+      "family_id": "random-32-32-20/family-16",
+      "map_name": "random-32-32-20",
+      "positive": true,
+      "saving_lower_bound": 0.5714285714285714,
+      "saving_exact": 0.5714285714285714,
+      "absolute_saving_lower_bound": 60
+    },
+    {
+      "query_id": "random-32-32-20/family-16/k32/pool-q6",
+      "family_id": "random-32-32-20/family-16",
+      "map_name": "random-32-32-20",
+      "positive": true,
+      "saving_lower_bound": 0.5816326530612245,
+      "saving_exact": 0.5816326530612245,
+      "absolute_saving_lower_bound": 57
+    },
+    {
+      "query_id": "random-32-32-20/family-16/k32/pool-q7",
+      "family_id": "random-32-32-20/family-16",
+      "map_name": "random-32-32-20",
+      "positive": true,
+      "saving_lower_bound": 0.2054794520547945,
+      "saving_exact": 0.2054794520547945,
+      "absolute_saving_lower_bound": 15
+    },
+    {
+      "query_id": "room-32-32-4/family-10/k16/pool-q0",
+      "family_id": "room-32-32-4/family-10",
+      "map_name": "room-32-32-4",
+      "positive": false,
+      "saving_lower_bound": null,
+      "saving_exact": null,
+      "absolute_saving_lower_bound": 0
+    },
+    {
+      "query_id": "room-32-32-4/family-10/k16/pool-q1",
+      "family_id": "room-32-32-4/family-10",
+      "map_name": "room-32-32-4",
+      "positive": false,
+      "saving_lower_bound": null,
+      "saving_exact": null,
+      "absolute_saving_lower_bound": 0
+    },
+    {
+      "query_id": "room-32-32-4/family-10/k16/pool-q2",
+      "family_id": "room-32-32-4/family-10",
+      "map_name": "room-32-32-4",
+      "positive": false,
+      "saving_lower_bound": null,
+      "saving_exact": null,
+      "absolute_saving_lower_bound": 0
+    },
+    {
+      "query_id": "room-32-32-4/family-10/k16/pool-q3",
+      "family_id": "room-32-32-4/family-10",
+      "map_name": "room-32-32-4",
+      "positive": false,
+      "saving_lower_bound": null,
+      "saving_exact": null,
+      "absolute_saving_lower_bound": 0
+    },
+    {
+      "query_id": "room-32-32-4/family-13/k16/pool-q0",
+      "family_id": "room-32-32-4/family-13",
+      "map_name": "room-32-32-4",
+      "positive": false,
+      "saving_lower_bound": null,
+      "saving_exact": null,
+      "absolute_saving_lower_bound": 0
+    },
+    {
+      "query_id": "room-32-32-4/family-13/k16/pool-q1",
+      "family_id": "room-32-32-4/family-13",
+      "map_name": "room-32-32-4",
+      "positive": false,
+      "saving_lower_bound": null,
+      "saving_exact": null,
+      "absolute_saving_lower_bound": 0
+    },
+    {
+      "query_id": "room-32-32-4/family-13/k16/pool-q2",
+      "family_id": "room-32-32-4/family-13",
+      "map_name": "room-32-32-4",
+      "positive": false,
+      "saving_lower_bound": null,
+      "saving_exact": null,
+      "absolute_saving_lower_bound": 0
+    },
+    {
+      "query_id": "room-32-32-4/family-13/k16/pool-q3",
+      "family_id": "room-32-32-4/family-13",
+      "map_name": "room-32-32-4",
+      "positive": true,
+      "saving_lower_bound": 0.08333333333333333,
+      "saving_exact": 0.08333333333333333,
+      "absolute_saving_lower_bound": 5
+    },
+    {
+      "query_id": "room-32-32-4/family-13/k16/pool-q4",
+      "family_id": "room-32-32-4/family-13",
+      "map_name": "room-32-32-4",
+      "positive": false,
+      "saving_lower_bound": null,
+      "saving_exact": null,
+      "absolute_saving_lower_bound": 0
+    },
+    {
+      "query_id": "room-32-32-4/family-13/k16/pool-q5",
+      "family_id": "room-32-32-4/family-13",
+      "map_name": "room-32-32-4",
+      "positive": true,
+      "saving_lower_bound": 0.08333333333333333,
+      "saving_exact": 0.08333333333333333,
+      "absolute_saving_lower_bound": 3
+    },
+    {
+      "query_id": "room-32-32-4/family-13/k16/pool-q6",
+      "family_id": "room-32-32-4/family-13",
+      "map_name": "room-32-32-4",
+      "positive": true,
+      "saving_lower_bound": 0.29411764705882354,
+      "saving_exact": 0.29411764705882354,
+      "absolute_saving_lower_bound": 5
+    },
+    {
+      "query_id": "room-32-32-4/family-13/k16/pool-q7",
+      "family_id": "room-32-32-4/family-13",
+      "map_name": "room-32-32-4",
+      "positive": false,
+      "saving_lower_bound": null,
+      "saving_exact": null,
+      "absolute_saving_lower_bound": 0
+    },
+    {
+      "query_id": "room-32-32-4/family-16/k16/pool-q0",
+      "family_id": "room-32-32-4/family-16",
+      "map_name": "room-32-32-4",
+      "positive": false,
+      "saving_lower_bound": null,
+      "saving_exact": null,
+      "absolute_saving_lower_bound": 0
+    },
+    {
+      "query_id": "room-32-32-4/family-16/k16/pool-q1",
+      "family_id": "room-32-32-4/family-16",
+      "map_name": "room-32-32-4",
+      "positive": false,
+      "saving_lower_bound": null,
+      "saving_exact": null,
+      "absolute_saving_lower_bound": 0
+    },
+    {
+      "query_id": "room-32-32-4/family-16/k16/pool-q2",
+      "family_id": "room-32-32-4/family-16",
+      "map_name": "room-32-32-4",
+      "positive": false,
+      "saving_lower_bound": null,
+      "saving_exact": null,
+      "absolute_saving_lower_bound": 0
+    },
+    {
+      "query_id": "room-32-32-4/family-16/k16/pool-q3",
+      "family_id": "room-32-32-4/family-16",
+      "map_name": "room-32-32-4",
+      "positive": true,
+      "saving_lower_bound": 0.25,
+      "saving_exact": 0.25,
+      "absolute_saving_lower_bound": 1
+    },
+    {
+      "query_id": "room-32-32-4/family-19/k16/pool-q0",
+      "family_id": "room-32-32-4/family-19",
+      "map_name": "room-32-32-4",
+      "positive": true,
+      "saving_lower_bound": 0.25,
+      "saving_exact": 0.25,
+      "absolute_saving_lower_bound": 1
+    },
+    {
+      "query_id": "room-32-32-4/family-19/k16/pool-q1",
+      "family_id": "room-32-32-4/family-19",
+      "map_name": "room-32-32-4",
+      "positive": true,
+      "saving_lower_bound": 0.3333333333333333,
+      "saving_exact": 0.3333333333333333,
+      "absolute_saving_lower_bound": 1
+    },
+    {
+      "query_id": "warehouse-32-32-aisles/family-08/k32/pool-q1",
+      "family_id": "warehouse-32-32-aisles/family-08",
+      "map_name": "warehouse-32-32-aisles",
+      "positive": false,
+      "saving_lower_bound": null,
+      "saving_exact": null,
+      "absolute_saving_lower_bound": 0
+    },
+    {
+      "query_id": "warehouse-32-32-aisles/family-08/k32/pool-q2",
+      "family_id": "warehouse-32-32-aisles/family-08",
+      "map_name": "warehouse-32-32-aisles",
+      "positive": true,
+      "saving_lower_bound": 0.08064516129032258,
+      "saving_exact": 0.08064516129032258,
+      "absolute_saving_lower_bound": 5
+    },
+    {
+      "query_id": "warehouse-32-32-aisles/family-08/k32/pool-q3",
+      "family_id": "warehouse-32-32-aisles/family-08",
+      "map_name": "warehouse-32-32-aisles",
+      "positive": true,
+      "saving_lower_bound": 0.0847457627118644,
+      "saving_exact": 0.0847457627118644,
+      "absolute_saving_lower_bound": 5
+    },
+    {
+      "query_id": "warehouse-32-32-aisles/family-08/k32/pool-q4",
+      "family_id": "warehouse-32-32-aisles/family-08",
+      "map_name": "warehouse-32-32-aisles",
+      "positive": true,
+      "saving_lower_bound": 0.08771929824561403,
+      "saving_exact": 0.08771929824561403,
+      "absolute_saving_lower_bound": 5
+    },
+    {
+      "query_id": "warehouse-32-32-aisles/family-08/k32/pool-q5",
+      "family_id": "warehouse-32-32-aisles/family-08",
+      "map_name": "warehouse-32-32-aisles",
+      "positive": true,
+      "saving_lower_bound": 0.12727272727272726,
+      "saving_exact": 0.12727272727272726,
+      "absolute_saving_lower_bound": 7
+    },
+    {
+      "query_id": "warehouse-32-32-aisles/family-08/k32/pool-q6",
+      "family_id": "warehouse-32-32-aisles/family-08",
+      "map_name": "warehouse-32-32-aisles",
+      "positive": true,
+      "saving_lower_bound": 0.1320754716981132,
+      "saving_exact": 0.1320754716981132,
+      "absolute_saving_lower_bound": 7
+    },
+    {
+      "query_id": "warehouse-32-32-aisles/family-08/k32/pool-q7",
+      "family_id": "warehouse-32-32-aisles/family-08",
+      "map_name": "warehouse-32-32-aisles",
+      "positive": true,
+      "saving_lower_bound": 0.1346153846153846,
+      "saving_exact": 0.1346153846153846,
+      "absolute_saving_lower_bound": 7
+    },
+    {
+      "query_id": "warehouse-32-32-aisles/family-11/k32/pool-q0",
+      "family_id": "warehouse-32-32-aisles/family-11",
+      "map_name": "warehouse-32-32-aisles",
+      "positive": true,
+      "saving_lower_bound": 0.031055900621118012,
+      "saving_exact": 0.031055900621118012,
+      "absolute_saving_lower_bound": 5
+    },
+    {
+      "query_id": "warehouse-32-32-aisles/family-11/k32/pool-q7",
+      "family_id": "warehouse-32-32-aisles/family-11",
+      "map_name": "warehouse-32-32-aisles",
+      "positive": true,
+      "saving_lower_bound": 0.020833333333333332,
+      "saving_exact": 0.020833333333333332,
+      "absolute_saving_lower_bound": 1
+    },
+    {
+      "query_id": "warehouse-32-32-aisles/family-13/k24/pool-q0",
+      "family_id": "warehouse-32-32-aisles/family-13",
+      "map_name": "warehouse-32-32-aisles",
+      "positive": false,
+      "saving_lower_bound": null,
+      "saving_exact": null,
+      "absolute_saving_lower_bound": 0
+    },
+    {
+      "query_id": "warehouse-32-32-aisles/family-13/k24/pool-q2",
+      "family_id": "warehouse-32-32-aisles/family-13",
+      "map_name": "warehouse-32-32-aisles",
+      "positive": true,
+      "saving_lower_bound": 0.05555555555555555,
+      "saving_exact": 0.05555555555555555,
+      "absolute_saving_lower_bound": 1
+    },
+    {
+      "query_id": "warehouse-32-32-aisles/family-13/k24/pool-q3",
+      "family_id": "warehouse-32-32-aisles/family-13",
+      "map_name": "warehouse-32-32-aisles",
+      "positive": true,
+      "saving_lower_bound": 0.058823529411764705,
+      "saving_exact": 0.058823529411764705,
+      "absolute_saving_lower_bound": 1
+    },
+    {
+      "query_id": "warehouse-32-32-aisles/family-13/k24/pool-q4",
+      "family_id": "warehouse-32-32-aisles/family-13",
+      "map_name": "warehouse-32-32-aisles",
+      "positive": true,
+      "saving_lower_bound": 0.0625,
+      "saving_exact": 0.0625,
+      "absolute_saving_lower_bound": 1
+    },
+    {
+      "query_id": "warehouse-32-32-aisles/family-13/k24/pool-q5",
+      "family_id": "warehouse-32-32-aisles/family-13",
+      "map_name": "warehouse-32-32-aisles",
+      "positive": true,
+      "saving_lower_bound": 0.07692307692307693,
+      "saving_exact": 0.07692307692307693,
+      "absolute_saving_lower_bound": 1
+    },
+    {
+      "query_id": "warehouse-32-32-aisles/family-16/k24/pool-q0",
+      "family_id": "warehouse-32-32-aisles/family-16",
+      "map_name": "warehouse-32-32-aisles",
+      "positive": true,
+      "saving_lower_bound": 0.1111111111111111,
+      "saving_exact": 0.1111111111111111,
+      "absolute_saving_lower_bound": 1
+    },
+    {
+      "query_id": "warehouse-32-32-aisles/family-17/k32/pool-q0",
+      "family_id": "warehouse-32-32-aisles/family-17",
+      "map_name": "warehouse-32-32-aisles",
+      "positive": true,
+      "saving_lower_bound": 0.030303030303030304,
+      "saving_exact": 0.030303030303030304,
+      "absolute_saving_lower_bound": 1
+    },
+    {
+      "query_id": "warehouse-32-32-aisles/family-17/k32/pool-q1",
+      "family_id": "warehouse-32-32-aisles/family-17",
+      "map_name": "warehouse-32-32-aisles",
+      "positive": false,
+      "saving_lower_bound": null,
+      "saving_exact": null,
+      "absolute_saving_lower_bound": 0
+    },
+    {
+      "query_id": "warehouse-32-32-aisles/family-17/k32/pool-q2",
+      "family_id": "warehouse-32-32-aisles/family-17",
+      "map_name": "warehouse-32-32-aisles",
+      "positive": true,
+      "saving_lower_bound": 0.037037037037037035,
+      "saving_exact": 0.037037037037037035,
+      "absolute_saving_lower_bound": 1
+    },
+    {
+      "query_id": "warehouse-32-32-aisles/family-17/k32/pool-q3",
+      "family_id": "warehouse-32-32-aisles/family-17",
+      "map_name": "warehouse-32-32-aisles",
+      "positive": true,
+      "saving_lower_bound": 0.041666666666666664,
+      "saving_exact": 0.041666666666666664,
+      "absolute_saving_lower_bound": 1
+    },
+    {
+      "query_id": "warehouse-32-32-aisles/family-17/k32/pool-q4",
+      "family_id": "warehouse-32-32-aisles/family-17",
+      "map_name": "warehouse-32-32-aisles",
+      "positive": true,
+      "saving_lower_bound": 0.045454545454545456,
+      "saving_exact": 0.045454545454545456,
+      "absolute_saving_lower_bound": 1
+    },
+    {
+      "query_id": "warehouse-32-32-aisles/family-19/k24/pool-q0",
+      "family_id": "warehouse-32-32-aisles/family-19",
+      "map_name": "warehouse-32-32-aisles",
+      "positive": true,
+      "saving_lower_bound": 0.10526315789473684,
+      "saving_exact": 0.10526315789473684,
+      "absolute_saving_lower_bound": 2
+    },
+    {
+      "query_id": "warehouse-32-32-aisles/family-19/k24/pool-q1",
+      "family_id": "warehouse-32-32-aisles/family-19",
+      "map_name": "warehouse-32-32-aisles",
+      "positive": true,
+      "saving_lower_bound": 0.11764705882352941,
+      "saving_exact": 0.11764705882352941,
+      "absolute_saving_lower_bound": 2
+    },
+    {
+      "query_id": "warehouse-32-32-aisles/family-19/k24/pool-q2",
+      "family_id": "warehouse-32-32-aisles/family-19",
+      "map_name": "warehouse-32-32-aisles",
+      "positive": false,
+      "saving_lower_bound": null,
+      "saving_exact": null,
+      "absolute_saving_lower_bound": 0
+    },
+    {
+      "query_id": "warehouse-32-32-aisles/family-19/k24/pool-q3",
+      "family_id": "warehouse-32-32-aisles/family-19",
+      "map_name": "warehouse-32-32-aisles",
+      "positive": false,
+      "saving_lower_bound": null,
+      "saving_exact": null,
+      "absolute_saving_lower_bound": 0
+    }
+  ],
+  "relations": {
+    "TIE": 109,
+    "UNKNOWN": 529,
+    "RESIDUAL_BETTER": 134,
+    "CHALLENGER_BETTER": 55
+  },
+  "conclusion": "STOP: insufficient supported headroom/training support; distinguish censoring from residual saturation"
+}

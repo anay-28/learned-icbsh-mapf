@@ -1,0 +1,5602 @@
+{
+  "schema_version": "bdro-v1",
+  "protocol_sha256": "90439f304e5ce024b57b2ae54878aae7a28b40f4ed45d33ec42f83a1ca35226f",
+  "source_sha256": "7da727c21bc88c71ff728672a9ad563f8d96ce32e71d42005148e676422c0654",
+  "input_sha256": "a7f9992a837fdc5ccb25b4c602bf21d3a6c5e3bb08a0f4773910bfb375d59d32",
+  "stage": "q128",
+  "queries_sha256": "30d78c1a7c899de944e52cdfdda134c306800869c1b4dafecd18e2a6dbe55319",
+  "statistics": {
+    "informative_train_queries": 63,
+    "positive_train_queries": 29,
+    "positive_train_families": 12,
+    "positive_train_maps": 3,
+    "headroom_rate": 0.4603174603174603,
+    "median_relative_saving": 0.1
+  },
+  "checks": {
+    "informative_train_queries": true,
+    "positive_train_queries": true,
+    "positive_train_families": true,
+    "positive_train_maps": true,
+    "headroom_rate": true,
+    "median_relative_saving": true
+  },
+  "gate_passed": true,
+  "saving_rule": "Use conservative observed relative-saving lower bound when residual is censored; no fabricated completion count",
+  "family_bootstrap_95": [
+    0.30303030303030304,
+    0.6551865460712265
+  ],
+  "by_map": {
+    "random-32-32-20": {
+      "informative": 28,
+      "positives": 9,
+      "rate": 0.32142857142857145
+    },
+    "room-32-32-4": {
+      "informative": 18,
+      "positives": 6,
+      "rate": 0.3333333333333333
+    },
+    "warehouse-32-32-aisles": {
+      "informative": 17,
+      "positives": 14,
+      "rate": 0.8235294117647058
+    }
+  },
+  "informative_queries": [
+    {
+      "query_id": "random-32-32-20/family-09/k24/pool-q2",
+      "family_id": "random-32-32-20/family-09",
+      "map_name": "random-32-32-20",
+      "positive": false,
+      "saving_lower_bound": null,
+      "saving_exact": null,
+      "absolute_saving_lower_bound": 0
+    },
+    {
+      "query_id": "random-32-32-20/family-09/k24/pool-q7",
+      "family_id": "random-32-32-20/family-09",
+      "map_name": "random-32-32-20",
+      "positive": false,
+      "saving_lower_bound": null,
+      "saving_exact": null,
+      "absolute_saving_lower_bound": 0
+    },
+    {
+      "query_id": "random-32-32-20/family-10/k32/pool-q2",
+      "family_id": "random-32-32-20/family-10",
+      "map_name": "random-32-32-20",
+      "positive": true,
+      "saving_lower_bound": 0.09090909090909091,
+      "saving_exact": 0.09090909090909091,
+      "absolute_saving_lower_bound": 3
+    },
+    {
+      "query_id": "random-32-32-20/family-10/k32/pool-q3",
+      "family_id": "random-32-32-20/family-10",
+      "map_name": "random-32-32-20",
+      "positive": true,
+      "saving_lower_bound": 0.1,
+      "saving_exact": 0.1,
+      "absolute_saving_lower_bound": 3
+    },
+    {
+      "query_id": "random-32-32-20/family-11/k16/pool-q0",
+      "family_id": "random-32-32-20/family-11",
+      "map_name": "random-32-32-20",
+      "positive": false,
+      "saving_lower_bound": null,
+      "saving_exact": null,
+      "absolute_saving_lower_bound": 0
+    },
+    {
+      "query_id": "random-32-32-20/family-11/k16/pool-q1",
+      "family_id": "random-32-32-20/family-11",
+      "map_name": "random-32-32-20",
+      "positive": false,
+      "saving_lower_bound": null,
+      "saving_exact": null,
+      "absolute_saving_lower_bound": 0
+    },
+    {
+      "query_id": "random-32-32-20/family-11/k16/pool-q2",
+      "family_id": "random-32-32-20/family-11",
+      "map_name": "random-32-32-20",
+      "positive": false,
+      "saving_lower_bound": null,
+      "saving_exact": null,
+      "absolute_saving_lower_bound": 0
+    },
+    {
+      "query_id": "random-32-32-20/family-11/k16/pool-q3",
+      "family_id": "random-32-32-20/family-11",
+      "map_name": "random-32-32-20",
+      "positive": false,
+      "saving_lower_bound": null,
+      "saving_exact": null,
+      "absolute_saving_lower_bound": 0
+    },
+    {
+      "query_id": "random-32-32-20/family-11/k16/pool-q4",
+      "family_id": "random-32-32-20/family-11",
+      "map_name": "random-32-32-20",
+      "positive": false,
+      "saving_lower_bound": null,
+      "saving_exact": null,
+      "absolute_saving_lower_bound": 0
+    },
+    {
+      "query_id": "random-32-32-20/family-11/k16/pool-q5",
+      "family_id": "random-32-32-20/family-11",
+      "map_name": "random-32-32-20",
+      "positive": false,
+      "saving_lower_bound": null,
+      "saving_exact": null,
+      "absolute_saving_lower_bound": 0
+    },
+    {
+      "query_id": "random-32-32-20/family-11/k16/pool-q6",
+      "family_id": "random-32-32-20/family-11",
+      "map_name": "random-32-32-20",
+      "positive": false,
+      "saving_lower_bound": null,
+      "saving_exact": null,
+      "absolute_saving_lower_bound": 0
+    },
+    {
+      "query_id": "random-32-32-20/family-11/k16/pool-q7",
+      "family_id": "random-32-32-20/family-11",
+      "map_name": "random-32-32-20",
+      "positive": false,
+      "saving_lower_bound": null,
+      "saving_exact": null,
+      "absolute_saving_lower_bound": 0
+    },
+    {
+      "query_id": "random-32-32-20/family-12/k24/pool-q0",
+      "family_id": "random-32-32-20/family-12",
+      "map_name": "random-32-32-20",
+      "positive": false,
+      "saving_lower_bound": null,
+      "saving_exact": null,
+      "absolute_saving_lower_bound": 0
+    },
+    {
+      "query_id": "random-32-32-20/family-12/k24/pool-q1",
+      "family_id": "random-32-32-20/family-12",
+      "map_name": "random-32-32-20",
+      "positive": false,
+      "saving_lower_bound": null,
+      "saving_exact": null,
+      "absolute_saving_lower_bound": 0
+    },
+    {
+      "query_id": "random-32-32-20/family-12/k24/pool-q2",
+      "family_id": "random-32-32-20/family-12",
+      "map_name": "random-32-32-20",
+      "positive": false,
+      "saving_lower_bound": null,
+      "saving_exact": null,
+      "absolute_saving_lower_bound": 0
+    },
+    {
+      "query_id": "random-32-32-20/family-12/k24/pool-q3",
+      "family_id": "random-32-32-20/family-12",
+      "map_name": "random-32-32-20",
+      "positive": false,
+      "saving_lower_bound": null,
+      "saving_exact": null,
+      "absolute_saving_lower_bound": 0
+    },
+    {
+      "query_id": "random-32-32-20/family-12/k24/pool-q4",
+      "family_id": "random-32-32-20/family-12",
+      "map_name": "random-32-32-20",
+      "positive": true,
+      "saving_lower_bound": 0.047619047619047616,
+      "saving_exact": 0.047619047619047616,
+      "absolute_saving_lower_bound": 1
+    },
+    {
+      "query_id": "random-32-32-20/family-12/k24/pool-q5",
+      "family_id": "random-32-32-20/family-12",
+      "map_name": "random-32-32-20",
+      "positive": false,
+      "saving_lower_bound": null,
+      "saving_exact": null,
+      "absolute_saving_lower_bound": 0
+    },
+    {
+      "query_id": "random-32-32-20/family-12/k24/pool-q6",
+      "family_id": "random-32-32-20/family-12",
+      "map_name": "random-32-32-20",
+      "positive": false,
+      "saving_lower_bound": null,
+      "saving_exact": null,
+      "absolute_saving_lower_bound": 0
+    },
+    {
+      "query_id": "random-32-32-20/family-12/k24/pool-q7",
+      "family_id": "random-32-32-20/family-12",
+      "map_name": "random-32-32-20",
+      "positive": false,
+      "saving_lower_bound": null,
+      "saving_exact": null,
+      "absolute_saving_lower_bound": 0
+    },
+    {
+      "query_id": "random-32-32-20/family-15/k24/pool-q3",
+      "family_id": "random-32-32-20/family-15",
+      "map_name": "random-32-32-20",
+      "positive": false,
+      "saving_lower_bound": null,
+      "saving_exact": null,
+      "absolute_saving_lower_bound": 0
+    },
+    {
+      "query_id": "random-32-32-20/family-15/k24/pool-q4",
+      "family_id": "random-32-32-20/family-15",
+      "map_name": "random-32-32-20",
+      "positive": false,
+      "saving_lower_bound": null,
+      "saving_exact": null,
+      "absolute_saving_lower_bound": 0
+    },
+    {
+      "query_id": "random-32-32-20/family-15/k24/pool-q5",
+      "family_id": "random-32-32-20/family-15",
+      "map_name": "random-32-32-20",
+      "positive": true,
+      "saving_lower_bound": 0.1,
+      "saving_exact": 0.1,
+      "absolute_saving_lower_bound": 3
+    },
+    {
+      "query_id": "random-32-32-20/family-15/k24/pool-q6",
+      "family_id": "random-32-32-20/family-15",
+      "map_name": "random-32-32-20",
+      "positive": true,
+      "saving_lower_bound": 0.29411764705882354,
+      "saving_exact": 0.29411764705882354,
+      "absolute_saving_lower_bound": 5
+    },
+    {
+      "query_id": "random-32-32-20/family-15/k24/pool-q7",
+      "family_id": "random-32-32-20/family-15",
+      "map_name": "random-32-32-20",
+      "positive": true,
+      "saving_lower_bound": 0.3333333333333333,
+      "saving_exact": 0.3333333333333333,
+      "absolute_saving_lower_bound": 5
+    },
+    {
+      "query_id": "random-32-32-20/family-16/k32/pool-q5",
+      "family_id": "random-32-32-20/family-16",
+      "map_name": "random-32-32-20",
+      "positive": true,
+      "saving_lower_bound": 0.0625,
+      "saving_exact": null,
+      "absolute_saving_lower_bound": 3
+    },
+    {
+      "query_id": "random-32-32-20/family-16/k32/pool-q6",
+      "family_id": "random-32-32-20/family-16",
+      "map_name": "random-32-32-20",
+      "positive": true,
+      "saving_lower_bound": 0.14583333333333334,
+      "saving_exact": null,
+      "absolute_saving_lower_bound": 7
+    },
+    {
+      "query_id": "random-32-32-20/family-16/k32/pool-q7",
+      "family_id": "random-32-32-20/family-16",
+      "map_name": "random-32-32-20",
+      "positive": true,
+      "saving_lower_bound": 0.2054794520547945,
+      "saving_exact": 0.2054794520547945,
+      "absolute_saving_lower_bound": 15
+    },
+    {
+      "query_id": "room-32-32-4/family-10/k16/pool-q0",
+      "family_id": "room-32-32-4/family-10",
+      "map_name": "room-32-32-4",
+      "positive": false,
+      "saving_lower_bound": null,
+      "saving_exact": null,
+      "absolute_saving_lower_bound": 0
+    },
+    {
+      "query_id": "room-32-32-4/family-10/k16/pool-q1",
+      "family_id": "room-32-32-4/family-10",
+      "map_name": "room-32-32-4",
+      "positive": false,
+      "saving_lower_bound": null,
+      "saving_exact": null,
+      "absolute_saving_lower_bound": 0
+    },
+    {
+      "query_id": "room-32-32-4/family-10/k16/pool-q2",
+      "family_id": "room-32-32-4/family-10",
+      "map_name": "room-32-32-4",
+      "positive": false,
+      "saving_lower_bound": null,
+      "saving_exact": null,
+      "absolute_saving_lower_bound": 0
+    },
+    {
+      "query_id": "room-32-32-4/family-10/k16/pool-q3",
+      "family_id": "room-32-32-4/family-10",
+      "map_name": "room-32-32-4",
+      "positive": false,
+      "saving_lower_bound": null,
+      "saving_exact": null,
+      "absolute_saving_lower_bound": 0
+    },
+    {
+      "query_id": "room-32-32-4/family-13/k16/pool-q0",
+      "family_id": "room-32-32-4/family-13",
+      "map_name": "room-32-32-4",
+      "positive": false,
+      "saving_lower_bound": null,
+      "saving_exact": null,
+      "absolute_saving_lower_bound": 0
+    },
+    {
+      "query_id": "room-32-32-4/family-13/k16/pool-q1",
+      "family_id": "room-32-32-4/family-13",
+      "map_name": "room-32-32-4",
+      "positive": false,
+      "saving_lower_bound": null,
+      "saving_exact": null,
+      "absolute_saving_lower_bound": 0
+    },
+    {
+      "query_id": "room-32-32-4/family-13/k16/pool-q2",
+      "family_id": "room-32-32-4/family-13",
+      "map_name": "room-32-32-4",
+      "positive": false,
+      "saving_lower_bound": null,
+      "saving_exact": null,
+      "absolute_saving_lower_bound": 0
+    },
+    {
+      "query_id": "room-32-32-4/family-13/k16/pool-q3",
+      "family_id": "room-32-32-4/family-13",
+      "map_name": "room-32-32-4",
+      "positive": true,
+      "saving_lower_bound": 0.08333333333333333,
+      "saving_exact": 0.08333333333333333,
+      "absolute_saving_lower_bound": 5
+    },
+    {
+      "query_id": "room-32-32-4/family-13/k16/pool-q4",
+      "family_id": "room-32-32-4/family-13",
+      "map_name": "room-32-32-4",
+      "positive": false,
+      "saving_lower_bound": null,
+      "saving_exact": null,
+      "absolute_saving_lower_bound": 0
+    },
+    {
+      "query_id": "room-32-32-4/family-13/k16/pool-q5",
+      "family_id": "room-32-32-4/family-13",
+      "map_name": "room-32-32-4",
+      "positive": true,
+      "saving_lower_bound": 0.08333333333333333,
+      "saving_exact": 0.08333333333333333,
+      "absolute_saving_lower_bound": 3
+    },
+    {
+      "query_id": "room-32-32-4/family-13/k16/pool-q6",
+      "family_id": "room-32-32-4/family-13",
+      "map_name": "room-32-32-4",
+      "positive": true,
+      "saving_lower_bound": 0.29411764705882354,
+      "saving_exact": 0.29411764705882354,
+      "absolute_saving_lower_bound": 5
+    },
+    {
+      "query_id": "room-32-32-4/family-13/k16/pool-q7",
+      "family_id": "room-32-32-4/family-13",
+      "map_name": "room-32-32-4",
+      "positive": false,
+      "saving_lower_bound": null,
+      "saving_exact": null,
+      "absolute_saving_lower_bound": 0
+    },
+    {
+      "query_id": "room-32-32-4/family-16/k16/pool-q0",
+      "family_id": "room-32-32-4/family-16",
+      "map_name": "room-32-32-4",
+      "positive": false,
+      "saving_lower_bound": null,
+      "saving_exact": null,
+      "absolute_saving_lower_bound": 0
+    },
+    {
+      "query_id": "room-32-32-4/family-16/k16/pool-q1",
+      "family_id": "room-32-32-4/family-16",
+      "map_name": "room-32-32-4",
+      "positive": false,
+      "saving_lower_bound": null,
+      "saving_exact": null,
+      "absolute_saving_lower_bound": 0
+    },
+    {
+      "query_id": "room-32-32-4/family-16/k16/pool-q2",
+      "family_id": "room-32-32-4/family-16",
+      "map_name": "room-32-32-4",
+      "positive": false,
+      "saving_lower_bound": null,
+      "saving_exact": null,
+      "absolute_saving_lower_bound": 0
+    },
+    {
+      "query_id": "room-32-32-4/family-16/k16/pool-q3",
+      "family_id": "room-32-32-4/family-16",
+      "map_name": "room-32-32-4",
+      "positive": true,
+      "saving_lower_bound": 0.25,
+      "saving_exact": 0.25,
+      "absolute_saving_lower_bound": 1
+    },
+    {
+      "query_id": "room-32-32-4/family-19/k16/pool-q0",
+      "family_id": "room-32-32-4/family-19",
+      "map_name": "room-32-32-4",
+      "positive": true,
+      "saving_lower_bound": 0.25,
+      "saving_exact": 0.25,
+      "absolute_saving_lower_bound": 1
+    },
+    {
+      "query_id": "room-32-32-4/family-19/k16/pool-q1",
+      "family_id": "room-32-32-4/family-19",
+      "map_name": "room-32-32-4",
+      "positive": true,
+      "saving_lower_bound": 0.3333333333333333,
+      "saving_exact": 0.3333333333333333,
+      "absolute_saving_lower_bound": 1
+    },
+    {
+      "query_id": "warehouse-32-32-aisles/family-08/k32/pool-q4",
+      "family_id": "warehouse-32-32-aisles/family-08",
+      "map_name": "warehouse-32-32-aisles",
+      "positive": true,
+      "saving_lower_bound": 0.08771929824561403,
+      "saving_exact": null,
+      "absolute_saving_lower_bound": 5
+    },
+    {
+      "query_id": "warehouse-32-32-aisles/family-08/k32/pool-q5",
+      "family_id": "warehouse-32-32-aisles/family-08",
+      "map_name": "warehouse-32-32-aisles",
+      "positive": true,
+      "saving_lower_bound": 0.12727272727272726,
+      "saving_exact": 0.12727272727272726,
+      "absolute_saving_lower_bound": 7
+    },
+    {
+      "query_id": "warehouse-32-32-aisles/family-08/k32/pool-q6",
+      "family_id": "warehouse-32-32-aisles/family-08",
+      "map_name": "warehouse-32-32-aisles",
+      "positive": true,
+      "saving_lower_bound": 0.1320754716981132,
+      "saving_exact": 0.1320754716981132,
+      "absolute_saving_lower_bound": 7
+    },
+    {
+      "query_id": "warehouse-32-32-aisles/family-08/k32/pool-q7",
+      "family_id": "warehouse-32-32-aisles/family-08",
+      "map_name": "warehouse-32-32-aisles",
+      "positive": true,
+      "saving_lower_bound": 0.1346153846153846,
+      "saving_exact": 0.1346153846153846,
+      "absolute_saving_lower_bound": 7
+    },
+    {
+      "query_id": "warehouse-32-32-aisles/family-13/k24/pool-q0",
+      "family_id": "warehouse-32-32-aisles/family-13",
+      "map_name": "warehouse-32-32-aisles",
+      "positive": false,
+      "saving_lower_bound": null,
+      "saving_exact": null,
+      "absolute_saving_lower_bound": 0
+    },
+    {
+      "query_id": "warehouse-32-32-aisles/family-13/k24/pool-q2",
+      "family_id": "warehouse-32-32-aisles/family-13",
+      "map_name": "warehouse-32-32-aisles",
+      "positive": true,
+      "saving_lower_bound": 0.05555555555555555,
+      "saving_exact": 0.05555555555555555,
+      "absolute_saving_lower_bound": 1
+    },
+    {
+      "query_id": "warehouse-32-32-aisles/family-13/k24/pool-q3",
+      "family_id": "warehouse-32-32-aisles/family-13",
+      "map_name": "warehouse-32-32-aisles",
+      "positive": true,
+      "saving_lower_bound": 0.058823529411764705,
+      "saving_exact": 0.058823529411764705,
+      "absolute_saving_lower_bound": 1
+    },
+    {
+      "query_id": "warehouse-32-32-aisles/family-13/k24/pool-q4",
+      "family_id": "warehouse-32-32-aisles/family-13",
+      "map_name": "warehouse-32-32-aisles",
+      "positive": true,
+      "saving_lower_bound": 0.0625,
+      "saving_exact": 0.0625,
+      "absolute_saving_lower_bound": 1
+    },
+    {
+      "query_id": "warehouse-32-32-aisles/family-13/k24/pool-q5",
+      "family_id": "warehouse-32-32-aisles/family-13",
+      "map_name": "warehouse-32-32-aisles",
+      "positive": true,
+      "saving_lower_bound": 0.07692307692307693,
+      "saving_exact": 0.07692307692307693,
+      "absolute_saving_lower_bound": 1
+    },
+    {
+      "query_id": "warehouse-32-32-aisles/family-16/k24/pool-q0",
+      "family_id": "warehouse-32-32-aisles/family-16",
+      "map_name": "warehouse-32-32-aisles",
+      "positive": true,
+      "saving_lower_bound": 0.1111111111111111,
+      "saving_exact": 0.1111111111111111,
+      "absolute_saving_lower_bound": 1
+    },
+    {
+      "query_id": "warehouse-32-32-aisles/family-17/k32/pool-q0",
+      "family_id": "warehouse-32-32-aisles/family-17",
+      "map_name": "warehouse-32-32-aisles",
+      "positive": true,
+      "saving_lower_bound": 0.030303030303030304,
+      "saving_exact": 0.030303030303030304,
+      "absolute_saving_lower_bound": 1
+    },
+    {
+      "query_id": "warehouse-32-32-aisles/family-17/k32/pool-q2",
+      "family_id": "warehouse-32-32-aisles/family-17",
+      "map_name": "warehouse-32-32-aisles",
+      "positive": true,
+      "saving_lower_bound": 0.037037037037037035,
+      "saving_exact": 0.037037037037037035,
+      "absolute_saving_lower_bound": 1
+    },
+    {
+      "query_id": "warehouse-32-32-aisles/family-17/k32/pool-q4",
+      "family_id": "warehouse-32-32-aisles/family-17",
+      "map_name": "warehouse-32-32-aisles",
+      "positive": true,
+      "saving_lower_bound": 0.045454545454545456,
+      "saving_exact": 0.045454545454545456,
+      "absolute_saving_lower_bound": 1
+    },
+    {
+      "query_id": "warehouse-32-32-aisles/family-19/k24/pool-q0",
+      "family_id": "warehouse-32-32-aisles/family-19",
+      "map_name": "warehouse-32-32-aisles",
+      "positive": true,
+      "saving_lower_bound": 0.10526315789473684,
+      "saving_exact": 0.10526315789473684,
+      "absolute_saving_lower_bound": 2
+    },
+    {
+      "query_id": "warehouse-32-32-aisles/family-19/k24/pool-q1",
+      "family_id": "warehouse-32-32-aisles/family-19",
+      "map_name": "warehouse-32-32-aisles",
+      "positive": true,
+      "saving_lower_bound": 0.11764705882352941,
+      "saving_exact": 0.11764705882352941,
+      "absolute_saving_lower_bound": 2
+    },
+    {
+      "query_id": "warehouse-32-32-aisles/family-19/k24/pool-q2",
+      "family_id": "warehouse-32-32-aisles/family-19",
+      "map_name": "warehouse-32-32-aisles",
+      "positive": false,
+      "saving_lower_bound": null,
+      "saving_exact": null,
+      "absolute_saving_lower_bound": 0
+    },
+    {
+      "query_id": "warehouse-32-32-aisles/family-19/k24/pool-q3",
+      "family_id": "warehouse-32-32-aisles/family-19",
+      "map_name": "warehouse-32-32-aisles",
+      "positive": false,
+      "saving_lower_bound": null,
+      "saving_exact": null,
+      "absolute_saving_lower_bound": 0
+    }
+  ],
+  "relations": {
+    "TIE": 81,
+    "UNKNOWN": 605,
+    "RESIDUAL_BETTER": 106,
+    "CHALLENGER_BETTER": 35
+  },
+  "conclusion": "Sufficient bounded downstream headroom for frozen model fitting",
+  "old_teacher_comparison": [
+    {
+      "query_id": "random-32-32-20/family-08/k16/pool-q0",
+      "split": "train",
+      "family_id": "random-32-32-20/family-08",
+      "residual_work": 8,
+      "residual_lower_bound": 8,
+      "teacher": {
+        "candidate_index": 1,
+        "disagrees": true,
+        "work": 8,
+        "lower_bound": 8,
+        "relation": "TIE"
+      },
+      "model_b": {
+        "candidate_index": 1,
+        "disagrees": true,
+        "work": 8,
+        "lower_bound": 8,
+        "relation": "TIE"
+      }
+    },
+    {
+      "query_id": "random-32-32-20/family-08/k16/pool-q1",
+      "split": "train",
+      "family_id": "random-32-32-20/family-08",
+      "residual_work": 7,
+      "residual_lower_bound": 7,
+      "teacher": {
+        "candidate_index": 1,
+        "disagrees": true,
+        "work": 7,
+        "lower_bound": 7,
+        "relation": "TIE"
+      },
+      "model_b": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": 7,
+        "lower_bound": 7,
+        "relation": "TIE"
+      }
+    },
+    {
+      "query_id": "random-32-32-20/family-09/k24/pool-q0",
+      "split": "train",
+      "family_id": "random-32-32-20/family-09",
+      "residual_work": null,
+      "residual_lower_bound": 9,
+      "teacher": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": null,
+        "lower_bound": 9,
+        "relation": "UNKNOWN"
+      },
+      "model_b": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": null,
+        "lower_bound": 9,
+        "relation": "UNKNOWN"
+      }
+    },
+    {
+      "query_id": "random-32-32-20/family-09/k24/pool-q1",
+      "split": "train",
+      "family_id": "random-32-32-20/family-09",
+      "residual_work": null,
+      "residual_lower_bound": 25,
+      "teacher": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": null,
+        "lower_bound": 25,
+        "relation": "UNKNOWN"
+      },
+      "model_b": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": null,
+        "lower_bound": 25,
+        "relation": "UNKNOWN"
+      }
+    },
+    {
+      "query_id": "random-32-32-20/family-09/k24/pool-q2",
+      "split": "train",
+      "family_id": "random-32-32-20/family-09",
+      "residual_work": 62,
+      "residual_lower_bound": 62,
+      "teacher": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": 62,
+        "lower_bound": 62,
+        "relation": "TIE"
+      },
+      "model_b": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": 62,
+        "lower_bound": 62,
+        "relation": "TIE"
+      }
+    },
+    {
+      "query_id": "random-32-32-20/family-09/k24/pool-q3",
+      "split": "train",
+      "family_id": "random-32-32-20/family-09",
+      "residual_work": null,
+      "residual_lower_bound": 15,
+      "teacher": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": null,
+        "lower_bound": 15,
+        "relation": "UNKNOWN"
+      },
+      "model_b": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": null,
+        "lower_bound": 15,
+        "relation": "UNKNOWN"
+      }
+    },
+    {
+      "query_id": "random-32-32-20/family-09/k24/pool-q4",
+      "split": "train",
+      "family_id": "random-32-32-20/family-09",
+      "residual_work": null,
+      "residual_lower_bound": 15,
+      "teacher": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": null,
+        "lower_bound": 15,
+        "relation": "UNKNOWN"
+      },
+      "model_b": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": null,
+        "lower_bound": 15,
+        "relation": "UNKNOWN"
+      }
+    },
+    {
+      "query_id": "random-32-32-20/family-09/k24/pool-q5",
+      "split": "train",
+      "family_id": "random-32-32-20/family-09",
+      "residual_work": null,
+      "residual_lower_bound": 43,
+      "teacher": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": null,
+        "lower_bound": 43,
+        "relation": "UNKNOWN"
+      },
+      "model_b": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": null,
+        "lower_bound": 43,
+        "relation": "UNKNOWN"
+      }
+    },
+    {
+      "query_id": "random-32-32-20/family-09/k24/pool-q6",
+      "split": "train",
+      "family_id": "random-32-32-20/family-09",
+      "residual_work": null,
+      "residual_lower_bound": 47,
+      "teacher": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": null,
+        "lower_bound": 47,
+        "relation": "UNKNOWN"
+      },
+      "model_b": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": null,
+        "lower_bound": 47,
+        "relation": "UNKNOWN"
+      }
+    },
+    {
+      "query_id": "random-32-32-20/family-09/k24/pool-q7",
+      "split": "train",
+      "family_id": "random-32-32-20/family-09",
+      "residual_work": 49,
+      "residual_lower_bound": 49,
+      "teacher": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": 49,
+        "lower_bound": 49,
+        "relation": "TIE"
+      },
+      "model_b": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": 49,
+        "lower_bound": 49,
+        "relation": "TIE"
+      }
+    },
+    {
+      "query_id": "random-32-32-20/family-10/k32/pool-q0",
+      "split": "train",
+      "family_id": "random-32-32-20/family-10",
+      "residual_work": null,
+      "residual_lower_bound": 19,
+      "teacher": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": null,
+        "lower_bound": 19,
+        "relation": "UNKNOWN"
+      },
+      "model_b": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": null,
+        "lower_bound": 19,
+        "relation": "UNKNOWN"
+      }
+    },
+    {
+      "query_id": "random-32-32-20/family-10/k32/pool-q1",
+      "split": "train",
+      "family_id": "random-32-32-20/family-10",
+      "residual_work": null,
+      "residual_lower_bound": 20,
+      "teacher": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": null,
+        "lower_bound": 20,
+        "relation": "UNKNOWN"
+      },
+      "model_b": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": null,
+        "lower_bound": 20,
+        "relation": "UNKNOWN"
+      }
+    },
+    {
+      "query_id": "random-32-32-20/family-10/k32/pool-q2",
+      "split": "train",
+      "family_id": "random-32-32-20/family-10",
+      "residual_work": 33,
+      "residual_lower_bound": 33,
+      "teacher": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": 33,
+        "lower_bound": 33,
+        "relation": "TIE"
+      },
+      "model_b": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": 33,
+        "lower_bound": 33,
+        "relation": "TIE"
+      }
+    },
+    {
+      "query_id": "random-32-32-20/family-10/k32/pool-q3",
+      "split": "train",
+      "family_id": "random-32-32-20/family-10",
+      "residual_work": 30,
+      "residual_lower_bound": 30,
+      "teacher": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": 30,
+        "lower_bound": 30,
+        "relation": "TIE"
+      },
+      "model_b": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": 30,
+        "lower_bound": 30,
+        "relation": "TIE"
+      }
+    },
+    {
+      "query_id": "random-32-32-20/family-10/k32/pool-q4",
+      "split": "train",
+      "family_id": "random-32-32-20/family-10",
+      "residual_work": null,
+      "residual_lower_bound": 22,
+      "teacher": {
+        "candidate_index": 5,
+        "disagrees": true,
+        "work": null,
+        "lower_bound": 22,
+        "relation": "UNKNOWN"
+      },
+      "model_b": {
+        "candidate_index": 3,
+        "disagrees": true,
+        "work": null,
+        "lower_bound": 22,
+        "relation": "UNKNOWN"
+      }
+    },
+    {
+      "query_id": "random-32-32-20/family-10/k32/pool-q5",
+      "split": "train",
+      "family_id": "random-32-32-20/family-10",
+      "residual_work": 25,
+      "residual_lower_bound": 25,
+      "teacher": {
+        "candidate_index": 4,
+        "disagrees": true,
+        "work": 25,
+        "lower_bound": 25,
+        "relation": "TIE"
+      },
+      "model_b": {
+        "candidate_index": 2,
+        "disagrees": true,
+        "work": 25,
+        "lower_bound": 25,
+        "relation": "TIE"
+      }
+    },
+    {
+      "query_id": "random-32-32-20/family-10/k32/pool-q6",
+      "split": "train",
+      "family_id": "random-32-32-20/family-10",
+      "residual_work": 23,
+      "residual_lower_bound": 23,
+      "teacher": {
+        "candidate_index": 3,
+        "disagrees": true,
+        "work": 23,
+        "lower_bound": 23,
+        "relation": "TIE"
+      },
+      "model_b": {
+        "candidate_index": 2,
+        "disagrees": true,
+        "work": 23,
+        "lower_bound": 23,
+        "relation": "TIE"
+      }
+    },
+    {
+      "query_id": "random-32-32-20/family-10/k32/pool-q7",
+      "split": "train",
+      "family_id": "random-32-32-20/family-10",
+      "residual_work": 21,
+      "residual_lower_bound": 21,
+      "teacher": {
+        "candidate_index": 2,
+        "disagrees": true,
+        "work": 21,
+        "lower_bound": 21,
+        "relation": "TIE"
+      },
+      "model_b": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": 21,
+        "lower_bound": 21,
+        "relation": "TIE"
+      }
+    },
+    {
+      "query_id": "random-32-32-20/family-11/k16/pool-q0",
+      "split": "train",
+      "family_id": "random-32-32-20/family-11",
+      "residual_work": 17,
+      "residual_lower_bound": 17,
+      "teacher": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": 17,
+        "lower_bound": 17,
+        "relation": "TIE"
+      },
+      "model_b": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": 17,
+        "lower_bound": 17,
+        "relation": "TIE"
+      }
+    },
+    {
+      "query_id": "random-32-32-20/family-11/k16/pool-q1",
+      "split": "train",
+      "family_id": "random-32-32-20/family-11",
+      "residual_work": 16,
+      "residual_lower_bound": 16,
+      "teacher": {
+        "candidate_index": 1,
+        "disagrees": true,
+        "work": 25,
+        "lower_bound": 25,
+        "relation": "RESIDUAL_BETTER"
+      },
+      "model_b": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": 16,
+        "lower_bound": 16,
+        "relation": "TIE"
+      }
+    },
+    {
+      "query_id": "random-32-32-20/family-11/k16/pool-q2",
+      "split": "train",
+      "family_id": "random-32-32-20/family-11",
+      "residual_work": 14,
+      "residual_lower_bound": 14,
+      "teacher": {
+        "candidate_index": 1,
+        "disagrees": true,
+        "work": 21,
+        "lower_bound": 21,
+        "relation": "RESIDUAL_BETTER"
+      },
+      "model_b": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": 14,
+        "lower_bound": 14,
+        "relation": "TIE"
+      }
+    },
+    {
+      "query_id": "random-32-32-20/family-11/k16/pool-q3",
+      "split": "train",
+      "family_id": "random-32-32-20/family-11",
+      "residual_work": 13,
+      "residual_lower_bound": 13,
+      "teacher": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": 13,
+        "lower_bound": 13,
+        "relation": "TIE"
+      },
+      "model_b": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": 13,
+        "lower_bound": 13,
+        "relation": "TIE"
+      }
+    },
+    {
+      "query_id": "random-32-32-20/family-11/k16/pool-q4",
+      "split": "train",
+      "family_id": "random-32-32-20/family-11",
+      "residual_work": 12,
+      "residual_lower_bound": 12,
+      "teacher": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": 12,
+        "lower_bound": 12,
+        "relation": "TIE"
+      },
+      "model_b": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": 12,
+        "lower_bound": 12,
+        "relation": "TIE"
+      }
+    },
+    {
+      "query_id": "random-32-32-20/family-11/k16/pool-q5",
+      "split": "train",
+      "family_id": "random-32-32-20/family-11",
+      "residual_work": 11,
+      "residual_lower_bound": 11,
+      "teacher": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": 11,
+        "lower_bound": 11,
+        "relation": "TIE"
+      },
+      "model_b": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": 11,
+        "lower_bound": 11,
+        "relation": "TIE"
+      }
+    },
+    {
+      "query_id": "random-32-32-20/family-11/k16/pool-q6",
+      "split": "train",
+      "family_id": "random-32-32-20/family-11",
+      "residual_work": 10,
+      "residual_lower_bound": 10,
+      "teacher": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": 10,
+        "lower_bound": 10,
+        "relation": "TIE"
+      },
+      "model_b": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": 10,
+        "lower_bound": 10,
+        "relation": "TIE"
+      }
+    },
+    {
+      "query_id": "random-32-32-20/family-11/k16/pool-q7",
+      "split": "train",
+      "family_id": "random-32-32-20/family-11",
+      "residual_work": 9,
+      "residual_lower_bound": 9,
+      "teacher": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": 9,
+        "lower_bound": 9,
+        "relation": "TIE"
+      },
+      "model_b": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": 9,
+        "lower_bound": 9,
+        "relation": "TIE"
+      }
+    },
+    {
+      "query_id": "random-32-32-20/family-12/k24/pool-q0",
+      "split": "train",
+      "family_id": "random-32-32-20/family-12",
+      "residual_work": 40,
+      "residual_lower_bound": 40,
+      "teacher": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": 40,
+        "lower_bound": 40,
+        "relation": "TIE"
+      },
+      "model_b": {
+        "candidate_index": 3,
+        "disagrees": true,
+        "work": 44,
+        "lower_bound": 44,
+        "relation": "RESIDUAL_BETTER"
+      }
+    },
+    {
+      "query_id": "random-32-32-20/family-12/k24/pool-q1",
+      "split": "train",
+      "family_id": "random-32-32-20/family-12",
+      "residual_work": 27,
+      "residual_lower_bound": 27,
+      "teacher": {
+        "candidate_index": 3,
+        "disagrees": true,
+        "work": 31,
+        "lower_bound": 31,
+        "relation": "RESIDUAL_BETTER"
+      },
+      "model_b": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": 27,
+        "lower_bound": 27,
+        "relation": "TIE"
+      }
+    },
+    {
+      "query_id": "random-32-32-20/family-12/k24/pool-q2",
+      "split": "train",
+      "family_id": "random-32-32-20/family-12",
+      "residual_work": 25,
+      "residual_lower_bound": 25,
+      "teacher": {
+        "candidate_index": 3,
+        "disagrees": true,
+        "work": 29,
+        "lower_bound": 29,
+        "relation": "RESIDUAL_BETTER"
+      },
+      "model_b": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": 25,
+        "lower_bound": 25,
+        "relation": "TIE"
+      }
+    },
+    {
+      "query_id": "random-32-32-20/family-12/k24/pool-q3",
+      "split": "train",
+      "family_id": "random-32-32-20/family-12",
+      "residual_work": 23,
+      "residual_lower_bound": 23,
+      "teacher": {
+        "candidate_index": 2,
+        "disagrees": true,
+        "work": 27,
+        "lower_bound": 27,
+        "relation": "RESIDUAL_BETTER"
+      },
+      "model_b": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": 23,
+        "lower_bound": 23,
+        "relation": "TIE"
+      }
+    },
+    {
+      "query_id": "random-32-32-20/family-12/k24/pool-q4",
+      "split": "train",
+      "family_id": "random-32-32-20/family-12",
+      "residual_work": 21,
+      "residual_lower_bound": 21,
+      "teacher": {
+        "candidate_index": 1,
+        "disagrees": true,
+        "work": 20,
+        "lower_bound": 20,
+        "relation": "CHALLENGER_BETTER"
+      },
+      "model_b": {
+        "candidate_index": 1,
+        "disagrees": true,
+        "work": 20,
+        "lower_bound": 20,
+        "relation": "CHALLENGER_BETTER"
+      }
+    },
+    {
+      "query_id": "random-32-32-20/family-12/k24/pool-q5",
+      "split": "train",
+      "family_id": "random-32-32-20/family-12",
+      "residual_work": 18,
+      "residual_lower_bound": 18,
+      "teacher": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": 18,
+        "lower_bound": 18,
+        "relation": "TIE"
+      },
+      "model_b": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": 18,
+        "lower_bound": 18,
+        "relation": "TIE"
+      }
+    },
+    {
+      "query_id": "random-32-32-20/family-12/k24/pool-q6",
+      "split": "train",
+      "family_id": "random-32-32-20/family-12",
+      "residual_work": 27,
+      "residual_lower_bound": 27,
+      "teacher": {
+        "candidate_index": 3,
+        "disagrees": true,
+        "work": 31,
+        "lower_bound": 31,
+        "relation": "RESIDUAL_BETTER"
+      },
+      "model_b": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": 27,
+        "lower_bound": 27,
+        "relation": "TIE"
+      }
+    },
+    {
+      "query_id": "random-32-32-20/family-12/k24/pool-q7",
+      "split": "train",
+      "family_id": "random-32-32-20/family-12",
+      "residual_work": 25,
+      "residual_lower_bound": 25,
+      "teacher": {
+        "candidate_index": 3,
+        "disagrees": true,
+        "work": 29,
+        "lower_bound": 29,
+        "relation": "RESIDUAL_BETTER"
+      },
+      "model_b": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": 25,
+        "lower_bound": 25,
+        "relation": "TIE"
+      }
+    },
+    {
+      "query_id": "random-32-32-20/family-13/k32/pool-q0",
+      "split": "train",
+      "family_id": "random-32-32-20/family-13",
+      "residual_work": null,
+      "residual_lower_bound": 25,
+      "teacher": {
+        "candidate_index": 2,
+        "disagrees": true,
+        "work": null,
+        "lower_bound": 28,
+        "relation": "UNKNOWN"
+      },
+      "model_b": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": null,
+        "lower_bound": 25,
+        "relation": "UNKNOWN"
+      }
+    },
+    {
+      "query_id": "random-32-32-20/family-13/k32/pool-q1",
+      "split": "train",
+      "family_id": "random-32-32-20/family-13",
+      "residual_work": null,
+      "residual_lower_bound": 8,
+      "teacher": {
+        "candidate_index": 2,
+        "disagrees": true,
+        "work": null,
+        "lower_bound": 17,
+        "relation": "UNKNOWN"
+      },
+      "model_b": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": null,
+        "lower_bound": 8,
+        "relation": "UNKNOWN"
+      }
+    },
+    {
+      "query_id": "random-32-32-20/family-13/k32/pool-q2",
+      "split": "train",
+      "family_id": "random-32-32-20/family-13",
+      "residual_work": null,
+      "residual_lower_bound": 28,
+      "teacher": {
+        "candidate_index": 2,
+        "disagrees": true,
+        "work": null,
+        "lower_bound": 33,
+        "relation": "UNKNOWN"
+      },
+      "model_b": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": null,
+        "lower_bound": 28,
+        "relation": "UNKNOWN"
+      }
+    },
+    {
+      "query_id": "random-32-32-20/family-13/k32/pool-q3",
+      "split": "train",
+      "family_id": "random-32-32-20/family-13",
+      "residual_work": null,
+      "residual_lower_bound": 13,
+      "teacher": {
+        "candidate_index": 3,
+        "disagrees": true,
+        "work": null,
+        "lower_bound": 13,
+        "relation": "UNKNOWN"
+      },
+      "model_b": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": null,
+        "lower_bound": 13,
+        "relation": "UNKNOWN"
+      }
+    },
+    {
+      "query_id": "random-32-32-20/family-13/k32/pool-q4",
+      "split": "train",
+      "family_id": "random-32-32-20/family-13",
+      "residual_work": null,
+      "residual_lower_bound": 4,
+      "teacher": {
+        "candidate_index": 3,
+        "disagrees": true,
+        "work": null,
+        "lower_bound": 4,
+        "relation": "UNKNOWN"
+      },
+      "model_b": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": null,
+        "lower_bound": 4,
+        "relation": "UNKNOWN"
+      }
+    },
+    {
+      "query_id": "random-32-32-20/family-13/k32/pool-q5",
+      "split": "train",
+      "family_id": "random-32-32-20/family-13",
+      "residual_work": null,
+      "residual_lower_bound": 5,
+      "teacher": {
+        "candidate_index": 3,
+        "disagrees": true,
+        "work": null,
+        "lower_bound": 5,
+        "relation": "UNKNOWN"
+      },
+      "model_b": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": null,
+        "lower_bound": 5,
+        "relation": "UNKNOWN"
+      }
+    },
+    {
+      "query_id": "random-32-32-20/family-13/k32/pool-q6",
+      "split": "train",
+      "family_id": "random-32-32-20/family-13",
+      "residual_work": null,
+      "residual_lower_bound": 18,
+      "teacher": {
+        "candidate_index": 2,
+        "disagrees": true,
+        "work": null,
+        "lower_bound": 17,
+        "relation": "UNKNOWN"
+      },
+      "model_b": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": null,
+        "lower_bound": 18,
+        "relation": "UNKNOWN"
+      }
+    },
+    {
+      "query_id": "random-32-32-20/family-13/k32/pool-q7",
+      "split": "train",
+      "family_id": "random-32-32-20/family-13",
+      "residual_work": null,
+      "residual_lower_bound": 19,
+      "teacher": {
+        "candidate_index": 2,
+        "disagrees": true,
+        "work": null,
+        "lower_bound": 18,
+        "relation": "UNKNOWN"
+      },
+      "model_b": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": null,
+        "lower_bound": 19,
+        "relation": "UNKNOWN"
+      }
+    },
+    {
+      "query_id": "random-32-32-20/family-15/k24/pool-q0",
+      "split": "train",
+      "family_id": "random-32-32-20/family-15",
+      "residual_work": null,
+      "residual_lower_bound": 77,
+      "teacher": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": null,
+        "lower_bound": 77,
+        "relation": "UNKNOWN"
+      },
+      "model_b": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": null,
+        "lower_bound": 77,
+        "relation": "UNKNOWN"
+      }
+    },
+    {
+      "query_id": "random-32-32-20/family-15/k24/pool-q1",
+      "split": "train",
+      "family_id": "random-32-32-20/family-15",
+      "residual_work": null,
+      "residual_lower_bound": 81,
+      "teacher": {
+        "candidate_index": 2,
+        "disagrees": true,
+        "work": null,
+        "lower_bound": 57,
+        "relation": "UNKNOWN"
+      },
+      "model_b": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": null,
+        "lower_bound": 81,
+        "relation": "UNKNOWN"
+      }
+    },
+    {
+      "query_id": "random-32-32-20/family-15/k24/pool-q2",
+      "split": "train",
+      "family_id": "random-32-32-20/family-15",
+      "residual_work": null,
+      "residual_lower_bound": 38,
+      "teacher": {
+        "candidate_index": 1,
+        "disagrees": true,
+        "work": null,
+        "lower_bound": 33,
+        "relation": "UNKNOWN"
+      },
+      "model_b": {
+        "candidate_index": 1,
+        "disagrees": true,
+        "work": null,
+        "lower_bound": 33,
+        "relation": "UNKNOWN"
+      }
+    },
+    {
+      "query_id": "random-32-32-20/family-15/k24/pool-q3",
+      "split": "train",
+      "family_id": "random-32-32-20/family-15",
+      "residual_work": 17,
+      "residual_lower_bound": 17,
+      "teacher": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": 17,
+        "lower_bound": 17,
+        "relation": "TIE"
+      },
+      "model_b": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": 17,
+        "lower_bound": 17,
+        "relation": "TIE"
+      }
+    },
+    {
+      "query_id": "random-32-32-20/family-15/k24/pool-q4",
+      "split": "train",
+      "family_id": "random-32-32-20/family-15",
+      "residual_work": 15,
+      "residual_lower_bound": 15,
+      "teacher": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": 15,
+        "lower_bound": 15,
+        "relation": "TIE"
+      },
+      "model_b": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": 15,
+        "lower_bound": 15,
+        "relation": "TIE"
+      }
+    },
+    {
+      "query_id": "random-32-32-20/family-15/k24/pool-q5",
+      "split": "train",
+      "family_id": "random-32-32-20/family-15",
+      "residual_work": 30,
+      "residual_lower_bound": 30,
+      "teacher": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": 30,
+        "lower_bound": 30,
+        "relation": "TIE"
+      },
+      "model_b": {
+        "candidate_index": 1,
+        "disagrees": true,
+        "work": 27,
+        "lower_bound": 27,
+        "relation": "CHALLENGER_BETTER"
+      }
+    },
+    {
+      "query_id": "random-32-32-20/family-15/k24/pool-q6",
+      "split": "train",
+      "family_id": "random-32-32-20/family-15",
+      "residual_work": 17,
+      "residual_lower_bound": 17,
+      "teacher": {
+        "candidate_index": 1,
+        "disagrees": true,
+        "work": 12,
+        "lower_bound": 12,
+        "relation": "CHALLENGER_BETTER"
+      },
+      "model_b": {
+        "candidate_index": 1,
+        "disagrees": true,
+        "work": 12,
+        "lower_bound": 12,
+        "relation": "CHALLENGER_BETTER"
+      }
+    },
+    {
+      "query_id": "random-32-32-20/family-15/k24/pool-q7",
+      "split": "train",
+      "family_id": "random-32-32-20/family-15",
+      "residual_work": 15,
+      "residual_lower_bound": 15,
+      "teacher": {
+        "candidate_index": 1,
+        "disagrees": true,
+        "work": 10,
+        "lower_bound": 10,
+        "relation": "CHALLENGER_BETTER"
+      },
+      "model_b": {
+        "candidate_index": 1,
+        "disagrees": true,
+        "work": 10,
+        "lower_bound": 10,
+        "relation": "CHALLENGER_BETTER"
+      }
+    },
+    {
+      "query_id": "random-32-32-20/family-16/k32/pool-q0",
+      "split": "train",
+      "family_id": "random-32-32-20/family-16",
+      "residual_work": null,
+      "residual_lower_bound": 39,
+      "teacher": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": null,
+        "lower_bound": 39,
+        "relation": "UNKNOWN"
+      },
+      "model_b": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": null,
+        "lower_bound": 39,
+        "relation": "UNKNOWN"
+      }
+    },
+    {
+      "query_id": "random-32-32-20/family-16/k32/pool-q1",
+      "split": "train",
+      "family_id": "random-32-32-20/family-16",
+      "residual_work": null,
+      "residual_lower_bound": 15,
+      "teacher": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": null,
+        "lower_bound": 15,
+        "relation": "UNKNOWN"
+      },
+      "model_b": {
+        "candidate_index": 1,
+        "disagrees": true,
+        "work": null,
+        "lower_bound": 15,
+        "relation": "UNKNOWN"
+      }
+    },
+    {
+      "query_id": "random-32-32-20/family-16/k32/pool-q2",
+      "split": "train",
+      "family_id": "random-32-32-20/family-16",
+      "residual_work": null,
+      "residual_lower_bound": 17,
+      "teacher": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": null,
+        "lower_bound": 17,
+        "relation": "UNKNOWN"
+      },
+      "model_b": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": null,
+        "lower_bound": 17,
+        "relation": "UNKNOWN"
+      }
+    },
+    {
+      "query_id": "random-32-32-20/family-16/k32/pool-q3",
+      "split": "train",
+      "family_id": "random-32-32-20/family-16",
+      "residual_work": null,
+      "residual_lower_bound": 43,
+      "teacher": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": null,
+        "lower_bound": 43,
+        "relation": "UNKNOWN"
+      },
+      "model_b": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": null,
+        "lower_bound": 43,
+        "relation": "UNKNOWN"
+      }
+    },
+    {
+      "query_id": "random-32-32-20/family-16/k32/pool-q4",
+      "split": "train",
+      "family_id": "random-32-32-20/family-16",
+      "residual_work": null,
+      "residual_lower_bound": 18,
+      "teacher": {
+        "candidate_index": 4,
+        "disagrees": true,
+        "work": null,
+        "lower_bound": 16,
+        "relation": "UNKNOWN"
+      },
+      "model_b": {
+        "candidate_index": 4,
+        "disagrees": true,
+        "work": null,
+        "lower_bound": 16,
+        "relation": "UNKNOWN"
+      }
+    },
+    {
+      "query_id": "random-32-32-20/family-16/k32/pool-q5",
+      "split": "train",
+      "family_id": "random-32-32-20/family-16",
+      "residual_work": null,
+      "residual_lower_bound": 48,
+      "teacher": {
+        "candidate_index": 3,
+        "disagrees": true,
+        "work": 45,
+        "lower_bound": 45,
+        "relation": "CHALLENGER_BETTER"
+      },
+      "model_b": {
+        "candidate_index": 3,
+        "disagrees": true,
+        "work": 45,
+        "lower_bound": 45,
+        "relation": "CHALLENGER_BETTER"
+      }
+    },
+    {
+      "query_id": "random-32-32-20/family-16/k32/pool-q6",
+      "split": "train",
+      "family_id": "random-32-32-20/family-16",
+      "residual_work": null,
+      "residual_lower_bound": 48,
+      "teacher": {
+        "candidate_index": 2,
+        "disagrees": true,
+        "work": 41,
+        "lower_bound": 41,
+        "relation": "CHALLENGER_BETTER"
+      },
+      "model_b": {
+        "candidate_index": 2,
+        "disagrees": true,
+        "work": 41,
+        "lower_bound": 41,
+        "relation": "CHALLENGER_BETTER"
+      }
+    },
+    {
+      "query_id": "random-32-32-20/family-16/k32/pool-q7",
+      "split": "train",
+      "family_id": "random-32-32-20/family-16",
+      "residual_work": 73,
+      "residual_lower_bound": 73,
+      "teacher": {
+        "candidate_index": 1,
+        "disagrees": true,
+        "work": 58,
+        "lower_bound": 58,
+        "relation": "CHALLENGER_BETTER"
+      },
+      "model_b": {
+        "candidate_index": 1,
+        "disagrees": true,
+        "work": 58,
+        "lower_bound": 58,
+        "relation": "CHALLENGER_BETTER"
+      }
+    },
+    {
+      "query_id": "random-32-32-20/family-18/k24/pool-q0",
+      "split": "train",
+      "family_id": "random-32-32-20/family-18",
+      "residual_work": 10,
+      "residual_lower_bound": 10,
+      "teacher": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": 10,
+        "lower_bound": 10,
+        "relation": "TIE"
+      },
+      "model_b": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": 10,
+        "lower_bound": 10,
+        "relation": "TIE"
+      }
+    },
+    {
+      "query_id": "random-32-32-20/family-18/k24/pool-q1",
+      "split": "train",
+      "family_id": "random-32-32-20/family-18",
+      "residual_work": 8,
+      "residual_lower_bound": 8,
+      "teacher": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": 8,
+        "lower_bound": 8,
+        "relation": "TIE"
+      },
+      "model_b": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": 8,
+        "lower_bound": 8,
+        "relation": "TIE"
+      }
+    },
+    {
+      "query_id": "random-32-32-20/family-18/k24/pool-q2",
+      "split": "train",
+      "family_id": "random-32-32-20/family-18",
+      "residual_work": 6,
+      "residual_lower_bound": 6,
+      "teacher": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": 6,
+        "lower_bound": 6,
+        "relation": "TIE"
+      },
+      "model_b": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": 6,
+        "lower_bound": 6,
+        "relation": "TIE"
+      }
+    },
+    {
+      "query_id": "random-32-32-20/family-19/k32/pool-q0",
+      "split": "train",
+      "family_id": "random-32-32-20/family-19",
+      "residual_work": null,
+      "residual_lower_bound": 30,
+      "teacher": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": null,
+        "lower_bound": 30,
+        "relation": "UNKNOWN"
+      },
+      "model_b": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": null,
+        "lower_bound": 30,
+        "relation": "UNKNOWN"
+      }
+    },
+    {
+      "query_id": "random-32-32-20/family-19/k32/pool-q1",
+      "split": "train",
+      "family_id": "random-32-32-20/family-19",
+      "residual_work": null,
+      "residual_lower_bound": 11,
+      "teacher": {
+        "candidate_index": 4,
+        "disagrees": true,
+        "work": null,
+        "lower_bound": 11,
+        "relation": "UNKNOWN"
+      },
+      "model_b": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": null,
+        "lower_bound": 11,
+        "relation": "UNKNOWN"
+      }
+    },
+    {
+      "query_id": "random-32-32-20/family-19/k32/pool-q2",
+      "split": "train",
+      "family_id": "random-32-32-20/family-19",
+      "residual_work": null,
+      "residual_lower_bound": 29,
+      "teacher": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": null,
+        "lower_bound": 29,
+        "relation": "UNKNOWN"
+      },
+      "model_b": {
+        "candidate_index": 1,
+        "disagrees": true,
+        "work": null,
+        "lower_bound": 30,
+        "relation": "UNKNOWN"
+      }
+    },
+    {
+      "query_id": "random-32-32-20/family-19/k32/pool-q3",
+      "split": "train",
+      "family_id": "random-32-32-20/family-19",
+      "residual_work": null,
+      "residual_lower_bound": 14,
+      "teacher": {
+        "candidate_index": 1,
+        "disagrees": true,
+        "work": null,
+        "lower_bound": 14,
+        "relation": "UNKNOWN"
+      },
+      "model_b": {
+        "candidate_index": 1,
+        "disagrees": true,
+        "work": null,
+        "lower_bound": 14,
+        "relation": "UNKNOWN"
+      }
+    },
+    {
+      "query_id": "random-32-32-20/family-19/k32/pool-q4",
+      "split": "train",
+      "family_id": "random-32-32-20/family-19",
+      "residual_work": null,
+      "residual_lower_bound": 68,
+      "teacher": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": null,
+        "lower_bound": 68,
+        "relation": "UNKNOWN"
+      },
+      "model_b": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": null,
+        "lower_bound": 68,
+        "relation": "UNKNOWN"
+      }
+    },
+    {
+      "query_id": "random-32-32-20/family-19/k32/pool-q5",
+      "split": "train",
+      "family_id": "random-32-32-20/family-19",
+      "residual_work": null,
+      "residual_lower_bound": 36,
+      "teacher": {
+        "candidate_index": 2,
+        "disagrees": true,
+        "work": null,
+        "lower_bound": 37,
+        "relation": "UNKNOWN"
+      },
+      "model_b": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": null,
+        "lower_bound": 36,
+        "relation": "UNKNOWN"
+      }
+    },
+    {
+      "query_id": "random-32-32-20/family-19/k32/pool-q6",
+      "split": "train",
+      "family_id": "random-32-32-20/family-19",
+      "residual_work": null,
+      "residual_lower_bound": 37,
+      "teacher": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": null,
+        "lower_bound": 37,
+        "relation": "UNKNOWN"
+      },
+      "model_b": {
+        "candidate_index": 2,
+        "disagrees": true,
+        "work": null,
+        "lower_bound": 33,
+        "relation": "UNKNOWN"
+      }
+    },
+    {
+      "query_id": "random-32-32-20/family-19/k32/pool-q7",
+      "split": "train",
+      "family_id": "random-32-32-20/family-19",
+      "residual_work": null,
+      "residual_lower_bound": 36,
+      "teacher": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": null,
+        "lower_bound": 36,
+        "relation": "UNKNOWN"
+      },
+      "model_b": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": null,
+        "lower_bound": 36,
+        "relation": "UNKNOWN"
+      }
+    },
+    {
+      "query_id": "random-32-32-20/family-20/k16/pool-q0",
+      "split": "validation",
+      "family_id": "random-32-32-20/family-20",
+      "residual_work": 5,
+      "residual_lower_bound": 5,
+      "teacher": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": 5,
+        "lower_bound": 5,
+        "relation": "TIE"
+      },
+      "model_b": {
+        "candidate_index": 1,
+        "disagrees": true,
+        "work": 6,
+        "lower_bound": 6,
+        "relation": "RESIDUAL_BETTER"
+      }
+    },
+    {
+      "query_id": "random-32-32-20/family-21/k24/pool-q0",
+      "split": "validation",
+      "family_id": "random-32-32-20/family-21",
+      "residual_work": null,
+      "residual_lower_bound": 40,
+      "teacher": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": null,
+        "lower_bound": 40,
+        "relation": "UNKNOWN"
+      },
+      "model_b": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": null,
+        "lower_bound": 40,
+        "relation": "UNKNOWN"
+      }
+    },
+    {
+      "query_id": "random-32-32-20/family-21/k24/pool-q1",
+      "split": "validation",
+      "family_id": "random-32-32-20/family-21",
+      "residual_work": null,
+      "residual_lower_bound": 128,
+      "teacher": {
+        "candidate_index": 1,
+        "disagrees": true,
+        "work": null,
+        "lower_bound": 128,
+        "relation": "UNKNOWN"
+      },
+      "model_b": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": null,
+        "lower_bound": 128,
+        "relation": "UNKNOWN"
+      }
+    },
+    {
+      "query_id": "random-32-32-20/family-21/k24/pool-q2",
+      "split": "validation",
+      "family_id": "random-32-32-20/family-21",
+      "residual_work": null,
+      "residual_lower_bound": 74,
+      "teacher": {
+        "candidate_index": 1,
+        "disagrees": true,
+        "work": null,
+        "lower_bound": 73,
+        "relation": "UNKNOWN"
+      },
+      "model_b": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": null,
+        "lower_bound": 74,
+        "relation": "UNKNOWN"
+      }
+    },
+    {
+      "query_id": "random-32-32-20/family-21/k24/pool-q3",
+      "split": "validation",
+      "family_id": "random-32-32-20/family-21",
+      "residual_work": null,
+      "residual_lower_bound": 80,
+      "teacher": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": null,
+        "lower_bound": 80,
+        "relation": "UNKNOWN"
+      },
+      "model_b": {
+        "candidate_index": 1,
+        "disagrees": true,
+        "work": null,
+        "lower_bound": 65,
+        "relation": "UNKNOWN"
+      }
+    },
+    {
+      "query_id": "random-32-32-20/family-22/k32/pool-q0",
+      "split": "validation",
+      "family_id": "random-32-32-20/family-22",
+      "residual_work": null,
+      "residual_lower_bound": 34,
+      "teacher": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": null,
+        "lower_bound": 34,
+        "relation": "UNKNOWN"
+      },
+      "model_b": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": null,
+        "lower_bound": 34,
+        "relation": "UNKNOWN"
+      }
+    },
+    {
+      "query_id": "random-32-32-20/family-22/k32/pool-q1",
+      "split": "validation",
+      "family_id": "random-32-32-20/family-22",
+      "residual_work": null,
+      "residual_lower_bound": 38,
+      "teacher": {
+        "candidate_index": 1,
+        "disagrees": true,
+        "work": 38,
+        "lower_bound": 38,
+        "relation": "UNKNOWN"
+      },
+      "model_b": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": null,
+        "lower_bound": 38,
+        "relation": "UNKNOWN"
+      }
+    },
+    {
+      "query_id": "random-32-32-20/family-22/k32/pool-q2",
+      "split": "validation",
+      "family_id": "random-32-32-20/family-22",
+      "residual_work": 36,
+      "residual_lower_bound": 36,
+      "teacher": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": 36,
+        "lower_bound": 36,
+        "relation": "TIE"
+      },
+      "model_b": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": 36,
+        "lower_bound": 36,
+        "relation": "TIE"
+      }
+    },
+    {
+      "query_id": "random-32-32-20/family-22/k32/pool-q3",
+      "split": "validation",
+      "family_id": "random-32-32-20/family-22",
+      "residual_work": 34,
+      "residual_lower_bound": 34,
+      "teacher": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": 34,
+        "lower_bound": 34,
+        "relation": "TIE"
+      },
+      "model_b": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": 34,
+        "lower_bound": 34,
+        "relation": "TIE"
+      }
+    },
+    {
+      "query_id": "room-32-32-4/family-08/k24/pool-q0",
+      "split": "train",
+      "family_id": "room-32-32-4/family-08",
+      "residual_work": null,
+      "residual_lower_bound": 29,
+      "teacher": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": null,
+        "lower_bound": 29,
+        "relation": "UNKNOWN"
+      },
+      "model_b": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": null,
+        "lower_bound": 29,
+        "relation": "UNKNOWN"
+      }
+    },
+    {
+      "query_id": "room-32-32-4/family-08/k24/pool-q1",
+      "split": "train",
+      "family_id": "room-32-32-4/family-08",
+      "residual_work": null,
+      "residual_lower_bound": 59,
+      "teacher": {
+        "candidate_index": 1,
+        "disagrees": true,
+        "work": null,
+        "lower_bound": 57,
+        "relation": "UNKNOWN"
+      },
+      "model_b": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": null,
+        "lower_bound": 59,
+        "relation": "UNKNOWN"
+      }
+    },
+    {
+      "query_id": "room-32-32-4/family-08/k24/pool-q2",
+      "split": "train",
+      "family_id": "room-32-32-4/family-08",
+      "residual_work": null,
+      "residual_lower_bound": 19,
+      "teacher": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": null,
+        "lower_bound": 19,
+        "relation": "UNKNOWN"
+      },
+      "model_b": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": null,
+        "lower_bound": 19,
+        "relation": "UNKNOWN"
+      }
+    },
+    {
+      "query_id": "room-32-32-4/family-08/k24/pool-q3",
+      "split": "train",
+      "family_id": "room-32-32-4/family-08",
+      "residual_work": null,
+      "residual_lower_bound": 13,
+      "teacher": {
+        "candidate_index": 1,
+        "disagrees": true,
+        "work": null,
+        "lower_bound": 13,
+        "relation": "UNKNOWN"
+      },
+      "model_b": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": null,
+        "lower_bound": 13,
+        "relation": "UNKNOWN"
+      }
+    },
+    {
+      "query_id": "room-32-32-4/family-08/k24/pool-q4",
+      "split": "train",
+      "family_id": "room-32-32-4/family-08",
+      "residual_work": null,
+      "residual_lower_bound": 33,
+      "teacher": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": null,
+        "lower_bound": 33,
+        "relation": "UNKNOWN"
+      },
+      "model_b": {
+        "candidate_index": 2,
+        "disagrees": true,
+        "work": null,
+        "lower_bound": 32,
+        "relation": "UNKNOWN"
+      }
+    },
+    {
+      "query_id": "room-32-32-4/family-08/k24/pool-q5",
+      "split": "train",
+      "family_id": "room-32-32-4/family-08",
+      "residual_work": null,
+      "residual_lower_bound": 30,
+      "teacher": {
+        "candidate_index": 1,
+        "disagrees": true,
+        "work": null,
+        "lower_bound": 33,
+        "relation": "UNKNOWN"
+      },
+      "model_b": {
+        "candidate_index": 2,
+        "disagrees": true,
+        "work": null,
+        "lower_bound": 34,
+        "relation": "UNKNOWN"
+      }
+    },
+    {
+      "query_id": "room-32-32-4/family-08/k24/pool-q6",
+      "split": "train",
+      "family_id": "room-32-32-4/family-08",
+      "residual_work": null,
+      "residual_lower_bound": 64,
+      "teacher": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": null,
+        "lower_bound": 64,
+        "relation": "UNKNOWN"
+      },
+      "model_b": {
+        "candidate_index": 2,
+        "disagrees": true,
+        "work": null,
+        "lower_bound": 66,
+        "relation": "UNKNOWN"
+      }
+    },
+    {
+      "query_id": "room-32-32-4/family-08/k24/pool-q7",
+      "split": "train",
+      "family_id": "room-32-32-4/family-08",
+      "residual_work": null,
+      "residual_lower_bound": 36,
+      "teacher": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": null,
+        "lower_bound": 36,
+        "relation": "UNKNOWN"
+      },
+      "model_b": {
+        "candidate_index": 1,
+        "disagrees": true,
+        "work": null,
+        "lower_bound": 35,
+        "relation": "UNKNOWN"
+      }
+    },
+    {
+      "query_id": "room-32-32-4/family-09/k32/pool-q0",
+      "split": "train",
+      "family_id": "room-32-32-4/family-09",
+      "residual_work": null,
+      "residual_lower_bound": 12,
+      "teacher": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": null,
+        "lower_bound": 12,
+        "relation": "UNKNOWN"
+      },
+      "model_b": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": null,
+        "lower_bound": 12,
+        "relation": "UNKNOWN"
+      }
+    },
+    {
+      "query_id": "room-32-32-4/family-09/k32/pool-q1",
+      "split": "train",
+      "family_id": "room-32-32-4/family-09",
+      "residual_work": null,
+      "residual_lower_bound": 12,
+      "teacher": {
+        "candidate_index": 1,
+        "disagrees": true,
+        "work": null,
+        "lower_bound": 15,
+        "relation": "UNKNOWN"
+      },
+      "model_b": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": null,
+        "lower_bound": 12,
+        "relation": "UNKNOWN"
+      }
+    },
+    {
+      "query_id": "room-32-32-4/family-09/k32/pool-q2",
+      "split": "train",
+      "family_id": "room-32-32-4/family-09",
+      "residual_work": null,
+      "residual_lower_bound": 13,
+      "teacher": {
+        "candidate_index": 1,
+        "disagrees": true,
+        "work": null,
+        "lower_bound": 15,
+        "relation": "UNKNOWN"
+      },
+      "model_b": {
+        "candidate_index": 2,
+        "disagrees": true,
+        "work": null,
+        "lower_bound": 15,
+        "relation": "UNKNOWN"
+      }
+    },
+    {
+      "query_id": "room-32-32-4/family-09/k32/pool-q3",
+      "split": "train",
+      "family_id": "room-32-32-4/family-09",
+      "residual_work": null,
+      "residual_lower_bound": 6,
+      "teacher": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": null,
+        "lower_bound": 6,
+        "relation": "UNKNOWN"
+      },
+      "model_b": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": null,
+        "lower_bound": 6,
+        "relation": "UNKNOWN"
+      }
+    },
+    {
+      "query_id": "room-32-32-4/family-09/k32/pool-q4",
+      "split": "train",
+      "family_id": "room-32-32-4/family-09",
+      "residual_work": null,
+      "residual_lower_bound": 23,
+      "teacher": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": null,
+        "lower_bound": 23,
+        "relation": "UNKNOWN"
+      },
+      "model_b": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": null,
+        "lower_bound": 23,
+        "relation": "UNKNOWN"
+      }
+    },
+    {
+      "query_id": "room-32-32-4/family-09/k32/pool-q5",
+      "split": "train",
+      "family_id": "room-32-32-4/family-09",
+      "residual_work": null,
+      "residual_lower_bound": 7,
+      "teacher": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": null,
+        "lower_bound": 7,
+        "relation": "UNKNOWN"
+      },
+      "model_b": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": null,
+        "lower_bound": 7,
+        "relation": "UNKNOWN"
+      }
+    },
+    {
+      "query_id": "room-32-32-4/family-09/k32/pool-q6",
+      "split": "train",
+      "family_id": "room-32-32-4/family-09",
+      "residual_work": null,
+      "residual_lower_bound": 12,
+      "teacher": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": null,
+        "lower_bound": 12,
+        "relation": "UNKNOWN"
+      },
+      "model_b": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": null,
+        "lower_bound": 12,
+        "relation": "UNKNOWN"
+      }
+    },
+    {
+      "query_id": "room-32-32-4/family-09/k32/pool-q7",
+      "split": "train",
+      "family_id": "room-32-32-4/family-09",
+      "residual_work": null,
+      "residual_lower_bound": 12,
+      "teacher": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": null,
+        "lower_bound": 12,
+        "relation": "UNKNOWN"
+      },
+      "model_b": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": null,
+        "lower_bound": 12,
+        "relation": "UNKNOWN"
+      }
+    },
+    {
+      "query_id": "room-32-32-4/family-10/k16/pool-q0",
+      "split": "train",
+      "family_id": "room-32-32-4/family-10",
+      "residual_work": 15,
+      "residual_lower_bound": 15,
+      "teacher": {
+        "candidate_index": 1,
+        "disagrees": true,
+        "work": 23,
+        "lower_bound": 23,
+        "relation": "RESIDUAL_BETTER"
+      },
+      "model_b": {
+        "candidate_index": 5,
+        "disagrees": true,
+        "work": null,
+        "lower_bound": 24,
+        "relation": "RESIDUAL_BETTER"
+      }
+    },
+    {
+      "query_id": "room-32-32-4/family-10/k16/pool-q1",
+      "split": "train",
+      "family_id": "room-32-32-4/family-10",
+      "residual_work": 10,
+      "residual_lower_bound": 10,
+      "teacher": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": 10,
+        "lower_bound": 10,
+        "relation": "TIE"
+      },
+      "model_b": {
+        "candidate_index": 5,
+        "disagrees": true,
+        "work": 14,
+        "lower_bound": 14,
+        "relation": "RESIDUAL_BETTER"
+      }
+    },
+    {
+      "query_id": "room-32-32-4/family-10/k16/pool-q2",
+      "split": "train",
+      "family_id": "room-32-32-4/family-10",
+      "residual_work": 7,
+      "residual_lower_bound": 7,
+      "teacher": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": 7,
+        "lower_bound": 7,
+        "relation": "TIE"
+      },
+      "model_b": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": 7,
+        "lower_bound": 7,
+        "relation": "TIE"
+      }
+    },
+    {
+      "query_id": "room-32-32-4/family-10/k16/pool-q3",
+      "split": "train",
+      "family_id": "room-32-32-4/family-10",
+      "residual_work": 7,
+      "residual_lower_bound": 7,
+      "teacher": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": 7,
+        "lower_bound": 7,
+        "relation": "TIE"
+      },
+      "model_b": {
+        "candidate_index": 3,
+        "disagrees": true,
+        "work": 8,
+        "lower_bound": 8,
+        "relation": "RESIDUAL_BETTER"
+      }
+    },
+    {
+      "query_id": "room-32-32-4/family-11/k24/pool-q0",
+      "split": "train",
+      "family_id": "room-32-32-4/family-11",
+      "residual_work": null,
+      "residual_lower_bound": 78,
+      "teacher": {
+        "candidate_index": 3,
+        "disagrees": true,
+        "work": null,
+        "lower_bound": 77,
+        "relation": "UNKNOWN"
+      },
+      "model_b": {
+        "candidate_index": 3,
+        "disagrees": true,
+        "work": null,
+        "lower_bound": 77,
+        "relation": "UNKNOWN"
+      }
+    },
+    {
+      "query_id": "room-32-32-4/family-11/k24/pool-q1",
+      "split": "train",
+      "family_id": "room-32-32-4/family-11",
+      "residual_work": null,
+      "residual_lower_bound": 36,
+      "teacher": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": null,
+        "lower_bound": 36,
+        "relation": "UNKNOWN"
+      },
+      "model_b": {
+        "candidate_index": 5,
+        "disagrees": true,
+        "work": null,
+        "lower_bound": 39,
+        "relation": "UNKNOWN"
+      }
+    },
+    {
+      "query_id": "room-32-32-4/family-11/k24/pool-q2",
+      "split": "train",
+      "family_id": "room-32-32-4/family-11",
+      "residual_work": null,
+      "residual_lower_bound": 43,
+      "teacher": {
+        "candidate_index": 3,
+        "disagrees": true,
+        "work": null,
+        "lower_bound": 18,
+        "relation": "UNKNOWN"
+      },
+      "model_b": {
+        "candidate_index": 3,
+        "disagrees": true,
+        "work": null,
+        "lower_bound": 18,
+        "relation": "UNKNOWN"
+      }
+    },
+    {
+      "query_id": "room-32-32-4/family-11/k24/pool-q3",
+      "split": "train",
+      "family_id": "room-32-32-4/family-11",
+      "residual_work": null,
+      "residual_lower_bound": 64,
+      "teacher": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": null,
+        "lower_bound": 64,
+        "relation": "UNKNOWN"
+      },
+      "model_b": {
+        "candidate_index": 4,
+        "disagrees": true,
+        "work": null,
+        "lower_bound": 68,
+        "relation": "UNKNOWN"
+      }
+    },
+    {
+      "query_id": "room-32-32-4/family-11/k24/pool-q4",
+      "split": "train",
+      "family_id": "room-32-32-4/family-11",
+      "residual_work": null,
+      "residual_lower_bound": 45,
+      "teacher": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": null,
+        "lower_bound": 45,
+        "relation": "UNKNOWN"
+      },
+      "model_b": {
+        "candidate_index": 5,
+        "disagrees": true,
+        "work": null,
+        "lower_bound": 46,
+        "relation": "UNKNOWN"
+      }
+    },
+    {
+      "query_id": "room-32-32-4/family-11/k24/pool-q5",
+      "split": "train",
+      "family_id": "room-32-32-4/family-11",
+      "residual_work": null,
+      "residual_lower_bound": 41,
+      "teacher": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": null,
+        "lower_bound": 41,
+        "relation": "UNKNOWN"
+      },
+      "model_b": {
+        "candidate_index": 4,
+        "disagrees": true,
+        "work": null,
+        "lower_bound": 19,
+        "relation": "UNKNOWN"
+      }
+    },
+    {
+      "query_id": "room-32-32-4/family-11/k24/pool-q6",
+      "split": "train",
+      "family_id": "room-32-32-4/family-11",
+      "residual_work": null,
+      "residual_lower_bound": 30,
+      "teacher": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": null,
+        "lower_bound": 30,
+        "relation": "UNKNOWN"
+      },
+      "model_b": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": null,
+        "lower_bound": 30,
+        "relation": "UNKNOWN"
+      }
+    },
+    {
+      "query_id": "room-32-32-4/family-11/k24/pool-q7",
+      "split": "train",
+      "family_id": "room-32-32-4/family-11",
+      "residual_work": null,
+      "residual_lower_bound": 21,
+      "teacher": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": null,
+        "lower_bound": 21,
+        "relation": "UNKNOWN"
+      },
+      "model_b": {
+        "candidate_index": 4,
+        "disagrees": true,
+        "work": null,
+        "lower_bound": 45,
+        "relation": "UNKNOWN"
+      }
+    },
+    {
+      "query_id": "room-32-32-4/family-12/k32/pool-q0",
+      "split": "train",
+      "family_id": "room-32-32-4/family-12",
+      "residual_work": null,
+      "residual_lower_bound": 16,
+      "teacher": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": null,
+        "lower_bound": 16,
+        "relation": "UNKNOWN"
+      },
+      "model_b": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": null,
+        "lower_bound": 16,
+        "relation": "UNKNOWN"
+      }
+    },
+    {
+      "query_id": "room-32-32-4/family-12/k32/pool-q1",
+      "split": "train",
+      "family_id": "room-32-32-4/family-12",
+      "residual_work": null,
+      "residual_lower_bound": 16,
+      "teacher": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": null,
+        "lower_bound": 16,
+        "relation": "UNKNOWN"
+      },
+      "model_b": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": null,
+        "lower_bound": 16,
+        "relation": "UNKNOWN"
+      }
+    },
+    {
+      "query_id": "room-32-32-4/family-12/k32/pool-q2",
+      "split": "train",
+      "family_id": "room-32-32-4/family-12",
+      "residual_work": null,
+      "residual_lower_bound": 30,
+      "teacher": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": null,
+        "lower_bound": 30,
+        "relation": "UNKNOWN"
+      },
+      "model_b": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": null,
+        "lower_bound": 30,
+        "relation": "UNKNOWN"
+      }
+    },
+    {
+      "query_id": "room-32-32-4/family-12/k32/pool-q3",
+      "split": "train",
+      "family_id": "room-32-32-4/family-12",
+      "residual_work": null,
+      "residual_lower_bound": 7,
+      "teacher": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": null,
+        "lower_bound": 7,
+        "relation": "UNKNOWN"
+      },
+      "model_b": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": null,
+        "lower_bound": 7,
+        "relation": "UNKNOWN"
+      }
+    },
+    {
+      "query_id": "room-32-32-4/family-12/k32/pool-q4",
+      "split": "train",
+      "family_id": "room-32-32-4/family-12",
+      "residual_work": null,
+      "residual_lower_bound": 7,
+      "teacher": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": null,
+        "lower_bound": 7,
+        "relation": "UNKNOWN"
+      },
+      "model_b": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": null,
+        "lower_bound": 7,
+        "relation": "UNKNOWN"
+      }
+    },
+    {
+      "query_id": "room-32-32-4/family-12/k32/pool-q5",
+      "split": "train",
+      "family_id": "room-32-32-4/family-12",
+      "residual_work": null,
+      "residual_lower_bound": 23,
+      "teacher": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": null,
+        "lower_bound": 23,
+        "relation": "UNKNOWN"
+      },
+      "model_b": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": null,
+        "lower_bound": 23,
+        "relation": "UNKNOWN"
+      }
+    },
+    {
+      "query_id": "room-32-32-4/family-12/k32/pool-q6",
+      "split": "train",
+      "family_id": "room-32-32-4/family-12",
+      "residual_work": null,
+      "residual_lower_bound": 22,
+      "teacher": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": null,
+        "lower_bound": 22,
+        "relation": "UNKNOWN"
+      },
+      "model_b": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": null,
+        "lower_bound": 22,
+        "relation": "UNKNOWN"
+      }
+    },
+    {
+      "query_id": "room-32-32-4/family-12/k32/pool-q7",
+      "split": "train",
+      "family_id": "room-32-32-4/family-12",
+      "residual_work": null,
+      "residual_lower_bound": 15,
+      "teacher": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": null,
+        "lower_bound": 15,
+        "relation": "UNKNOWN"
+      },
+      "model_b": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": null,
+        "lower_bound": 15,
+        "relation": "UNKNOWN"
+      }
+    },
+    {
+      "query_id": "room-32-32-4/family-13/k16/pool-q0",
+      "split": "train",
+      "family_id": "room-32-32-4/family-13",
+      "residual_work": 23,
+      "residual_lower_bound": 23,
+      "teacher": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": 23,
+        "lower_bound": 23,
+        "relation": "TIE"
+      },
+      "model_b": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": 23,
+        "lower_bound": 23,
+        "relation": "TIE"
+      }
+    },
+    {
+      "query_id": "room-32-32-4/family-13/k16/pool-q1",
+      "split": "train",
+      "family_id": "room-32-32-4/family-13",
+      "residual_work": 22,
+      "residual_lower_bound": 22,
+      "teacher": {
+        "candidate_index": 1,
+        "disagrees": true,
+        "work": 31,
+        "lower_bound": 31,
+        "relation": "RESIDUAL_BETTER"
+      },
+      "model_b": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": 22,
+        "lower_bound": 22,
+        "relation": "TIE"
+      }
+    },
+    {
+      "query_id": "room-32-32-4/family-13/k16/pool-q2",
+      "split": "train",
+      "family_id": "room-32-32-4/family-13",
+      "residual_work": 20,
+      "residual_lower_bound": 20,
+      "teacher": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": 20,
+        "lower_bound": 20,
+        "relation": "TIE"
+      },
+      "model_b": {
+        "candidate_index": 1,
+        "disagrees": true,
+        "work": 27,
+        "lower_bound": 27,
+        "relation": "RESIDUAL_BETTER"
+      }
+    },
+    {
+      "query_id": "room-32-32-4/family-13/k16/pool-q3",
+      "split": "train",
+      "family_id": "room-32-32-4/family-13",
+      "residual_work": 60,
+      "residual_lower_bound": 60,
+      "teacher": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": 60,
+        "lower_bound": 60,
+        "relation": "TIE"
+      },
+      "model_b": {
+        "candidate_index": 2,
+        "disagrees": true,
+        "work": 55,
+        "lower_bound": 55,
+        "relation": "CHALLENGER_BETTER"
+      }
+    },
+    {
+      "query_id": "room-32-32-4/family-13/k16/pool-q4",
+      "split": "train",
+      "family_id": "room-32-32-4/family-13",
+      "residual_work": 15,
+      "residual_lower_bound": 15,
+      "teacher": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": 15,
+        "lower_bound": 15,
+        "relation": "TIE"
+      },
+      "model_b": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": 15,
+        "lower_bound": 15,
+        "relation": "TIE"
+      }
+    },
+    {
+      "query_id": "room-32-32-4/family-13/k16/pool-q5",
+      "split": "train",
+      "family_id": "room-32-32-4/family-13",
+      "residual_work": 36,
+      "residual_lower_bound": 36,
+      "teacher": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": 36,
+        "lower_bound": 36,
+        "relation": "TIE"
+      },
+      "model_b": {
+        "candidate_index": 2,
+        "disagrees": true,
+        "work": 33,
+        "lower_bound": 33,
+        "relation": "CHALLENGER_BETTER"
+      }
+    },
+    {
+      "query_id": "room-32-32-4/family-13/k16/pool-q6",
+      "split": "train",
+      "family_id": "room-32-32-4/family-13",
+      "residual_work": 17,
+      "residual_lower_bound": 17,
+      "teacher": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": 17,
+        "lower_bound": 17,
+        "relation": "TIE"
+      },
+      "model_b": {
+        "candidate_index": 1,
+        "disagrees": true,
+        "work": 12,
+        "lower_bound": 12,
+        "relation": "CHALLENGER_BETTER"
+      }
+    },
+    {
+      "query_id": "room-32-32-4/family-13/k16/pool-q7",
+      "split": "train",
+      "family_id": "room-32-32-4/family-13",
+      "residual_work": 27,
+      "residual_lower_bound": 27,
+      "teacher": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": 27,
+        "lower_bound": 27,
+        "relation": "TIE"
+      },
+      "model_b": {
+        "candidate_index": 2,
+        "disagrees": true,
+        "work": 27,
+        "lower_bound": 27,
+        "relation": "TIE"
+      }
+    },
+    {
+      "query_id": "room-32-32-4/family-14/k24/pool-q0",
+      "split": "train",
+      "family_id": "room-32-32-4/family-14",
+      "residual_work": null,
+      "residual_lower_bound": 21,
+      "teacher": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": null,
+        "lower_bound": 21,
+        "relation": "UNKNOWN"
+      },
+      "model_b": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": null,
+        "lower_bound": 21,
+        "relation": "UNKNOWN"
+      }
+    },
+    {
+      "query_id": "room-32-32-4/family-14/k24/pool-q1",
+      "split": "train",
+      "family_id": "room-32-32-4/family-14",
+      "residual_work": null,
+      "residual_lower_bound": 6,
+      "teacher": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": null,
+        "lower_bound": 6,
+        "relation": "UNKNOWN"
+      },
+      "model_b": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": null,
+        "lower_bound": 6,
+        "relation": "UNKNOWN"
+      }
+    },
+    {
+      "query_id": "room-32-32-4/family-14/k24/pool-q2",
+      "split": "train",
+      "family_id": "room-32-32-4/family-14",
+      "residual_work": null,
+      "residual_lower_bound": 5,
+      "teacher": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": null,
+        "lower_bound": 5,
+        "relation": "UNKNOWN"
+      },
+      "model_b": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": null,
+        "lower_bound": 5,
+        "relation": "UNKNOWN"
+      }
+    },
+    {
+      "query_id": "room-32-32-4/family-14/k24/pool-q3",
+      "split": "train",
+      "family_id": "room-32-32-4/family-14",
+      "residual_work": null,
+      "residual_lower_bound": 11,
+      "teacher": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": null,
+        "lower_bound": 11,
+        "relation": "UNKNOWN"
+      },
+      "model_b": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": null,
+        "lower_bound": 11,
+        "relation": "UNKNOWN"
+      }
+    },
+    {
+      "query_id": "room-32-32-4/family-14/k24/pool-q4",
+      "split": "train",
+      "family_id": "room-32-32-4/family-14",
+      "residual_work": null,
+      "residual_lower_bound": 11,
+      "teacher": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": null,
+        "lower_bound": 11,
+        "relation": "UNKNOWN"
+      },
+      "model_b": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": null,
+        "lower_bound": 11,
+        "relation": "UNKNOWN"
+      }
+    },
+    {
+      "query_id": "room-32-32-4/family-14/k24/pool-q5",
+      "split": "train",
+      "family_id": "room-32-32-4/family-14",
+      "residual_work": null,
+      "residual_lower_bound": 10,
+      "teacher": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": null,
+        "lower_bound": 10,
+        "relation": "UNKNOWN"
+      },
+      "model_b": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": null,
+        "lower_bound": 10,
+        "relation": "UNKNOWN"
+      }
+    },
+    {
+      "query_id": "room-32-32-4/family-14/k24/pool-q6",
+      "split": "train",
+      "family_id": "room-32-32-4/family-14",
+      "residual_work": null,
+      "residual_lower_bound": 20,
+      "teacher": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": null,
+        "lower_bound": 20,
+        "relation": "UNKNOWN"
+      },
+      "model_b": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": null,
+        "lower_bound": 20,
+        "relation": "UNKNOWN"
+      }
+    },
+    {
+      "query_id": "room-32-32-4/family-14/k24/pool-q7",
+      "split": "train",
+      "family_id": "room-32-32-4/family-14",
+      "residual_work": null,
+      "residual_lower_bound": 9,
+      "teacher": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": null,
+        "lower_bound": 9,
+        "relation": "UNKNOWN"
+      },
+      "model_b": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": null,
+        "lower_bound": 9,
+        "relation": "UNKNOWN"
+      }
+    },
+    {
+      "query_id": "room-32-32-4/family-15/k32/pool-q0",
+      "split": "train",
+      "family_id": "room-32-32-4/family-15",
+      "residual_work": null,
+      "residual_lower_bound": 26,
+      "teacher": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": null,
+        "lower_bound": 26,
+        "relation": "UNKNOWN"
+      },
+      "model_b": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": null,
+        "lower_bound": 26,
+        "relation": "UNKNOWN"
+      }
+    },
+    {
+      "query_id": "room-32-32-4/family-15/k32/pool-q1",
+      "split": "train",
+      "family_id": "room-32-32-4/family-15",
+      "residual_work": null,
+      "residual_lower_bound": 50,
+      "teacher": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": null,
+        "lower_bound": 50,
+        "relation": "UNKNOWN"
+      },
+      "model_b": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": null,
+        "lower_bound": 50,
+        "relation": "UNKNOWN"
+      }
+    },
+    {
+      "query_id": "room-32-32-4/family-15/k32/pool-q2",
+      "split": "train",
+      "family_id": "room-32-32-4/family-15",
+      "residual_work": null,
+      "residual_lower_bound": 13,
+      "teacher": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": null,
+        "lower_bound": 13,
+        "relation": "UNKNOWN"
+      },
+      "model_b": {
+        "candidate_index": 1,
+        "disagrees": true,
+        "work": null,
+        "lower_bound": 11,
+        "relation": "UNKNOWN"
+      }
+    },
+    {
+      "query_id": "room-32-32-4/family-15/k32/pool-q3",
+      "split": "train",
+      "family_id": "room-32-32-4/family-15",
+      "residual_work": null,
+      "residual_lower_bound": 26,
+      "teacher": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": null,
+        "lower_bound": 26,
+        "relation": "UNKNOWN"
+      },
+      "model_b": {
+        "candidate_index": 1,
+        "disagrees": true,
+        "work": null,
+        "lower_bound": 18,
+        "relation": "UNKNOWN"
+      }
+    },
+    {
+      "query_id": "room-32-32-4/family-15/k32/pool-q4",
+      "split": "train",
+      "family_id": "room-32-32-4/family-15",
+      "residual_work": null,
+      "residual_lower_bound": 12,
+      "teacher": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": null,
+        "lower_bound": 12,
+        "relation": "UNKNOWN"
+      },
+      "model_b": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": null,
+        "lower_bound": 12,
+        "relation": "UNKNOWN"
+      }
+    },
+    {
+      "query_id": "room-32-32-4/family-15/k32/pool-q5",
+      "split": "train",
+      "family_id": "room-32-32-4/family-15",
+      "residual_work": null,
+      "residual_lower_bound": 20,
+      "teacher": {
+        "candidate_index": 1,
+        "disagrees": true,
+        "work": null,
+        "lower_bound": 23,
+        "relation": "UNKNOWN"
+      },
+      "model_b": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": null,
+        "lower_bound": 20,
+        "relation": "UNKNOWN"
+      }
+    },
+    {
+      "query_id": "room-32-32-4/family-15/k32/pool-q6",
+      "split": "train",
+      "family_id": "room-32-32-4/family-15",
+      "residual_work": null,
+      "residual_lower_bound": 27,
+      "teacher": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": null,
+        "lower_bound": 27,
+        "relation": "UNKNOWN"
+      },
+      "model_b": {
+        "candidate_index": 1,
+        "disagrees": true,
+        "work": null,
+        "lower_bound": 24,
+        "relation": "UNKNOWN"
+      }
+    },
+    {
+      "query_id": "room-32-32-4/family-15/k32/pool-q7",
+      "split": "train",
+      "family_id": "room-32-32-4/family-15",
+      "residual_work": null,
+      "residual_lower_bound": 54,
+      "teacher": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": null,
+        "lower_bound": 54,
+        "relation": "UNKNOWN"
+      },
+      "model_b": {
+        "candidate_index": 1,
+        "disagrees": true,
+        "work": null,
+        "lower_bound": 45,
+        "relation": "UNKNOWN"
+      }
+    },
+    {
+      "query_id": "room-32-32-4/family-16/k16/pool-q0",
+      "split": "train",
+      "family_id": "room-32-32-4/family-16",
+      "residual_work": 7,
+      "residual_lower_bound": 7,
+      "teacher": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": 7,
+        "lower_bound": 7,
+        "relation": "TIE"
+      },
+      "model_b": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": 7,
+        "lower_bound": 7,
+        "relation": "TIE"
+      }
+    },
+    {
+      "query_id": "room-32-32-4/family-16/k16/pool-q1",
+      "split": "train",
+      "family_id": "room-32-32-4/family-16",
+      "residual_work": 6,
+      "residual_lower_bound": 6,
+      "teacher": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": 6,
+        "lower_bound": 6,
+        "relation": "TIE"
+      },
+      "model_b": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": 6,
+        "lower_bound": 6,
+        "relation": "TIE"
+      }
+    },
+    {
+      "query_id": "room-32-32-4/family-16/k16/pool-q2",
+      "split": "train",
+      "family_id": "room-32-32-4/family-16",
+      "residual_work": 5,
+      "residual_lower_bound": 5,
+      "teacher": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": 5,
+        "lower_bound": 5,
+        "relation": "TIE"
+      },
+      "model_b": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": 5,
+        "lower_bound": 5,
+        "relation": "TIE"
+      }
+    },
+    {
+      "query_id": "room-32-32-4/family-16/k16/pool-q3",
+      "split": "train",
+      "family_id": "room-32-32-4/family-16",
+      "residual_work": 4,
+      "residual_lower_bound": 4,
+      "teacher": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": 4,
+        "lower_bound": 4,
+        "relation": "TIE"
+      },
+      "model_b": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": 4,
+        "lower_bound": 4,
+        "relation": "TIE"
+      }
+    },
+    {
+      "query_id": "room-32-32-4/family-16/k16/pool-q4",
+      "split": "train",
+      "family_id": "room-32-32-4/family-16",
+      "residual_work": 2,
+      "residual_lower_bound": 2,
+      "teacher": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": 2,
+        "lower_bound": 2,
+        "relation": "TIE"
+      },
+      "model_b": {
+        "candidate_index": 4,
+        "disagrees": true,
+        "work": 2,
+        "lower_bound": 2,
+        "relation": "TIE"
+      }
+    },
+    {
+      "query_id": "room-32-32-4/family-17/k24/pool-q0",
+      "split": "train",
+      "family_id": "room-32-32-4/family-17",
+      "residual_work": null,
+      "residual_lower_bound": 37,
+      "teacher": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": null,
+        "lower_bound": 37,
+        "relation": "UNKNOWN"
+      },
+      "model_b": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": null,
+        "lower_bound": 37,
+        "relation": "UNKNOWN"
+      }
+    },
+    {
+      "query_id": "room-32-32-4/family-17/k24/pool-q1",
+      "split": "train",
+      "family_id": "room-32-32-4/family-17",
+      "residual_work": null,
+      "residual_lower_bound": 77,
+      "teacher": {
+        "candidate_index": 3,
+        "disagrees": true,
+        "work": null,
+        "lower_bound": 75,
+        "relation": "UNKNOWN"
+      },
+      "model_b": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": null,
+        "lower_bound": 77,
+        "relation": "UNKNOWN"
+      }
+    },
+    {
+      "query_id": "room-32-32-4/family-17/k24/pool-q2",
+      "split": "train",
+      "family_id": "room-32-32-4/family-17",
+      "residual_work": null,
+      "residual_lower_bound": 17,
+      "teacher": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": null,
+        "lower_bound": 17,
+        "relation": "UNKNOWN"
+      },
+      "model_b": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": null,
+        "lower_bound": 17,
+        "relation": "UNKNOWN"
+      }
+    },
+    {
+      "query_id": "room-32-32-4/family-17/k24/pool-q3",
+      "split": "train",
+      "family_id": "room-32-32-4/family-17",
+      "residual_work": null,
+      "residual_lower_bound": 40,
+      "teacher": {
+        "candidate_index": 3,
+        "disagrees": true,
+        "work": null,
+        "lower_bound": 41,
+        "relation": "UNKNOWN"
+      },
+      "model_b": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": null,
+        "lower_bound": 40,
+        "relation": "UNKNOWN"
+      }
+    },
+    {
+      "query_id": "room-32-32-4/family-17/k24/pool-q4",
+      "split": "train",
+      "family_id": "room-32-32-4/family-17",
+      "residual_work": null,
+      "residual_lower_bound": 18,
+      "teacher": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": null,
+        "lower_bound": 18,
+        "relation": "UNKNOWN"
+      },
+      "model_b": {
+        "candidate_index": 1,
+        "disagrees": true,
+        "work": null,
+        "lower_bound": 19,
+        "relation": "UNKNOWN"
+      }
+    },
+    {
+      "query_id": "room-32-32-4/family-17/k24/pool-q5",
+      "split": "train",
+      "family_id": "room-32-32-4/family-17",
+      "residual_work": null,
+      "residual_lower_bound": 41,
+      "teacher": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": null,
+        "lower_bound": 41,
+        "relation": "UNKNOWN"
+      },
+      "model_b": {
+        "candidate_index": 1,
+        "disagrees": true,
+        "work": null,
+        "lower_bound": 44,
+        "relation": "UNKNOWN"
+      }
+    },
+    {
+      "query_id": "room-32-32-4/family-17/k24/pool-q6",
+      "split": "train",
+      "family_id": "room-32-32-4/family-17",
+      "residual_work": null,
+      "residual_lower_bound": 40,
+      "teacher": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": null,
+        "lower_bound": 40,
+        "relation": "UNKNOWN"
+      },
+      "model_b": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": null,
+        "lower_bound": 40,
+        "relation": "UNKNOWN"
+      }
+    },
+    {
+      "query_id": "room-32-32-4/family-17/k24/pool-q7",
+      "split": "train",
+      "family_id": "room-32-32-4/family-17",
+      "residual_work": null,
+      "residual_lower_bound": 80,
+      "teacher": {
+        "candidate_index": 3,
+        "disagrees": true,
+        "work": null,
+        "lower_bound": 79,
+        "relation": "UNKNOWN"
+      },
+      "model_b": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": null,
+        "lower_bound": 80,
+        "relation": "UNKNOWN"
+      }
+    },
+    {
+      "query_id": "room-32-32-4/family-18/k32/pool-q0",
+      "split": "train",
+      "family_id": "room-32-32-4/family-18",
+      "residual_work": null,
+      "residual_lower_bound": 10,
+      "teacher": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": null,
+        "lower_bound": 10,
+        "relation": "UNKNOWN"
+      },
+      "model_b": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": null,
+        "lower_bound": 10,
+        "relation": "UNKNOWN"
+      }
+    },
+    {
+      "query_id": "room-32-32-4/family-18/k32/pool-q1",
+      "split": "train",
+      "family_id": "room-32-32-4/family-18",
+      "residual_work": null,
+      "residual_lower_bound": 20,
+      "teacher": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": null,
+        "lower_bound": 20,
+        "relation": "UNKNOWN"
+      },
+      "model_b": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": null,
+        "lower_bound": 20,
+        "relation": "UNKNOWN"
+      }
+    },
+    {
+      "query_id": "room-32-32-4/family-18/k32/pool-q2",
+      "split": "train",
+      "family_id": "room-32-32-4/family-18",
+      "residual_work": null,
+      "residual_lower_bound": 10,
+      "teacher": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": null,
+        "lower_bound": 10,
+        "relation": "UNKNOWN"
+      },
+      "model_b": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": null,
+        "lower_bound": 10,
+        "relation": "UNKNOWN"
+      }
+    },
+    {
+      "query_id": "room-32-32-4/family-18/k32/pool-q3",
+      "split": "train",
+      "family_id": "room-32-32-4/family-18",
+      "residual_work": null,
+      "residual_lower_bound": 4,
+      "teacher": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": null,
+        "lower_bound": 4,
+        "relation": "UNKNOWN"
+      },
+      "model_b": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": null,
+        "lower_bound": 4,
+        "relation": "UNKNOWN"
+      }
+    },
+    {
+      "query_id": "room-32-32-4/family-18/k32/pool-q4",
+      "split": "train",
+      "family_id": "room-32-32-4/family-18",
+      "residual_work": null,
+      "residual_lower_bound": 3,
+      "teacher": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": null,
+        "lower_bound": 3,
+        "relation": "UNKNOWN"
+      },
+      "model_b": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": null,
+        "lower_bound": 3,
+        "relation": "UNKNOWN"
+      }
+    },
+    {
+      "query_id": "room-32-32-4/family-18/k32/pool-q5",
+      "split": "train",
+      "family_id": "room-32-32-4/family-18",
+      "residual_work": null,
+      "residual_lower_bound": 9,
+      "teacher": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": null,
+        "lower_bound": 9,
+        "relation": "UNKNOWN"
+      },
+      "model_b": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": null,
+        "lower_bound": 9,
+        "relation": "UNKNOWN"
+      }
+    },
+    {
+      "query_id": "room-32-32-4/family-18/k32/pool-q6",
+      "split": "train",
+      "family_id": "room-32-32-4/family-18",
+      "residual_work": null,
+      "residual_lower_bound": 9,
+      "teacher": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": null,
+        "lower_bound": 9,
+        "relation": "UNKNOWN"
+      },
+      "model_b": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": null,
+        "lower_bound": 9,
+        "relation": "UNKNOWN"
+      }
+    },
+    {
+      "query_id": "room-32-32-4/family-18/k32/pool-q7",
+      "split": "train",
+      "family_id": "room-32-32-4/family-18",
+      "residual_work": null,
+      "residual_lower_bound": 18,
+      "teacher": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": null,
+        "lower_bound": 18,
+        "relation": "UNKNOWN"
+      },
+      "model_b": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": null,
+        "lower_bound": 18,
+        "relation": "UNKNOWN"
+      }
+    },
+    {
+      "query_id": "room-32-32-4/family-19/k16/pool-q0",
+      "split": "train",
+      "family_id": "room-32-32-4/family-19",
+      "residual_work": 4,
+      "residual_lower_bound": 4,
+      "teacher": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": 4,
+        "lower_bound": 4,
+        "relation": "TIE"
+      },
+      "model_b": {
+        "candidate_index": 1,
+        "disagrees": true,
+        "work": 3,
+        "lower_bound": 3,
+        "relation": "CHALLENGER_BETTER"
+      }
+    },
+    {
+      "query_id": "room-32-32-4/family-19/k16/pool-q1",
+      "split": "train",
+      "family_id": "room-32-32-4/family-19",
+      "residual_work": 3,
+      "residual_lower_bound": 3,
+      "teacher": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": 3,
+        "lower_bound": 3,
+        "relation": "TIE"
+      },
+      "model_b": {
+        "candidate_index": 1,
+        "disagrees": true,
+        "work": 2,
+        "lower_bound": 2,
+        "relation": "CHALLENGER_BETTER"
+      }
+    },
+    {
+      "query_id": "room-32-32-4/family-20/k24/pool-q0",
+      "split": "validation",
+      "family_id": "room-32-32-4/family-20",
+      "residual_work": null,
+      "residual_lower_bound": 11,
+      "teacher": {
+        "candidate_index": 1,
+        "disagrees": true,
+        "work": null,
+        "lower_bound": 9,
+        "relation": "UNKNOWN"
+      },
+      "model_b": {
+        "candidate_index": 4,
+        "disagrees": true,
+        "work": null,
+        "lower_bound": 11,
+        "relation": "UNKNOWN"
+      }
+    },
+    {
+      "query_id": "room-32-32-4/family-20/k24/pool-q1",
+      "split": "validation",
+      "family_id": "room-32-32-4/family-20",
+      "residual_work": null,
+      "residual_lower_bound": 11,
+      "teacher": {
+        "candidate_index": 1,
+        "disagrees": true,
+        "work": null,
+        "lower_bound": 8,
+        "relation": "UNKNOWN"
+      },
+      "model_b": {
+        "candidate_index": 4,
+        "disagrees": true,
+        "work": null,
+        "lower_bound": 11,
+        "relation": "UNKNOWN"
+      }
+    },
+    {
+      "query_id": "room-32-32-4/family-20/k24/pool-q2",
+      "split": "validation",
+      "family_id": "room-32-32-4/family-20",
+      "residual_work": null,
+      "residual_lower_bound": 20,
+      "teacher": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": null,
+        "lower_bound": 20,
+        "relation": "UNKNOWN"
+      },
+      "model_b": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": null,
+        "lower_bound": 20,
+        "relation": "UNKNOWN"
+      }
+    },
+    {
+      "query_id": "room-32-32-4/family-20/k24/pool-q3",
+      "split": "validation",
+      "family_id": "room-32-32-4/family-20",
+      "residual_work": null,
+      "residual_lower_bound": 20,
+      "teacher": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": null,
+        "lower_bound": 20,
+        "relation": "UNKNOWN"
+      },
+      "model_b": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": null,
+        "lower_bound": 20,
+        "relation": "UNKNOWN"
+      }
+    },
+    {
+      "query_id": "room-32-32-4/family-21/k32/pool-q0",
+      "split": "validation",
+      "family_id": "room-32-32-4/family-21",
+      "residual_work": null,
+      "residual_lower_bound": 12,
+      "teacher": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": null,
+        "lower_bound": 12,
+        "relation": "UNKNOWN"
+      },
+      "model_b": {
+        "candidate_index": 5,
+        "disagrees": true,
+        "work": null,
+        "lower_bound": 13,
+        "relation": "UNKNOWN"
+      }
+    },
+    {
+      "query_id": "room-32-32-4/family-21/k32/pool-q1",
+      "split": "validation",
+      "family_id": "room-32-32-4/family-21",
+      "residual_work": null,
+      "residual_lower_bound": 18,
+      "teacher": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": null,
+        "lower_bound": 18,
+        "relation": "UNKNOWN"
+      },
+      "model_b": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": null,
+        "lower_bound": 18,
+        "relation": "UNKNOWN"
+      }
+    },
+    {
+      "query_id": "room-32-32-4/family-21/k32/pool-q2",
+      "split": "validation",
+      "family_id": "room-32-32-4/family-21",
+      "residual_work": null,
+      "residual_lower_bound": 5,
+      "teacher": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": null,
+        "lower_bound": 5,
+        "relation": "UNKNOWN"
+      },
+      "model_b": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": null,
+        "lower_bound": 5,
+        "relation": "UNKNOWN"
+      }
+    },
+    {
+      "query_id": "room-32-32-4/family-21/k32/pool-q3",
+      "split": "validation",
+      "family_id": "room-32-32-4/family-21",
+      "residual_work": null,
+      "residual_lower_bound": 5,
+      "teacher": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": null,
+        "lower_bound": 5,
+        "relation": "UNKNOWN"
+      },
+      "model_b": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": null,
+        "lower_bound": 5,
+        "relation": "UNKNOWN"
+      }
+    },
+    {
+      "query_id": "room-32-32-4/family-22/k16/pool-q0",
+      "split": "validation",
+      "family_id": "room-32-32-4/family-22",
+      "residual_work": null,
+      "residual_lower_bound": 60,
+      "teacher": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": null,
+        "lower_bound": 60,
+        "relation": "UNKNOWN"
+      },
+      "model_b": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": null,
+        "lower_bound": 60,
+        "relation": "UNKNOWN"
+      }
+    },
+    {
+      "query_id": "room-32-32-4/family-22/k16/pool-q1",
+      "split": "validation",
+      "family_id": "room-32-32-4/family-22",
+      "residual_work": null,
+      "residual_lower_bound": 11,
+      "teacher": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": null,
+        "lower_bound": 11,
+        "relation": "UNKNOWN"
+      },
+      "model_b": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": null,
+        "lower_bound": 11,
+        "relation": "UNKNOWN"
+      }
+    },
+    {
+      "query_id": "room-32-32-4/family-22/k16/pool-q2",
+      "split": "validation",
+      "family_id": "room-32-32-4/family-22",
+      "residual_work": null,
+      "residual_lower_bound": 13,
+      "teacher": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": null,
+        "lower_bound": 13,
+        "relation": "UNKNOWN"
+      },
+      "model_b": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": null,
+        "lower_bound": 13,
+        "relation": "UNKNOWN"
+      }
+    },
+    {
+      "query_id": "room-32-32-4/family-22/k16/pool-q3",
+      "split": "validation",
+      "family_id": "room-32-32-4/family-22",
+      "residual_work": null,
+      "residual_lower_bound": 68,
+      "teacher": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": null,
+        "lower_bound": 68,
+        "relation": "UNKNOWN"
+      },
+      "model_b": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": null,
+        "lower_bound": 68,
+        "relation": "UNKNOWN"
+      }
+    },
+    {
+      "query_id": "room-32-32-4/family-23/k24/pool-q0",
+      "split": "validation",
+      "family_id": "room-32-32-4/family-23",
+      "residual_work": null,
+      "residual_lower_bound": 36,
+      "teacher": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": null,
+        "lower_bound": 36,
+        "relation": "UNKNOWN"
+      },
+      "model_b": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": null,
+        "lower_bound": 36,
+        "relation": "UNKNOWN"
+      }
+    },
+    {
+      "query_id": "room-32-32-4/family-23/k24/pool-q1",
+      "split": "validation",
+      "family_id": "room-32-32-4/family-23",
+      "residual_work": null,
+      "residual_lower_bound": 19,
+      "teacher": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": null,
+        "lower_bound": 19,
+        "relation": "UNKNOWN"
+      },
+      "model_b": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": null,
+        "lower_bound": 19,
+        "relation": "UNKNOWN"
+      }
+    },
+    {
+      "query_id": "room-32-32-4/family-23/k24/pool-q2",
+      "split": "validation",
+      "family_id": "room-32-32-4/family-23",
+      "residual_work": null,
+      "residual_lower_bound": 10,
+      "teacher": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": null,
+        "lower_bound": 10,
+        "relation": "UNKNOWN"
+      },
+      "model_b": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": null,
+        "lower_bound": 10,
+        "relation": "UNKNOWN"
+      }
+    },
+    {
+      "query_id": "room-32-32-4/family-23/k24/pool-q3",
+      "split": "validation",
+      "family_id": "room-32-32-4/family-23",
+      "residual_work": null,
+      "residual_lower_bound": 11,
+      "teacher": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": null,
+        "lower_bound": 11,
+        "relation": "UNKNOWN"
+      },
+      "model_b": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": null,
+        "lower_bound": 11,
+        "relation": "UNKNOWN"
+      }
+    },
+    {
+      "query_id": "warehouse-32-32-aisles/family-08/k32/pool-q0",
+      "split": "train",
+      "family_id": "warehouse-32-32-aisles/family-08",
+      "residual_work": null,
+      "residual_lower_bound": 43,
+      "teacher": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": null,
+        "lower_bound": 43,
+        "relation": "UNKNOWN"
+      },
+      "model_b": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": null,
+        "lower_bound": 43,
+        "relation": "UNKNOWN"
+      }
+    },
+    {
+      "query_id": "warehouse-32-32-aisles/family-08/k32/pool-q1",
+      "split": "train",
+      "family_id": "warehouse-32-32-aisles/family-08",
+      "residual_work": null,
+      "residual_lower_bound": 19,
+      "teacher": {
+        "candidate_index": 1,
+        "disagrees": true,
+        "work": null,
+        "lower_bound": 19,
+        "relation": "UNKNOWN"
+      },
+      "model_b": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": null,
+        "lower_bound": 19,
+        "relation": "UNKNOWN"
+      }
+    },
+    {
+      "query_id": "warehouse-32-32-aisles/family-08/k32/pool-q2",
+      "split": "train",
+      "family_id": "warehouse-32-32-aisles/family-08",
+      "residual_work": null,
+      "residual_lower_bound": 31,
+      "teacher": {
+        "candidate_index": 1,
+        "disagrees": true,
+        "work": null,
+        "lower_bound": 28,
+        "relation": "UNKNOWN"
+      },
+      "model_b": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": null,
+        "lower_bound": 31,
+        "relation": "UNKNOWN"
+      }
+    },
+    {
+      "query_id": "warehouse-32-32-aisles/family-08/k32/pool-q3",
+      "split": "train",
+      "family_id": "warehouse-32-32-aisles/family-08",
+      "residual_work": null,
+      "residual_lower_bound": 22,
+      "teacher": {
+        "candidate_index": 3,
+        "disagrees": true,
+        "work": null,
+        "lower_bound": 21,
+        "relation": "UNKNOWN"
+      },
+      "model_b": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": null,
+        "lower_bound": 22,
+        "relation": "UNKNOWN"
+      }
+    },
+    {
+      "query_id": "warehouse-32-32-aisles/family-08/k32/pool-q4",
+      "split": "train",
+      "family_id": "warehouse-32-32-aisles/family-08",
+      "residual_work": null,
+      "residual_lower_bound": 57,
+      "teacher": {
+        "candidate_index": 2,
+        "disagrees": true,
+        "work": 52,
+        "lower_bound": 52,
+        "relation": "CHALLENGER_BETTER"
+      },
+      "model_b": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": null,
+        "lower_bound": 57,
+        "relation": "UNKNOWN"
+      }
+    },
+    {
+      "query_id": "warehouse-32-32-aisles/family-08/k32/pool-q5",
+      "split": "train",
+      "family_id": "warehouse-32-32-aisles/family-08",
+      "residual_work": 55,
+      "residual_lower_bound": 55,
+      "teacher": {
+        "candidate_index": 2,
+        "disagrees": true,
+        "work": 48,
+        "lower_bound": 48,
+        "relation": "CHALLENGER_BETTER"
+      },
+      "model_b": {
+        "candidate_index": 5,
+        "disagrees": true,
+        "work": 55,
+        "lower_bound": 55,
+        "relation": "TIE"
+      }
+    },
+    {
+      "query_id": "warehouse-32-32-aisles/family-08/k32/pool-q6",
+      "split": "train",
+      "family_id": "warehouse-32-32-aisles/family-08",
+      "residual_work": 53,
+      "residual_lower_bound": 53,
+      "teacher": {
+        "candidate_index": 2,
+        "disagrees": true,
+        "work": 46,
+        "lower_bound": 46,
+        "relation": "CHALLENGER_BETTER"
+      },
+      "model_b": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": 53,
+        "lower_bound": 53,
+        "relation": "TIE"
+      }
+    },
+    {
+      "query_id": "warehouse-32-32-aisles/family-08/k32/pool-q7",
+      "split": "train",
+      "family_id": "warehouse-32-32-aisles/family-08",
+      "residual_work": 52,
+      "residual_lower_bound": 52,
+      "teacher": {
+        "candidate_index": 2,
+        "disagrees": true,
+        "work": 45,
+        "lower_bound": 45,
+        "relation": "CHALLENGER_BETTER"
+      },
+      "model_b": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": 52,
+        "lower_bound": 52,
+        "relation": "TIE"
+      }
+    },
+    {
+      "query_id": "warehouse-32-32-aisles/family-11/k32/pool-q0",
+      "split": "train",
+      "family_id": "warehouse-32-32-aisles/family-11",
+      "residual_work": null,
+      "residual_lower_bound": 18,
+      "teacher": {
+        "candidate_index": 3,
+        "disagrees": true,
+        "work": null,
+        "lower_bound": 18,
+        "relation": "UNKNOWN"
+      },
+      "model_b": {
+        "candidate_index": 1,
+        "disagrees": true,
+        "work": null,
+        "lower_bound": 17,
+        "relation": "UNKNOWN"
+      }
+    },
+    {
+      "query_id": "warehouse-32-32-aisles/family-11/k32/pool-q1",
+      "split": "train",
+      "family_id": "warehouse-32-32-aisles/family-11",
+      "residual_work": null,
+      "residual_lower_bound": 18,
+      "teacher": {
+        "candidate_index": 1,
+        "disagrees": true,
+        "work": null,
+        "lower_bound": 18,
+        "relation": "UNKNOWN"
+      },
+      "model_b": {
+        "candidate_index": 1,
+        "disagrees": true,
+        "work": null,
+        "lower_bound": 18,
+        "relation": "UNKNOWN"
+      }
+    },
+    {
+      "query_id": "warehouse-32-32-aisles/family-11/k32/pool-q2",
+      "split": "train",
+      "family_id": "warehouse-32-32-aisles/family-11",
+      "residual_work": null,
+      "residual_lower_bound": 19,
+      "teacher": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": null,
+        "lower_bound": 19,
+        "relation": "UNKNOWN"
+      },
+      "model_b": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": null,
+        "lower_bound": 19,
+        "relation": "UNKNOWN"
+      }
+    },
+    {
+      "query_id": "warehouse-32-32-aisles/family-11/k32/pool-q3",
+      "split": "train",
+      "family_id": "warehouse-32-32-aisles/family-11",
+      "residual_work": null,
+      "residual_lower_bound": 81,
+      "teacher": {
+        "candidate_index": 2,
+        "disagrees": true,
+        "work": null,
+        "lower_bound": 84,
+        "relation": "UNKNOWN"
+      },
+      "model_b": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": null,
+        "lower_bound": 81,
+        "relation": "UNKNOWN"
+      }
+    },
+    {
+      "query_id": "warehouse-32-32-aisles/family-11/k32/pool-q4",
+      "split": "train",
+      "family_id": "warehouse-32-32-aisles/family-11",
+      "residual_work": null,
+      "residual_lower_bound": 41,
+      "teacher": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": null,
+        "lower_bound": 41,
+        "relation": "UNKNOWN"
+      },
+      "model_b": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": null,
+        "lower_bound": 41,
+        "relation": "UNKNOWN"
+      }
+    },
+    {
+      "query_id": "warehouse-32-32-aisles/family-11/k32/pool-q5",
+      "split": "train",
+      "family_id": "warehouse-32-32-aisles/family-11",
+      "residual_work": null,
+      "residual_lower_bound": 19,
+      "teacher": {
+        "candidate_index": 1,
+        "disagrees": true,
+        "work": null,
+        "lower_bound": 20,
+        "relation": "UNKNOWN"
+      },
+      "model_b": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": null,
+        "lower_bound": 19,
+        "relation": "UNKNOWN"
+      }
+    },
+    {
+      "query_id": "warehouse-32-32-aisles/family-11/k32/pool-q6",
+      "split": "train",
+      "family_id": "warehouse-32-32-aisles/family-11",
+      "residual_work": null,
+      "residual_lower_bound": 41,
+      "teacher": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": null,
+        "lower_bound": 41,
+        "relation": "UNKNOWN"
+      },
+      "model_b": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": null,
+        "lower_bound": 41,
+        "relation": "UNKNOWN"
+      }
+    },
+    {
+      "query_id": "warehouse-32-32-aisles/family-11/k32/pool-q7",
+      "split": "train",
+      "family_id": "warehouse-32-32-aisles/family-11",
+      "residual_work": null,
+      "residual_lower_bound": 45,
+      "teacher": {
+        "candidate_index": 2,
+        "disagrees": true,
+        "work": null,
+        "lower_bound": 43,
+        "relation": "UNKNOWN"
+      },
+      "model_b": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": null,
+        "lower_bound": 45,
+        "relation": "UNKNOWN"
+      }
+    },
+    {
+      "query_id": "warehouse-32-32-aisles/family-13/k24/pool-q0",
+      "split": "train",
+      "family_id": "warehouse-32-32-aisles/family-13",
+      "residual_work": 24,
+      "residual_lower_bound": 24,
+      "teacher": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": 24,
+        "lower_bound": 24,
+        "relation": "TIE"
+      },
+      "model_b": {
+        "candidate_index": 1,
+        "disagrees": true,
+        "work": 25,
+        "lower_bound": 25,
+        "relation": "RESIDUAL_BETTER"
+      }
+    },
+    {
+      "query_id": "warehouse-32-32-aisles/family-13/k24/pool-q1",
+      "split": "train",
+      "family_id": "warehouse-32-32-aisles/family-13",
+      "residual_work": 23,
+      "residual_lower_bound": 23,
+      "teacher": {
+        "candidate_index": 1,
+        "disagrees": true,
+        "work": 23,
+        "lower_bound": 23,
+        "relation": "TIE"
+      },
+      "model_b": {
+        "candidate_index": 1,
+        "disagrees": true,
+        "work": 23,
+        "lower_bound": 23,
+        "relation": "TIE"
+      }
+    },
+    {
+      "query_id": "warehouse-32-32-aisles/family-13/k24/pool-q2",
+      "split": "train",
+      "family_id": "warehouse-32-32-aisles/family-13",
+      "residual_work": 18,
+      "residual_lower_bound": 18,
+      "teacher": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": 18,
+        "lower_bound": 18,
+        "relation": "TIE"
+      },
+      "model_b": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": 18,
+        "lower_bound": 18,
+        "relation": "TIE"
+      }
+    },
+    {
+      "query_id": "warehouse-32-32-aisles/family-13/k24/pool-q3",
+      "split": "train",
+      "family_id": "warehouse-32-32-aisles/family-13",
+      "residual_work": 17,
+      "residual_lower_bound": 17,
+      "teacher": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": 17,
+        "lower_bound": 17,
+        "relation": "TIE"
+      },
+      "model_b": {
+        "candidate_index": 2,
+        "disagrees": true,
+        "work": 16,
+        "lower_bound": 16,
+        "relation": "CHALLENGER_BETTER"
+      }
+    },
+    {
+      "query_id": "warehouse-32-32-aisles/family-13/k24/pool-q4",
+      "split": "train",
+      "family_id": "warehouse-32-32-aisles/family-13",
+      "residual_work": 16,
+      "residual_lower_bound": 16,
+      "teacher": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": 16,
+        "lower_bound": 16,
+        "relation": "TIE"
+      },
+      "model_b": {
+        "candidate_index": 2,
+        "disagrees": true,
+        "work": 15,
+        "lower_bound": 15,
+        "relation": "CHALLENGER_BETTER"
+      }
+    },
+    {
+      "query_id": "warehouse-32-32-aisles/family-13/k24/pool-q5",
+      "split": "train",
+      "family_id": "warehouse-32-32-aisles/family-13",
+      "residual_work": 13,
+      "residual_lower_bound": 13,
+      "teacher": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": 13,
+        "lower_bound": 13,
+        "relation": "TIE"
+      },
+      "model_b": {
+        "candidate_index": 1,
+        "disagrees": true,
+        "work": 12,
+        "lower_bound": 12,
+        "relation": "CHALLENGER_BETTER"
+      }
+    },
+    {
+      "query_id": "warehouse-32-32-aisles/family-13/k24/pool-q6",
+      "split": "train",
+      "family_id": "warehouse-32-32-aisles/family-13",
+      "residual_work": 11,
+      "residual_lower_bound": 11,
+      "teacher": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": 11,
+        "lower_bound": 11,
+        "relation": "TIE"
+      },
+      "model_b": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": 11,
+        "lower_bound": 11,
+        "relation": "TIE"
+      }
+    },
+    {
+      "query_id": "warehouse-32-32-aisles/family-13/k24/pool-q7",
+      "split": "train",
+      "family_id": "warehouse-32-32-aisles/family-13",
+      "residual_work": 9,
+      "residual_lower_bound": 9,
+      "teacher": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": 9,
+        "lower_bound": 9,
+        "relation": "TIE"
+      },
+      "model_b": {
+        "candidate_index": 1,
+        "disagrees": true,
+        "work": 9,
+        "lower_bound": 9,
+        "relation": "TIE"
+      }
+    },
+    {
+      "query_id": "warehouse-32-32-aisles/family-14/k32/pool-q0",
+      "split": "train",
+      "family_id": "warehouse-32-32-aisles/family-14",
+      "residual_work": null,
+      "residual_lower_bound": 22,
+      "teacher": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": null,
+        "lower_bound": 22,
+        "relation": "UNKNOWN"
+      },
+      "model_b": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": null,
+        "lower_bound": 22,
+        "relation": "UNKNOWN"
+      }
+    },
+    {
+      "query_id": "warehouse-32-32-aisles/family-14/k32/pool-q1",
+      "split": "train",
+      "family_id": "warehouse-32-32-aisles/family-14",
+      "residual_work": null,
+      "residual_lower_bound": 21,
+      "teacher": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": null,
+        "lower_bound": 21,
+        "relation": "UNKNOWN"
+      },
+      "model_b": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": null,
+        "lower_bound": 21,
+        "relation": "UNKNOWN"
+      }
+    },
+    {
+      "query_id": "warehouse-32-32-aisles/family-14/k32/pool-q2",
+      "split": "train",
+      "family_id": "warehouse-32-32-aisles/family-14",
+      "residual_work": null,
+      "residual_lower_bound": 50,
+      "teacher": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": null,
+        "lower_bound": 50,
+        "relation": "UNKNOWN"
+      },
+      "model_b": {
+        "candidate_index": 1,
+        "disagrees": true,
+        "work": null,
+        "lower_bound": 48,
+        "relation": "UNKNOWN"
+      }
+    },
+    {
+      "query_id": "warehouse-32-32-aisles/family-14/k32/pool-q3",
+      "split": "train",
+      "family_id": "warehouse-32-32-aisles/family-14",
+      "residual_work": null,
+      "residual_lower_bound": 49,
+      "teacher": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": null,
+        "lower_bound": 49,
+        "relation": "UNKNOWN"
+      },
+      "model_b": {
+        "candidate_index": 1,
+        "disagrees": true,
+        "work": null,
+        "lower_bound": 52,
+        "relation": "UNKNOWN"
+      }
+    },
+    {
+      "query_id": "warehouse-32-32-aisles/family-14/k32/pool-q4",
+      "split": "train",
+      "family_id": "warehouse-32-32-aisles/family-14",
+      "residual_work": null,
+      "residual_lower_bound": 22,
+      "teacher": {
+        "candidate_index": 3,
+        "disagrees": true,
+        "work": null,
+        "lower_bound": 23,
+        "relation": "UNKNOWN"
+      },
+      "model_b": {
+        "candidate_index": 3,
+        "disagrees": true,
+        "work": null,
+        "lower_bound": 23,
+        "relation": "UNKNOWN"
+      }
+    },
+    {
+      "query_id": "warehouse-32-32-aisles/family-14/k32/pool-q5",
+      "split": "train",
+      "family_id": "warehouse-32-32-aisles/family-14",
+      "residual_work": null,
+      "residual_lower_bound": 51,
+      "teacher": {
+        "candidate_index": 3,
+        "disagrees": true,
+        "work": null,
+        "lower_bound": 50,
+        "relation": "UNKNOWN"
+      },
+      "model_b": {
+        "candidate_index": 3,
+        "disagrees": true,
+        "work": null,
+        "lower_bound": 50,
+        "relation": "UNKNOWN"
+      }
+    },
+    {
+      "query_id": "warehouse-32-32-aisles/family-14/k32/pool-q6",
+      "split": "train",
+      "family_id": "warehouse-32-32-aisles/family-14",
+      "residual_work": null,
+      "residual_lower_bound": 23,
+      "teacher": {
+        "candidate_index": 3,
+        "disagrees": true,
+        "work": null,
+        "lower_bound": 24,
+        "relation": "UNKNOWN"
+      },
+      "model_b": {
+        "candidate_index": 3,
+        "disagrees": true,
+        "work": null,
+        "lower_bound": 24,
+        "relation": "UNKNOWN"
+      }
+    },
+    {
+      "query_id": "warehouse-32-32-aisles/family-14/k32/pool-q7",
+      "split": "train",
+      "family_id": "warehouse-32-32-aisles/family-14",
+      "residual_work": null,
+      "residual_lower_bound": 96,
+      "teacher": {
+        "candidate_index": 3,
+        "disagrees": true,
+        "work": null,
+        "lower_bound": 92,
+        "relation": "UNKNOWN"
+      },
+      "model_b": {
+        "candidate_index": 3,
+        "disagrees": true,
+        "work": null,
+        "lower_bound": 92,
+        "relation": "UNKNOWN"
+      }
+    },
+    {
+      "query_id": "warehouse-32-32-aisles/family-16/k24/pool-q0",
+      "split": "train",
+      "family_id": "warehouse-32-32-aisles/family-16",
+      "residual_work": 9,
+      "residual_lower_bound": 9,
+      "teacher": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": 9,
+        "lower_bound": 9,
+        "relation": "TIE"
+      },
+      "model_b": {
+        "candidate_index": 2,
+        "disagrees": true,
+        "work": 11,
+        "lower_bound": 11,
+        "relation": "RESIDUAL_BETTER"
+      }
+    },
+    {
+      "query_id": "warehouse-32-32-aisles/family-16/k24/pool-q1",
+      "split": "train",
+      "family_id": "warehouse-32-32-aisles/family-16",
+      "residual_work": 6,
+      "residual_lower_bound": 6,
+      "teacher": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": 6,
+        "lower_bound": 6,
+        "relation": "TIE"
+      },
+      "model_b": {
+        "candidate_index": 1,
+        "disagrees": true,
+        "work": 6,
+        "lower_bound": 6,
+        "relation": "TIE"
+      }
+    },
+    {
+      "query_id": "warehouse-32-32-aisles/family-17/k32/pool-q0",
+      "split": "train",
+      "family_id": "warehouse-32-32-aisles/family-17",
+      "residual_work": 33,
+      "residual_lower_bound": 33,
+      "teacher": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": 33,
+        "lower_bound": 33,
+        "relation": "TIE"
+      },
+      "model_b": {
+        "candidate_index": 3,
+        "disagrees": true,
+        "work": 33,
+        "lower_bound": 33,
+        "relation": "TIE"
+      }
+    },
+    {
+      "query_id": "warehouse-32-32-aisles/family-17/k32/pool-q1",
+      "split": "train",
+      "family_id": "warehouse-32-32-aisles/family-17",
+      "residual_work": null,
+      "residual_lower_bound": 19,
+      "teacher": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": null,
+        "lower_bound": 19,
+        "relation": "UNKNOWN"
+      },
+      "model_b": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": null,
+        "lower_bound": 19,
+        "relation": "UNKNOWN"
+      }
+    },
+    {
+      "query_id": "warehouse-32-32-aisles/family-17/k32/pool-q2",
+      "split": "train",
+      "family_id": "warehouse-32-32-aisles/family-17",
+      "residual_work": 27,
+      "residual_lower_bound": 27,
+      "teacher": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": 27,
+        "lower_bound": 27,
+        "relation": "TIE"
+      },
+      "model_b": {
+        "candidate_index": 3,
+        "disagrees": true,
+        "work": 27,
+        "lower_bound": 27,
+        "relation": "TIE"
+      }
+    },
+    {
+      "query_id": "warehouse-32-32-aisles/family-17/k32/pool-q3",
+      "split": "train",
+      "family_id": "warehouse-32-32-aisles/family-17",
+      "residual_work": null,
+      "residual_lower_bound": 21,
+      "teacher": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": null,
+        "lower_bound": 21,
+        "relation": "UNKNOWN"
+      },
+      "model_b": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": null,
+        "lower_bound": 21,
+        "relation": "UNKNOWN"
+      }
+    },
+    {
+      "query_id": "warehouse-32-32-aisles/family-17/k32/pool-q4",
+      "split": "train",
+      "family_id": "warehouse-32-32-aisles/family-17",
+      "residual_work": 22,
+      "residual_lower_bound": 22,
+      "teacher": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": 22,
+        "lower_bound": 22,
+        "relation": "TIE"
+      },
+      "model_b": {
+        "candidate_index": 3,
+        "disagrees": true,
+        "work": 21,
+        "lower_bound": 21,
+        "relation": "CHALLENGER_BETTER"
+      }
+    },
+    {
+      "query_id": "warehouse-32-32-aisles/family-17/k32/pool-q5",
+      "split": "train",
+      "family_id": "warehouse-32-32-aisles/family-17",
+      "residual_work": 17,
+      "residual_lower_bound": 17,
+      "teacher": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": 17,
+        "lower_bound": 17,
+        "relation": "TIE"
+      },
+      "model_b": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": 17,
+        "lower_bound": 17,
+        "relation": "TIE"
+      }
+    },
+    {
+      "query_id": "warehouse-32-32-aisles/family-17/k32/pool-q6",
+      "split": "train",
+      "family_id": "warehouse-32-32-aisles/family-17",
+      "residual_work": 13,
+      "residual_lower_bound": 13,
+      "teacher": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": 13,
+        "lower_bound": 13,
+        "relation": "TIE"
+      },
+      "model_b": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": 13,
+        "lower_bound": 13,
+        "relation": "TIE"
+      }
+    },
+    {
+      "query_id": "warehouse-32-32-aisles/family-17/k32/pool-q7",
+      "split": "train",
+      "family_id": "warehouse-32-32-aisles/family-17",
+      "residual_work": 10,
+      "residual_lower_bound": 10,
+      "teacher": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": 10,
+        "lower_bound": 10,
+        "relation": "TIE"
+      },
+      "model_b": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": 10,
+        "lower_bound": 10,
+        "relation": "TIE"
+      }
+    },
+    {
+      "query_id": "warehouse-32-32-aisles/family-18/k16/pool-q0",
+      "split": "train",
+      "family_id": "warehouse-32-32-aisles/family-18",
+      "residual_work": 4,
+      "residual_lower_bound": 4,
+      "teacher": {
+        "candidate_index": 1,
+        "disagrees": true,
+        "work": 4,
+        "lower_bound": 4,
+        "relation": "TIE"
+      },
+      "model_b": {
+        "candidate_index": 1,
+        "disagrees": true,
+        "work": 4,
+        "lower_bound": 4,
+        "relation": "TIE"
+      }
+    },
+    {
+      "query_id": "warehouse-32-32-aisles/family-19/k24/pool-q0",
+      "split": "train",
+      "family_id": "warehouse-32-32-aisles/family-19",
+      "residual_work": 19,
+      "residual_lower_bound": 19,
+      "teacher": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": 19,
+        "lower_bound": 19,
+        "relation": "TIE"
+      },
+      "model_b": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": 19,
+        "lower_bound": 19,
+        "relation": "TIE"
+      }
+    },
+    {
+      "query_id": "warehouse-32-32-aisles/family-19/k24/pool-q1",
+      "split": "train",
+      "family_id": "warehouse-32-32-aisles/family-19",
+      "residual_work": 17,
+      "residual_lower_bound": 17,
+      "teacher": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": 17,
+        "lower_bound": 17,
+        "relation": "TIE"
+      },
+      "model_b": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": 17,
+        "lower_bound": 17,
+        "relation": "TIE"
+      }
+    },
+    {
+      "query_id": "warehouse-32-32-aisles/family-19/k24/pool-q2",
+      "split": "train",
+      "family_id": "warehouse-32-32-aisles/family-19",
+      "residual_work": 8,
+      "residual_lower_bound": 8,
+      "teacher": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": 8,
+        "lower_bound": 8,
+        "relation": "TIE"
+      },
+      "model_b": {
+        "candidate_index": 1,
+        "disagrees": true,
+        "work": 12,
+        "lower_bound": 12,
+        "relation": "RESIDUAL_BETTER"
+      }
+    },
+    {
+      "query_id": "warehouse-32-32-aisles/family-19/k24/pool-q3",
+      "split": "train",
+      "family_id": "warehouse-32-32-aisles/family-19",
+      "residual_work": 6,
+      "residual_lower_bound": 6,
+      "teacher": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": 6,
+        "lower_bound": 6,
+        "relation": "TIE"
+      },
+      "model_b": {
+        "candidate_index": 1,
+        "disagrees": true,
+        "work": 8,
+        "lower_bound": 8,
+        "relation": "RESIDUAL_BETTER"
+      }
+    },
+    {
+      "query_id": "warehouse-32-32-aisles/family-20/k32/pool-q0",
+      "split": "validation",
+      "family_id": "warehouse-32-32-aisles/family-20",
+      "residual_work": null,
+      "residual_lower_bound": 96,
+      "teacher": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": null,
+        "lower_bound": 96,
+        "relation": "UNKNOWN"
+      },
+      "model_b": {
+        "candidate_index": 1,
+        "disagrees": true,
+        "work": null,
+        "lower_bound": 94,
+        "relation": "UNKNOWN"
+      }
+    },
+    {
+      "query_id": "warehouse-32-32-aisles/family-20/k32/pool-q1",
+      "split": "validation",
+      "family_id": "warehouse-32-32-aisles/family-20",
+      "residual_work": null,
+      "residual_lower_bound": 52,
+      "teacher": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": null,
+        "lower_bound": 52,
+        "relation": "UNKNOWN"
+      },
+      "model_b": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": null,
+        "lower_bound": 52,
+        "relation": "UNKNOWN"
+      }
+    },
+    {
+      "query_id": "warehouse-32-32-aisles/family-20/k32/pool-q2",
+      "split": "validation",
+      "family_id": "warehouse-32-32-aisles/family-20",
+      "residual_work": null,
+      "residual_lower_bound": 27,
+      "teacher": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": null,
+        "lower_bound": 27,
+        "relation": "UNKNOWN"
+      },
+      "model_b": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": null,
+        "lower_bound": 27,
+        "relation": "UNKNOWN"
+      }
+    },
+    {
+      "query_id": "warehouse-32-32-aisles/family-20/k32/pool-q3",
+      "split": "validation",
+      "family_id": "warehouse-32-32-aisles/family-20",
+      "residual_work": null,
+      "residual_lower_bound": 51,
+      "teacher": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": null,
+        "lower_bound": 51,
+        "relation": "UNKNOWN"
+      },
+      "model_b": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": null,
+        "lower_bound": 51,
+        "relation": "UNKNOWN"
+      }
+    },
+    {
+      "query_id": "warehouse-32-32-aisles/family-21/k16/pool-q0",
+      "split": "validation",
+      "family_id": "warehouse-32-32-aisles/family-21",
+      "residual_work": 4,
+      "residual_lower_bound": 4,
+      "teacher": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": 4,
+        "lower_bound": 4,
+        "relation": "TIE"
+      },
+      "model_b": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": 4,
+        "lower_bound": 4,
+        "relation": "TIE"
+      }
+    },
+    {
+      "query_id": "warehouse-32-32-aisles/family-22/k24/pool-q0",
+      "split": "validation",
+      "family_id": "warehouse-32-32-aisles/family-22",
+      "residual_work": 18,
+      "residual_lower_bound": 18,
+      "teacher": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": 18,
+        "lower_bound": 18,
+        "relation": "TIE"
+      },
+      "model_b": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": 18,
+        "lower_bound": 18,
+        "relation": "TIE"
+      }
+    },
+    {
+      "query_id": "warehouse-32-32-aisles/family-22/k24/pool-q1",
+      "split": "validation",
+      "family_id": "warehouse-32-32-aisles/family-22",
+      "residual_work": 15,
+      "residual_lower_bound": 15,
+      "teacher": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": 15,
+        "lower_bound": 15,
+        "relation": "TIE"
+      },
+      "model_b": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": 15,
+        "lower_bound": 15,
+        "relation": "TIE"
+      }
+    },
+    {
+      "query_id": "warehouse-32-32-aisles/family-22/k24/pool-q2",
+      "split": "validation",
+      "family_id": "warehouse-32-32-aisles/family-22",
+      "residual_work": 9,
+      "residual_lower_bound": 9,
+      "teacher": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": 9,
+        "lower_bound": 9,
+        "relation": "TIE"
+      },
+      "model_b": {
+        "candidate_index": 1,
+        "disagrees": true,
+        "work": 9,
+        "lower_bound": 9,
+        "relation": "TIE"
+      }
+    },
+    {
+      "query_id": "warehouse-32-32-aisles/family-22/k24/pool-q3",
+      "split": "validation",
+      "family_id": "warehouse-32-32-aisles/family-22",
+      "residual_work": 7,
+      "residual_lower_bound": 7,
+      "teacher": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": 7,
+        "lower_bound": 7,
+        "relation": "TIE"
+      },
+      "model_b": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": 7,
+        "lower_bound": 7,
+        "relation": "TIE"
+      }
+    },
+    {
+      "query_id": "warehouse-32-32-aisles/family-23/k32/pool-q0",
+      "split": "validation",
+      "family_id": "warehouse-32-32-aisles/family-23",
+      "residual_work": null,
+      "residual_lower_bound": 49,
+      "teacher": {
+        "candidate_index": 2,
+        "disagrees": true,
+        "work": null,
+        "lower_bound": 51,
+        "relation": "UNKNOWN"
+      },
+      "model_b": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": null,
+        "lower_bound": 49,
+        "relation": "UNKNOWN"
+      }
+    },
+    {
+      "query_id": "warehouse-32-32-aisles/family-23/k32/pool-q1",
+      "split": "validation",
+      "family_id": "warehouse-32-32-aisles/family-23",
+      "residual_work": null,
+      "residual_lower_bound": 49,
+      "teacher": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": null,
+        "lower_bound": 49,
+        "relation": "UNKNOWN"
+      },
+      "model_b": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": null,
+        "lower_bound": 49,
+        "relation": "UNKNOWN"
+      }
+    },
+    {
+      "query_id": "warehouse-32-32-aisles/family-23/k32/pool-q2",
+      "split": "validation",
+      "family_id": "warehouse-32-32-aisles/family-23",
+      "residual_work": null,
+      "residual_lower_bound": 93,
+      "teacher": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": null,
+        "lower_bound": 93,
+        "relation": "UNKNOWN"
+      },
+      "model_b": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": null,
+        "lower_bound": 93,
+        "relation": "UNKNOWN"
+      }
+    },
+    {
+      "query_id": "warehouse-32-32-aisles/family-23/k32/pool-q3",
+      "split": "validation",
+      "family_id": "warehouse-32-32-aisles/family-23",
+      "residual_work": null,
+      "residual_lower_bound": 85,
+      "teacher": {
+        "candidate_index": 0,
+        "disagrees": false,
+        "work": null,
+        "lower_bound": 85,
+        "relation": "UNKNOWN"
+      },
+      "model_b": {
+        "candidate_index": 1,
+        "disagrees": true,
+        "work": null,
+        "lower_bound": 108,
+        "relation": "UNKNOWN"
+      }
+    }
+  ]
+}
