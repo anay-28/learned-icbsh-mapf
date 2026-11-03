@@ -13,15 +13,26 @@ from mapf.search_limits import check_deadline, HorizonExceeded
 
 # -- Module-level A* call counter (Task 1.1) --
 _ASTAR_CALL_COUNT: int = 0
+_ASTAR_EXPANSION_COUNT: int = 0
 
 
 def reset_astar_call_count() -> None:
-    global _ASTAR_CALL_COUNT
+    global _ASTAR_CALL_COUNT, _ASTAR_EXPANSION_COUNT
     _ASTAR_CALL_COUNT = 0
+    _ASTAR_EXPANSION_COUNT = 0
 
 
 def get_astar_call_count() -> int:
     return _ASTAR_CALL_COUNT
+
+
+def get_astar_expansion_count() -> int:
+    """Number of non-stale A* states popped, including terminal goal states.
+
+    Reset together with the call counter at each top-level solve. This records
+    observed work on interrupted searches too; it excludes reverse-BFS work.
+    """
+    return _ASTAR_EXPANSION_COUNT
 
 
 
@@ -130,7 +141,7 @@ def space_time_astar(
     """
     Finds optimal single-agent path from start to goal respecting vertex and edge constraints.
     """
-    global _ASTAR_CALL_COUNT
+    global _ASTAR_CALL_COUNT, _ASTAR_EXPANSION_COUNT
     _ASTAR_CALL_COUNT += 1
     if not grid.is_passable(start[0], start[1]) or not grid.is_passable(goal[0], goal[1]):
         return None
@@ -181,6 +192,7 @@ def space_time_astar(
         f, cat_hits, h, t, r, c, _ = heapq.heappop(open_list)
         if best_g.get((r, c, t), 999999999) < t:
             continue
+        _ASTAR_EXPANSION_COUNT += 1
 
 
         if r == gr and c == gc and t > max_goal_constraint_t and t >= max_goal_wait_t:

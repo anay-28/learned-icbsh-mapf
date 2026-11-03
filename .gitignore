@@ -17,6 +17,10 @@ data/rollout_checkpoints/
 logs/
 *.log
 
+# Active multi-signal campaign outputs are immutable local evidence. Commit only
+# after the campaign finishes and its verifier has accepted a complete stage.
+results/multisignal_v1/
+
 # Operating System files
 .DS_Store
 Thumbs.db
