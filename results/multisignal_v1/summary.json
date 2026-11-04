@@ -1,0 +1,62 @@
+{
+  "comparisons": {
+    "plain": {
+      "ratio": 1.5659759455789928,
+      "ci95": [
+        1.1290588575830425,
+        2.3672557625849087
+      ],
+      "families": 12
+    },
+    "pool_random": {
+      "ratio": 1.3066046991140974,
+      "ci95": [
+        1.0496597339985623,
+        1.6728866177255608
+      ],
+      "families": 12
+    },
+    "model_b": {
+      "ratio": 1.251111799623383,
+      "ci95": [
+        1.050701871389951,
+        1.5356906312856158
+      ],
+      "families": 12
+    },
+    "confirmed": {
+      "ratio": 0.9998873579625663,
+      "ci95": [
+        0.9906473613630686,
+        1.0069768704721271
+      ],
+      "families": 12
+    },
+    "confirmed_aux": {
+      "ratio": 1.0099417699958226,
+      "ci95": [
+        1.002711180392892,
+        1.0181373603520274
+      ],
+      "families": 12
+    }
+  },
+  "solved": {
+    "plain": 30,
+    "residual": 36,
+    "pool_random": 30,
+    "model_b": 32,
+    "confirmed": 36,
+    "confirmed_aux": 36
+  },
+  "missing_or_error": 0,
+  "primary_speed_claim_supported": false,
+  "auxiliary_ablation": {
+    "ratio": 1.0100555447103,
+    "ci95": [
+      1.0030853592474673,
+      1.01830979689631
+    ],
+    "families": 12
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "created_utc": "2026-11-03T21:50:24.104536+00:00",
+  "selected_agent_counts": [
+    16,
+    24
+  ],
+  "pilot": {
+    "16": {
+      "runs": 8,
+      "solved": 8,
+      "median_capped_seconds": 0.033508999997138744
+    },
+    "4": {
+      "runs": 8,
+      "solved": 8,
+      "median_capped_seconds": 0.0008401499981118832
+    },
+    "24": {
+      "runs": 8,
+      "solved": 1,
+      "median_capped_seconds": 8.0
+    },
+    "12": {
+      "runs": 8,
+      "solved": 8,
+      "median_capped_seconds": 0.011600400001043454
+    },
+    "8": {
+      "runs": 8,
+      "solved": 8,
+      "median_capped_seconds": 0.001999799995246576
+    }
+  },
+  "rule": "two hardest counts with >=50% solves and median>=0.05s; highest-count fallback",
+  "collection": {
+    "timeout": 15.0,
+    "max_expansions": 4096,
+    "decision_indices": [
+      0,
+      3,
+      15
+    ],
+    "policies": [
+      "residual",
+      "plain"
+    ]
+  },
+  "source": {
+    "mapf/audit_conflict_density.py": "555f2f83b0ce9ac2e23f24ea1b9ec58c4d1f8a6c8503651d4203255ab5605829",
+    "mapf/baselines.py": "37c3ba8b12ba316ec0f79faa60a56f9d2c83fb869ff68347f2298bc1eaeaf5d2",
+    "mapf/benchmark_suite.py": "3f14999d6e4454864d57853b6d90dcb3e52c2875897f09ea0a71dba30464f6e2",
+    "mapf/benchmark_worker.py": "757d2e143713371bf2caee2982c737f6802bfcbb8589faf789230c1fe31fa29c",
+    "mapf/budget_worker.py": "3e87f67851d8127b1653d9dc7dc15fe3c1cd874bbcf8c412309adb705727e9cc",
+    "mapf/cardinal.py": "31a8908554c1563e6b2777f5be63a034339d701faaf4a37c9fd323f3353f0b9f",
+    "mapf/compute_budget.py": "c15b50785f038b2f401c8c20cc3fa0d1b14626677846fa74ecf5b89f90c4ae6c",
+    "mapf/conflict_graph.py": "02f62cf3fdf8771ef77606801bf36b770ebec2e78ee10283ba54918bbeb8e759",
+    "mapf/conflicts.py": "d1636124f2ea98c827af3a107de36954b3f8b055c4a50b6d178b0f659d5a1221",
+    "mapf/dataset_quality_report.py": "ab59a19cdfc4a63a64d4d72f9c34b2265873ff04956b05041c34cadef8467f27",
+    "mapf/day3_analysis.py": "5c001a4a71d023bc18b6bb8c0504f2ec12a076a42c6a4f5fd0f3ed602f187475",
+    "mapf/day3_calibration.py": "5beed50cbae7c294dcdc5fc521fbabf33f071d105d98d6e8e20cd137ed2164f8",
+    "mapf/day3_protocol.py": "67efe9a3dc4674f01eafc47528b72956c9cb13718f5b7bda9ffbbae24d9bcf22",
+    "mapf/diagnose_paris.py": "8e216dd62e240d8738ca69135141cbb21146d0810894548847b996f1c1e9e91a",
+    "mapf/downstream_teacher.py": "1590c9ae46e19ee255d41ecb10688d13eb29a9f99bac4c988c4c01c3a4822223",
+    "mapf/fast_dataset_builder.py": "c24e107f031ad06ad7afbfbd30754637b17c7ea3ee1eaa2900ad21a83df781c2",
+    "mapf/features.py": "feef56c1b7890aa8fd63dd91c67cedd831906485601a567b94bf852e97aa38c2",
+    "mapf/grid.py": "60f59368fc651f21e968050071522e878eb36ba6bfc20db1205689eed73ae016",
+    "mapf/high_level_cbs.py": "ec3bfe38cd40f38aefa7c02bfb32c72055af6c5024c15e0b2c09549618da8544",
+    "mapf/icbs_h.py": "42ce4b27951b52df5d42f2d05f60711551e0ed30cb80d9f685052fa9642c8f98",
+    "mapf/logger.py": "655b3302a5881b6ce5b50589082abb10a583e8fdd28c032abc30604ceb6c02c7",
+    "mapf/low_level.py": "cdd83f43b0153daf7b1d9cafaee6fb5c78866f4d6c87252bcc4421fcd09e9d7f",
+    "mapf/ml_compat.py": "4b0e762ddb0c27fd899cf7016003b24bd2052e57c1a342c1b34d57f9dd17c303",
+    "mapf/ml_revision.py": "a9ee49833e500d9f9e2d29a38740c23e4953f49926f501d8ab69284d8e410528",
+    "mapf/ml_revision_policy.py": "46501d9700b581a81d0f9675b75aec76d6004281b4602fc4d4ed54da6b796c1d",
+    "mapf/movingai.py": "b20eb460f023f352084c1ef604c3a224a1be1b4342480152ea6fd191988d2ad2",
+    "mapf/multisignal_model.py": "0c2ff1d1d5f4ee6a18a6e4fe3d57ec7f17c4ce7a5250148ebc2585f5120b4dcf",
+    "mapf/multisignal_teacher.py": "b356d81df4bf3f4b3838c424a7170b6fc400fe0de8804258eae87b64637ef476",
+    "mapf/oracle_labeler.py": "72b6435fcb1fc27a718f6e09b438ec850ac5015ecfe01bb579c67683f3d825fd",
+    "mapf/override_benchmark_worker.py": "1dc3523ecef32d2cb2ec552bff377258f405c492e9a55dbb366ec1a40f96a10e",
+    "mapf/override_features.py": "ffe1331ff2dec39d774fa613710f7d11064be19e4a30d9050382f4c91b56c4d4",
+    "mapf/override_policy.py": "3d2fc65a6fee837527b9eb0aa985a6cd751c80cbe97e5577ea80d2b1f1852a5d",
+    "mapf/phase0_calibration.py": "dcaaf09ba48b993893cbd5df7b395f83b8d174e4af0397035a37c57002820571",
+    "mapf/phase1_gate.py": "d8aae369bc43698c3565bbd37629896c41cf9128de02ad323bac2e2b928ea4dc",
+    "mapf/phase3_benchmark.py": "8dbf42b81a61e46865e4e2b1a3e5460f4c7e14f5458a49c1c55879ef77406291",
+    "mapf/proxy_labeler.py": "219f93dec25f4385df541b7a116e603ee59c9d7fea9fd1f91f762f7c4b5f584b",
+    "mapf/recovery_audit.py": "3865767f80ba8766fdeb11f32e95cedecbd24d3b6aaed597e11e775e99dda300",
+    "mapf/recovery_benchmark.py": "a767ee4a093fe77530649bff0f3ad320c93911d44556f59df9337178f77e2489",
+    "mapf/recovery_pilot.py": "45fd860ea41cdb783e272c85c1f83c321a911f898bd59133684a0ae3af04d806",
+    "mapf/repair_analysis.py": "ddb951ed97a0cec16d49b0fd3d665c8de2faff4cfcf2f50e92db9c849c077353",
+    "mapf/repair_pilot.py": "1886dfa4b446dc4b81fcdcc24d4e09503dc33a6cf646aaca1fdbdd3361ed8c4a",
+    "mapf/repair_protocol.py": "c172ac2b51bb38385fb8b110b604034494a3fb79d07865463d75f486b60fef2f",
+    "mapf/search_limits.py": "2242933951b2a7c08ebae50b626093f3dfa20633f65b111491c37aa39b4eee8a",
+    "mapf/test_day3.py": "280c6fe797e27c80e2c481a5cb9557d006483c61a20bbc02da7e782f62f23a1e",
+    "mapf/test_features.py": "d86b4c4ab6b392e6277e4a98f81f0d9ba3f9d14066b9405cadba70df91e5e57f",
+    "mapf/test_ml_revision.py": "67486dc86ed29c1d45aa9c778aef9e14626241b4d7b2bcc9b1032250381e6a7e",
+    "mapf/test_recovery.py": "736f740e2ee19d81f3dfcc61dc32ea4eaa0c83e58d5da5bdd529574fa6d8b7e3",
+    "mapf/test_repair.py": "3e2ec1381f9b0e2e45542f6cba20d07f56d3329792c96b4f8e3cec587ba1c419",
+    "mapf/train_cl_ranker.py": "cd26c40a6ee2939c2ca4848990e8c87963ce3b76cda6d00e8ca7bfbb0aad6dfb",
+    "mapf/train_oracle_ranker.py": "1197feb3f9c75e1fd2c1edff5fd1d74a1df32b52a6d764452e7fb7154c80d8ac",
+    "mapf/train_ranker.py": "d83092304ce83b4a66decf948e33f0f8b6e04075961d91ecbd7dafe14d6c6f45",
+    "mapf/validate_proxy.py": "75a02f95598564dec1cd1c86a26b62da5e2c6be2baeef57ba14274e3a5ed0bf5",
+    "mapf/validation.py": "d4380c068d5d9e6ee9a01916c2b7a4b9f89f7ecd274a5950a890f0fbdaaba67e",
+    "mapf/verify_pilot.py": "05c36cb2a4b22bf2a27001e94ee1613c40b2c63bc8aa6fc83f20b472a500e117",
+    "multisignal_study.py": "bdbae3c07b771b2cc93b20accb7706f31cca212b6be8f3def051456d959624a9"
+  }
+}

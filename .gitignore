@@ -17,9 +17,25 @@ data/rollout_checkpoints/
 logs/
 *.log
 
-# Active multi-signal campaign outputs are immutable local evidence. Commit only
-# after the campaign finishes and its verifier has accepted a complete stage.
-results/multisignal_v1/
+# Keep the curated study evidence; ignore thousands of per-job intermediates.
+results/multisignal_v1/*
+!results/multisignal_v1/RESULTS.md
+!results/multisignal_v1/audit.json
+!results/multisignal_v1/campaign_environment.json
+!results/multisignal_v1/campaign_stages.jsonl
+!results/multisignal_v1/design.json
+!results/multisignal_v1/manifest.json
+!results/multisignal_v1/pairs.json
+!results/multisignal_v1/summary.json
+!results/multisignal_v1/test_freeze.json
+!results/multisignal_v1/test_rows.json
+!results/multisignal_v1/validation_selection.json
+!results/multisignal_v1/models/
+results/multisignal_v1/models/*
+!results/multisignal_v1/models/confirmed.json
+!results/multisignal_v1/models/confirmed.unselected.json
+!results/multisignal_v1/models/confirmed_aux.json
+!results/multisignal_v1/models/confirmed_aux.unselected.json
 
 # Operating System files
 .DS_Store

@@ -1,0 +1,20 @@
+{
+  "created_utc": "2026-11-03T23:44:45.313509+00:00",
+  "scheduled": 1537,
+  "attempted": 1537,
+  "missing_jobs": [],
+  "errors": [],
+  "statuses": {
+    "SOLVED": 683,
+    "TIMEOUT": 287,
+    "MAX_EXPANSIONS": 567
+  },
+  "queries": 341,
+  "pairs": 1196,
+  "ll_labels": {
+    "0": 284,
+    "1": 158,
+    "None": 754
+  },
+  "hl_only_pairs": 38
+}

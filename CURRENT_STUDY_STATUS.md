@@ -1,6 +1,6 @@
-# Current local study
+# Completed MS8 study
 
-This is work in progress. The complete three-oracle MSCO design has not been
+The MS8-v1 campaign completed successfully. The complete three-oracle MSCO design has not been
 implemented or evaluated. Read FINAL_IMPLEMENTATION_PLAN.md, including its
 reconciliation with the preserved EARLIER_MSCO_PLAN.md.
 
@@ -26,24 +26,25 @@ Input audit found duplicate 32-agent assignment sets across official files;
 32 was excluded before the pilot. All remaining instance fingerprints are unique.
 Split: 4 pilot, 26 training, 8 validation, 12 test files.
 
-The local campaign runs collection with two processes, then fits models, runs
-serial validation and the serial held-out test. It stops on a stage error or
-integrity failure. Training support gates can produce explicit fallback models.
-The final test has a two-hour ceiling; incomplete schedules cannot support a
-positive claim. Keep the computer awake and connected to power for execution.
+The campaign completed 136 source collection runs, 1,537 full-search candidate
+replays, 208 serial validation runs and 288 serial held-out runs. Every scheduled
+job produced a result and all four stages exited successfully. Both trained
+models failed the validation runtime gate, so their frozen thresholds disable
+overrides and preserve residual selection.
 
-Inspect these files for actual progress, not this static note:
+Inspect these files for the measured evidence:
 
-- results/multisignal_v1/collect.campaign.log
 - results/multisignal_v1/campaign_stages.jsonl
-- results/multisignal_v1/audit.json (created after collection)
-- results/multisignal_v1/validation_selection.json (created after validation)
-- results/multisignal_v1/summary.json and RESULTS.md (created after test)
+- results/multisignal_v1/audit.json
+- results/multisignal_v1/validation_selection.json
+- results/multisignal_v1/summary.json and RESULTS.md
 
 Raw jobs/results and monitors are in collection/, replays/, validation/ and
 test/. Each source job records hashes and parameters. Frozen source archives
 are stored with the results. Failed jobs remain visible; do not delete them
 to turn an incomplete campaign into an apparent success.
 
-The implementation and results are local on branch multisignal-empty8-study.
-No changes have been pushed to either GitHub repository.
+The primary runtime-improvement claim was not supported. Confirmed+aux solved
+36/48 runs, equal to residual, with runtime ratio 1.010 and family-bootstrap
+95% interval [1.003, 1.018]. Confirmed-only was indistinguishable from residual:
+ratio 1.000, interval [0.991, 1.007].

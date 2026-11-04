@@ -1,0 +1,140 @@
+{
+  "confirmed": {
+    "tau": 1.01,
+    "trained": true,
+    "informative_validation_families": 6,
+    "diagnostics": [
+      {
+        "tau": 0.5,
+        "ratio": 1.1142920121200879,
+        "ci95": [
+          1.0005694649799168,
+          1.3049562539129345
+        ],
+        "families": 8,
+        "solved": 9
+      },
+      {
+        "tau": 0.6,
+        "ratio": 1.0457684216362888,
+        "ci95": [
+          1.0004929433284386,
+          1.122227814649218
+        ],
+        "families": 8,
+        "solved": 10
+      },
+      {
+        "tau": 0.7,
+        "ratio": 1.106214033091091,
+        "ci95": [
+          1.0006278092310654,
+          1.270979859214719
+        ],
+        "families": 8,
+        "solved": 10
+      },
+      {
+        "tau": 0.8,
+        "ratio": 1.0191628070699907,
+        "ci95": [
+          1.0002291511872883,
+          1.0467769298640777
+        ],
+        "families": 8,
+        "solved": 10
+      },
+      {
+        "tau": 0.9,
+        "ratio": 1.0105992339574474,
+        "ci95": [
+          1.0002294578481297,
+          1.0258173247140259
+        ],
+        "families": 8,
+        "solved": 10
+      },
+      {
+        "tau": 1.01,
+        "ratio": 1.0045576347814724,
+        "ci95": [
+          1.0001406564925321,
+          1.0106259846335728
+        ],
+        "families": 8,
+        "solved": 10
+      }
+    ],
+    "rule": "min family ratio with no solve loss; >=3 validation families with LL wins; else disabled",
+    "schedule_sha256": "eda594ffa5e87fd4e31d008c0b25bf37fd98677aff219533468f69a1324fb962"
+  },
+  "confirmed_aux": {
+    "tau": 1.01,
+    "trained": true,
+    "informative_validation_families": 6,
+    "diagnostics": [
+      {
+        "tau": 0.5,
+        "ratio": 1.0661270500555604,
+        "ci95": [
+          1.000602139034916,
+          1.1604973933593403
+        ],
+        "families": 8,
+        "solved": 10
+      },
+      {
+        "tau": 0.6,
+        "ratio": 1.0388959852283304,
+        "ci95": [
+          1.0004658299752485,
+          1.1152962528029657
+        ],
+        "families": 8,
+        "solved": 10
+      },
+      {
+        "tau": 0.7,
+        "ratio": 1.0712900521526165,
+        "ci95": [
+          1.0004832141589306,
+          1.1784109295120448
+        ],
+        "families": 8,
+        "solved": 10
+      },
+      {
+        "tau": 0.8,
+        "ratio": 1.0170684885889334,
+        "ci95": [
+          1.0001753288424036,
+          1.0422505315771218
+        ],
+        "families": 8,
+        "solved": 10
+      },
+      {
+        "tau": 0.9,
+        "ratio": 1.01334060377285,
+        "ci95": [
+          1.0002038779628022,
+          1.0326660547536308
+        ],
+        "families": 8,
+        "solved": 10
+      },
+      {
+        "tau": 1.01,
+        "ratio": 1.0128814251262466,
+        "ci95": [
+          1.0000902403901815,
+          1.0311804553739774
+        ],
+        "families": 8,
+        "solved": 10
+      }
+    ],
+    "rule": "min family ratio with no solve loss; >=3 validation families with LL wins; else disabled",
+    "schedule_sha256": "eda594ffa5e87fd4e31d008c0b25bf37fd98677aff219533468f69a1324fb962"
+  }
+}
